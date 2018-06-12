@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayout
+        android:id="@+id/srl_fb_my_history"
+        style="@style/match_wrap"
+        app:direction="both">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_fb_my_history"
+            android:layout_width="match_parent"
+            android:scrollbars="none"
+            android:layout_height="wrap_content">
+
+        </android.support.v7.widget.RecyclerView>
+    </com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayout>
+
+    <TextView
+        android:id="@+id/tv_feedback_history_nodata"
+        style="@style/tv_user_gray_16"
+        android:layout_centerInParent="true"
+        android:text="@string/setting_feedback_nodata"
+        android:visibility="gone" />
+
+</RelativeLayout>

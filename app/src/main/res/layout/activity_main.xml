@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout style="@style/match_match_bg_color">
+
+        <FrameLayout
+            android:id="@+id/fragment_container"
+            style="@style/match_weight_bg_color" />
+
+        <include layout="@layout/layout_main_footer" />
+    </LinearLayout>
+
+    <com.android.bitglobal.view.keyboardView
+        android:id="@+id/keyboardView"
+        android:layout_width="match_parent"
+        android:layout_height="276dp"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone" />
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<LinearLayout
+    style="@style/match_wrap_h_bg_color"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox
+        android:id="@+id/cb_qb"
+        style="@style/trans_check_box"
+        android:checked="true"
+        android:text="@string/trans_qb"/>
+    <CheckBox
+        android:id="@+id/cb_mr"
+        style="@style/trans_check_box"
+        android:text="@string/trans_jy"/>
+    <CheckBox
+        android:id="@+id/cb_mc"
+        style="@style/trans_check_box"
+        android:text="@string/trans_mc"/>
+    <View
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <Button
+        android:visibility="invisible"
+        android:id="@+id/btn_del_all"
+        android:text="@string/trans_qbcx"
+        style="@style/but_trans_qx" />
+</LinearLayout>

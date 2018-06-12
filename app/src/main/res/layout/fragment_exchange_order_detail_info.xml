@@ -1,0 +1,255 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_bg"
+    android:orientation="vertical"
+    tools:context="com.android.bitglobal.fragment.trans.ExchangeOrderDetailInfoFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="14dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginEnd="14dp"
+            android:layout_marginStart="14dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/exchange_order_detail_info_date"
+                android:textColor="@color/text_color_light_gray"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/fragment_exchange_order_detail_info_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|end"
+                android:text=""
+                android:textColor="@color/text_color_black"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_gravity="bottom"
+                android:background="@color/line_market_gray" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginEnd="14dp"
+            android:layout_marginStart="14dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/exchange_order_detail_info_type"
+                android:textColor="@color/text_color_gray"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/fragment_exchange_order_detail_info_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|end"
+                android:paddingBottom="2dp"
+                android:paddingEnd="5dp"
+                android:paddingStart="5dp"
+                android:paddingTop="2dp"
+                android:text=""
+                android:textColor="@color/text_color_white"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_gravity="bottom"
+                android:background="@color/line_market_gray" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginEnd="14dp"
+            android:layout_marginStart="14dp">
+
+            <TextView
+                android:id="@+id/fragment_exchange_order_detail_info_price_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/exchange_order_detail_info_order_price"
+                android:textColor="@color/text_color_gray"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/fragment_exchange_order_detail_info_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|end"
+                android:text=""
+                android:textColor="@color/text_color_black"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_gravity="bottom"
+                android:background="@color/line_market_gray" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginEnd="14dp"
+            android:layout_marginStart="14dp">
+
+            <TextView
+                android:id="@+id/fragment_exchange_order_detail_info_avg_price_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/exchange_order_detail_info_avg_price"
+                android:textColor="@color/text_color_gray"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/fragment_exchange_order_detail_info_avg_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|end"
+                android:text=""
+                android:textColor="@color/text_color_black"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_gravity="bottom"
+                android:background="@color/line_market_gray" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginEnd="14dp"
+            android:layout_marginStart="14dp">
+
+            <TextView
+                android:id="@+id/fragment_exchange_order_detail_info_amount_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/exchange_order_detail_info_amount"
+                android:textColor="@color/text_color_gray"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/fragment_exchange_order_detail_info_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|end"
+                android:text=""
+                android:textColor="@color/text_color_black"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_gravity="bottom"
+                android:background="@color/line_market_gray" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginEnd="14dp"
+            android:layout_marginStart="14dp">
+
+            <TextView
+                android:id="@+id/fragment_exchange_order_detail_info_finished_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/exchange_order_detail_info_finished"
+                android:textColor="@color/text_color_gray"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/fragment_exchange_order_detail_info_finish"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|end"
+                android:text=""
+                android:textColor="@color/text_color_black"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_gravity="bottom"
+                android:background="@color/line_market_gray" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginEnd="14dp"
+            android:layout_marginStart="14dp">
+
+            <TextView
+                android:id="@+id/fragment_exchange_order_detail_info_total_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/exchange_order_detail_info_total"
+                android:textColor="@color/text_color_gray"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/fragment_exchange_order_detail_info_total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|end"
+                android:text=""
+                android:textColor="@color/text_color_black"
+                android:textSize="14sp" />
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/fragment_exchange_order_detail_info_cancel_order"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:visibility="gone"
+        android:layout_marginBottom="93dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="23dp"
+        android:background="@drawable/btn_trans_sell_bg"
+        android:text="@string/cancel_order"
+        android:textColor="@color/text_color_white"
+        android:textSize="15sp" />
+
+
+</LinearLayout>

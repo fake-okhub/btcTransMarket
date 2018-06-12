@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_footer"
+    style="@style/layout_footer">
+    <View
+        android:id="@+id/viewSplit"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/vertical_line_color"/>
+
+    <RadioGroup
+        android:id="@+id/group"
+        style="@style/match_match_h">
+
+        <RadioButton
+            android:id="@+id/foot_bar_home"
+            style="@style/main_footer_bar_radio"
+            android:checked="true"
+            android:drawableTop="@drawable/widget_bar_home_bg"
+            android:text="@string/main_navigation_market" />
+
+        <RadioButton
+            android:id="@+id/foot_bar_trans"
+            style="@style/main_footer_bar_radio"
+            android:drawableTop="@drawable/widget_bar_trans_bg"
+            android:text="@string/main_navigation_trans" />
+
+        <RadioButton
+            android:id="@+id/foot_bar_asset"
+            style="@style/main_footer_bar_radio"
+            android:drawableTop="@drawable/widget_bar_asset_bg"
+            android:text="@string/main_navigation_asset" />
+
+        <RadioButton
+            android:id="@+id/foot_bar_user"
+            style="@style/main_footer_bar_radio"
+            android:drawableTop="@drawable/widget_bar_user_bg"
+            android:text="@string/main_navigation_user" />
+    </RadioGroup>
+
+    <LinearLayout
+        style="@style/match_match_h"
+        android:background="@null">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+</RelativeLayout>

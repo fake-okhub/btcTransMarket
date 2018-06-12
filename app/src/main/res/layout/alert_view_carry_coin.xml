@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/user_account_line"/>
+
+        <TextView
+            android:id="@+id/scan_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bnt_click_background"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp"
+            android:gravity="center"
+            android:text="@string/account_carry_coin_alert_scan"
+            android:textSize="14sp"
+            android:textColor="@color/black"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/user_account_line"/>
+
+        <TextView
+            android:id="@+id/paste_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bnt_click_background"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp"
+            android:gravity="center"
+            android:text="@string/account_carry_coin_alert_paste"
+            android:textSize="14sp"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

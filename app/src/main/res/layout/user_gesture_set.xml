@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    style="@style/match_match"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/layout_main_header" />
+    <LinearLayout
+        style="@style/match_match_bg_color">
+        <View
+            android:layout_marginTop="@dimen/margin_padding_20"
+            style="@style/user_safety_line"/>
+        <RelativeLayout
+            style="@style/rl_user_item">
+            <TextView
+                android:id="@+id/tv_kqssmm"
+                android:text="@string/user_kqssmm"
+                style="@style/tv_user_item" />
+            <com.android.bitglobal.view.SwitchView
+                style="@style/sv_user"
+                android:id="@+id/view_switch_kqssmm"/>
+        </RelativeLayout>
+        <View
+            style="@style/user_safety_line"/>
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/ll_czssmm"
+            style="@style/match_wrap">
+            <View
+                android:layout_marginTop="@dimen/margin_padding_15"
+                style="@style/user_safety_line"/>
+            <RelativeLayout
+                android:id="@+id/rl_czssmm"
+                style="@style/rl_user_item">
+                <TextView
+                    android:text="@string/user_czssmm"
+                    style="@style/tv_user_item" />
+                <ImageView
+                    android:layout_gravity="center_vertical"
+                    style="@style/img_user_item_r"/>
+            </RelativeLayout>
+            <View
+                style="@style/user_safety_line"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

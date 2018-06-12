@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_trans_select"
+    style="@style/layout_trans_select">
+    <LinearLayout
+        style="@style/match_weight_h">
+        <TextView
+            android:background="@drawable/bnt_click_background"
+            android:text="Chart"
+            android:id="@+id/tv_header_chart"
+            style="@style/tv_trans_slect_title"/>
+        <TextView
+            android:background="@drawable/bnt_click_background"
+            android:text="Trade"
+            android:id="@+id/tv_header_trade"
+            style="@style/tv_trans_slect_title"/>
+    </LinearLayout>
+    <LinearLayout
+        style="@style/match_wrap_h">
+        <View
+            android:id="@+id/view_header_line1"
+            android:visibility="invisible"
+            style="@style/trans_view_line"/>
+        <View
+            android:id="@+id/view_header_line2"
+            android:visibility="invisible"
+            style="@style/trans_view_line"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/match_match_h">
+        <LinearLayout
+            android:id="@+id/ll_dqyh"
+            android:padding="@dimen/margin_padding_10"
+            android:orientation="horizontal"
+            style="@style/match_wrap_bg_white">
+            <ImageView
+                android:src="@mipmap/icon_user_mydl"
+                style="@style/wrap_wrap" />
+            <LinearLayout
+                android:layout_marginLeft="@dimen/margin_padding_10"
+                android:layout_marginRight="@dimen/margin_padding_10"
+                android:layout_gravity="center_vertical"
+                style="@style/weight_wrap">
+                <TextView
+                    android:id="@+id/tv_userId"
+                    android:text="登录账号：13085859140"
+                    style="@style/tv_user_black_14" />
+                <View
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                   style="@style/user_safety_line"/>
+                <TextView
+                    android:id="@+id/tv_userNmae"
+                    android:text="实名认证：谢昨非"
+                    style="@style/tv_user_gray_14" />
+            </LinearLayout>
+            <TextView
+                android:layout_marginRight="@dimen/margin_padding_10"
+                android:id="@+id/tv_qh"
+                android:text="@string/user_qh"
+                android:layout_gravity="center_vertical"
+                style="@style/tv_user_gray_16" />
+        </LinearLayout>
+        <RelativeLayout
+            android:id="@+id/item_right"
+            style="@style/wrap_match"
+            android:background="@color/bnt_color" >
+            <TextView
+                android:textSize="16sp"
+                android:id="@+id/item_right_txt"
+                style="@style/wrap_wrap"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="@string/user_yc"
+                android:textColor="@color/text_color_white" />
+        </RelativeLayout>
+</LinearLayout>

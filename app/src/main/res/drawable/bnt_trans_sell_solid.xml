@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:state_focused="true">
+    <shape>
+        <!-- 填充的颜色：这里设置背景透明 -->
+        <solid android:color="@color/ll_market_rate_red_color" />
+        <corners android:radius="2dp" />
+    </shape>
+</item>
+<item android:state_pressed="true">
+    <shape>
+        <solid android:color="@color/ll_market_rate_red_color" />
+        <corners android:radius="2dp" />
+    </shape>
+</item>
+<item android:state_focused="false">
+    <shape  >
+        <solid android:color="@color/ll_market_rate_red_color" />
+        <corners android:radius="2dp" />
+        <stroke
+            android:color="@color/ll_market_rate_red_color"
+            android:width="1dp" />
+    </shape>
+</item>
+<item android:state_pressed="false">
+    <shape>
+        <solid android:color="@color/ll_market_rate_red_color" />
+        <corners android:radius="2dp" />
+        <stroke
+            android:color="@color/ll_market_rate_red_color"
+            android:width="1dp" />
+    </shape>
+</item>
+</selector>
+
+
+

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    style="@style/match_match"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/gray_bg">
+    <include layout="@layout/layout_main_header" />
+    <!--<ScrollView-->
+        <!--android:scrollbars="none"-->
+        <!--style="@style/match_match_bg_color">-->
+        <LinearLayout
+            style="@style/match_match"
+            android:layout_marginTop="@dimen/margin_padding_10">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/user_account_line"/>
+
+            <RelativeLayout
+                android:id="@+id/rl_dlmmsz"
+                style="@style/layout_user_item">
+
+                <ImageView
+                    style="@style/img_user_item_r"/>
+
+                <TextView
+                    android:paddingLeft="@dimen/margin_padding_border"
+                    style="@style/tv_user_item_safety_center"
+                    android:drawableLeft="@mipmap/icon_user_safety_login_password"
+                    android:text="@string/user_dlmmsz"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"
+                    android:id="@+id/textView2" />
+            </RelativeLayout>
+            <View
+                style="@style/user_view_line_v"/>
+            <RelativeLayout
+                android:id="@+id/rl_zjmmsz"
+                style="@style/layout_user_item">
+                <TextView
+                    android:paddingLeft="@dimen/margin_padding_border"
+                    style="@style/tv_user_item_safety_center"
+                    android:drawableLeft="@mipmap/icon_user_safety_transact_pwd_set"
+                    android:text="@string/user_zjmmsz"/>
+                <ImageView
+                    style="@style/img_user_item_r"/>
+            </RelativeLayout>
+            <View
+                style="@style/user_view_line_v"/>
+            <RelativeLayout
+                android:id="@+id/rl_ggyzsz"
+                style="@style/layout_user_item">
+                <TextView
+                    android:paddingLeft="@dimen/margin_padding_border"
+                    style="@style/tv_user_item_safety_center"
+                    android:drawableLeft="@mipmap/icon_user_safety_google"
+                    android:text="@string/user_ggrzsz"/>
+                <ImageView
+                    style="@style/img_user_item_r"/>
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/user_account_line"/>
+            <!--<View-->
+                <!--style="@style/user_view_line_v"/>-->
+
+            <!-- 手势密码设置-->
+            <RelativeLayout
+                android:id="@+id/rl_ssmmsz"
+                android:visibility="gone"
+                style="@style/layout_user_item">
+                <TextView
+                    android:paddingLeft="@dimen/margin_padding_border"
+                    style="@style/tv_user_item_safety_center"
+                    android:drawableLeft="@mipmap/list_gesture_glay"
+                    android:text="@string/user_ssmmsz"/>
+                <ImageView
+                    style="@style/img_user_item_r"/>
+            </RelativeLayout>
+            <!--<View-->
+                <!--style="@style/user_view_line_v"/>-->
+            <RelativeLayout
+                android:id="@+id/rl_dlyzsz"
+                style="@style/layout_user_item"
+                android:layout_marginTop="@dimen/margin_padding_10">
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/user_account_line"/>
+                <TextView
+                    android:paddingLeft="@dimen/margin_padding_border"
+                    style="@style/tv_user_item_safety_center"
+                    android:drawableLeft="@mipmap/icon_user_safety_login_auth_set"
+                    android:text="@string/user_dlyzsz"/>
+                <ImageView
+                    style="@style/img_user_item_r"/>
+            </RelativeLayout>
+            <View
+                style="@style/user_view_line_v"/>
+            <RelativeLayout
+                android:id="@+id/rl_zfyzsz"
+                style="@style/layout_user_item">
+                <TextView
+                    android:paddingLeft="@dimen/margin_padding_border"
+                    style="@style/tv_user_item_safety_center"
+                    android:drawableLeft="@mipmap/icon_safety_center_withdraw"
+                    android:text="@string/user_zfyzsz"/>
+                <ImageView
+                    style="@style/img_user_item_r"/>
+            </RelativeLayout>
+            <View
+                style="@style/user_view_line_v"/>
+            <RelativeLayout
+                android:id="@+id/rl_jyyzsz"
+                style="@style/layout_user_item">
+                <TextView
+                    android:paddingLeft="@dimen/margin_padding_border"
+                    style="@style/tv_user_item_safety_center"
+                    android:drawableLeft="@mipmap/icon_user_safety_tran_auth_setting"
+                    android:text="@string/user_jyyzsz"/>
+                <ImageView
+                    style="@style/img_user_item_r"/>
+
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/user_account_line"/>
+        </LinearLayout>
+    <!--</ScrollView>-->
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="chart_red">#30C296</color>
+    <color name="chart_yellow">#DAB001</color>
+    <color name="chart_green">#E34B4F</color>
+    <color name="chart_line">#C8CAD0</color>
+
+    <color name="chart_ma5">#18CCF6</color>
+    <color name="chart_ma10">#FE5EDF</color>
+    <color name="chart_ma20">#E7A520</color>
+    <color name="chart_white">#dbdcdd</color>
+
+    <color name="chart_background">#202326</color>
+    <color name="chart_background_horizontal">#F8F8F8</color>
+    <color name="chart_background_vertical">#FFFFFF</color>
+    <color name="chart_grid_line">#353941</color>
+    <color name="chart_grid_line_gray">#F3F4F8</color>
+    <color name="chart_text">#B1B2B6</color>
+    <color name="chart_selector">#30343C</color>
+
+    <color name="market_detail_title_bg">#8097A2</color>
+    <color name="market_detail_title_bg_select">#5A6A72</color>
+
+</resources>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    style="@style/match_match"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/layout_main_header" />
+    <LinearLayout
+        style="@style/match_match_bg_color">
+        <LinearLayout
+            android:id="@+id/ll_hint"
+            android:padding="@dimen/margin_padding_10"
+            android:background="@color/background_color_white"
+            style="@style/match_wrap_h">
+            <TextView
+                android:id="@+id/status_show"
+                style="@style/tv_user_red_12"/>
+            <TextView
+                android:id="@+id/tv_hint"
+                android:layout_gravity="center_vertical"
+                style="@style/tv_user_gray_12"/>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_padding_10"/>
+        <LinearLayout
+            android:id="@+id/ll_identity_grzl"
+            style="@style/ll_user_identity">
+            <ImageView
+                android:id="@+id/img_identity_1"
+                android:src="@mipmap/ico_auth_step1"
+                style="@style/ll_ll_img_user_identity"/>
+            <LinearLayout
+                style="@style/ll_ll_user_identity">
+                <TextView
+                    android:text="@string/safety_grjbxx"
+                    style="@style/ll_ll_tv_black_user_identity" />
+                <TextView
+                    android:text="@string/safety_grjbxx_hint"
+                    style="@style/ll_ll_tv_gray_user_identity" />
+            </LinearLayout>
+            <ImageView
+                android:src="@mipmap/ico_arrowright"
+                style="@style/ll_ll_img_user_identity"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/ll_identity_sfzz"
+            style="@style/ll_user_identity">
+            <ImageView
+                android:id="@+id/img_identity_2"
+                android:src="@mipmap/ico_auth_step2"
+                style="@style/ll_ll_img_user_identity"/>
+            <LinearLayout
+                style="@style/ll_ll_user_identity">
+                <TextView
+                    android:text="@string/safety_sfzxx"
+                    style="@style/ll_ll_tv_black_user_identity" />
+                <TextView
+                    android:text="@string/safety_sfzxx_hint"
+                    style="@style/ll_ll_tv_gray_user_identity" />
+            </LinearLayout>
+            <ImageView
+                android:src="@mipmap/ico_arrowright"
+                style="@style/ll_ll_img_user_identity"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/ll_identity_yhkxx"
+            android:visibility="gone"
+            style="@style/ll_user_identity">
+            <ImageView
+                android:id="@+id/img_identity_3"
+                android:src="@mipmap/ico_auth_step3"
+                style="@style/ll_ll_img_user_identity"/>
+            <LinearLayout
+                style="@style/ll_ll_user_identity">
+                <TextView
+                    android:text="@string/safety_yhkxx"
+                    style="@style/ll_ll_tv_black_user_identity" />
+                <TextView
+                    android:text="@string/safety_yhkxx_hint"
+                    style="@style/ll_ll_tv_gray_user_identity" />
+            </LinearLayout>
+            <ImageView
+                android:src="@mipmap/ico_arrowright"
+                style="@style/ll_ll_img_user_identity"/>
+        </LinearLayout>
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/ll_identity_zzzm"
+            style="@style/ll_user_identity">
+            <ImageView
+                android:id="@+id/img_identity_4"
+                android:src="@mipmap/ico_auth_step3"
+                style="@style/ll_ll_img_user_identity"/>
+            <LinearLayout
+                style="@style/ll_ll_user_identity">
+                <TextView
+                    android:text="@string/safety_dzzm"
+                    style="@style/ll_ll_tv_black_user_identity" />
+                <TextView
+                    android:text="@string/safety_dzzm_hint"
+                    style="@style/ll_ll_tv_gray_user_identity" />
+            </LinearLayout>
+            <ImageView
+                android:src="@mipmap/ico_arrowright"
+                style="@style/ll_ll_img_user_identity"/>
+        </LinearLayout>
+        <Button
+            android:id="@+id/bnt_commit"
+            android:text="@string/safety_tjrz"
+            android:background="@drawable/bnt_login"
+            style="@style/but_user_safety" />
+    </LinearLayout>
+</LinearLayout>

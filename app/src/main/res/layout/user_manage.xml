@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/match_match">
+    <include layout="@layout/layout_main_header" />
+    <LinearLayout
+        android:padding="@dimen/margin_padding_10"
+        android:id="@+id/ll_dqyh"
+        android:orientation="horizontal"
+        style="@style/match_wrap_bg_white">
+        <ImageView
+            android:src="@mipmap/icon_user_yjdl"
+            style="@style/wrap_wrap" />
+        <LinearLayout
+            android:layout_marginLeft="@dimen/margin_padding_10"
+            android:layout_marginRight="@dimen/margin_padding_10"
+            style="@style/weight_wrap"
+            android:layout_gravity="center_vertical">
+            <TextView
+                android:id="@+id/tv_userId"
+                android:text="登录账号：13085859140"
+                style="@style/tv_user_black_14" />
+            <View
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                style="@style/user_safety_line"/>
+            <TextView
+                android:id="@+id/tv_userNmae"
+                android:text="实名认证：谢昨非"
+                style="@style/tv_user_gray_14" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/tv_tc"
+            android:text="@string/user_tc"
+            android:layout_marginRight="@dimen/margin_padding_10"
+            android:layout_gravity="center_vertical"
+            style="@style/tv_user_red_16" />
+    </LinearLayout>
+    <View
+        style="@style/user_safety_line"/>
+    <LinearLayout
+        android:padding="@dimen/margin_padding_10"
+        style="@style/match_wrap_bg_color">
+        <TextView
+            android:text="@string/user_manage_hint"
+            style="@style/tv_user_gray_14" />
+    </LinearLayout>
+    <View
+        style="@style/user_safety_line"/>
+    <TextView
+        android:id="@+id/tv_hint"
+        android:text="@string/user_manage_wqtyh"
+        android:layout_margin="@dimen/margin_padding_40"
+        android:layout_gravity="center_horizontal"
+        style="@style/tv_user_gray_14"/>
+    <com.android.bitglobal.view.SwipeListView
+        android:listSelector="@color/background_color_white"
+        android:id="@+id/listview"
+        android:scrollbars="none"
+        android:divider="@color/vertical_line_color"
+        android:dividerHeight="@dimen/w_0.3"
+        style="@style/match_wrap"/>
+</LinearLayout>

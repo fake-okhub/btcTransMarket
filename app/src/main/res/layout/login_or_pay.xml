@@ -1,0 +1,144 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/match_match">
+
+    <include layout="@layout/layout_main_header" />
+
+    <LinearLayout style="@style/match_match_bg_color">
+
+        <LinearLayout
+            android:id="@+id/ll_home_dl"
+            style="@style/match_match"
+            android:visibility="gone">
+
+            <View style="@style/match_weight" />
+
+            <ImageView
+                style="@style/wrap_wrap"
+                android:layout_gravity="center_horizontal"
+                android:src="@mipmap/scan_mac" />
+
+            <TextView
+                style="@style/tv_user_black_16"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/margin_padding_30"
+                android:text="@string/home_smdl_hint1" />
+
+            <TextView
+                style="@style/tv_user_gray_14"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/margin_padding_10"
+                android:text="@string/home_smdl_hint2" />
+
+            <View style="@style/match_weight" />
+
+            <Button
+                android:id="@+id/bnt_home_qrdl"
+                style="@style/but_user_content"
+                android:background="@drawable/bnt_login"
+                android:text="@string/home_qrdl" />
+
+            <View style="@style/match_weight" />
+
+            <TextView
+                android:id="@+id/tv_home_cancel"
+                style="@style/tv_user_gray_16"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/user_qx" />
+
+            <View style="@style/match_weight" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_home_zf"
+            style="@style/match_match"
+            android:background="@color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14dp"
+                    android:text="@string/scan_result"
+                    android:textColor="@color/text_color_gray"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:id="@+id/tv_home_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="11dp"
+                    android:gravity="start"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:maxLines="5" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:background="@color/line_market_gray"
+                android:layout_height="1px" />
+
+            <LinearLayout
+                android:id="@+id/ll_home_zf_mydl"
+                style="@style/match_match"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textColor="@color/text_color_hint"
+                    android:layout_marginStart="36dp"
+                    android:layout_marginEnd="36dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/margin_padding_40"
+                    android:text="@string/home_smdl_hint3" />
+
+                <Button
+                    android:id="@+id/bnt_home_ljdl"
+                    android:layout_height="48dp"
+                    android:layout_width="match_parent"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginTop="38dp"
+                    android:background="#4d88be"
+                    android:text="@string/user_ljdl"
+                    android:textSize="17sp"
+                    android:textColor="@color/white"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_home_zf_yjdl"
+                style="@style/match_match"
+                android:visibility="gone">
+
+                <LinearLayout
+                    style="@style/match_wrap"
+                    android:background="@color/bnt_color4"
+                    android:visibility="gone">
+
+                    <TextView
+                        style="@style/tv_user_black_14"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="10dp"
+                        android:text="@string/home_smdl_hint4" />
+                </LinearLayout>
+
+                <ListView
+                    android:id="@+id/listview"
+                    style="@style/match_match"
+                    android:divider="@color/vertical_line_color"
+                    android:dividerHeight="0dp"
+                    android:listSelector="@color/background_color"
+                    android:scrollbars="none" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

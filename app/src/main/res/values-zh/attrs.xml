@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lend_record_status">
+        <item>全部</item>
+        <item>还款中</item>
+        <item>已还款</item>
+        <item>需要平仓</item>
+        <item>平仓还款</item>
+    </string-array>
+    <string-array name="lend_record_status_key">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="safety_trans_status">
+        <item>永久关闭</item>
+        <item>始终开启</item>
+        <item>关闭6个小时</item>
+    </string-array>
+    <string-array name="safety_trans_status_key">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <declare-styleable name="LockPatternView">
+        <!-- Aspect to use when drawing LockPatternView. Choices are "square"(default), "lock_width"
+             or "lock_height" -->
+        <attr name="aspect" format="string" />
+    </declare-styleable>
+</resources>  

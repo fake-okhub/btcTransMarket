@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_bg">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                style="@style/match_wrap"
+                android:background="@color/white"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingBottom="11dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="@string/user_account_level_benefits"
+                    android:textSize="13sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp">
+
+                    <TextView
+                        android:layout_width="@dimen/account_level_info_first_width"
+                        android:layout_height="wrap_content"
+                        android:text="@string/user_account_level_info_level"
+                        android:textSize="11sp"
+                        android:textColor="@color/text_color_gray"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_centerInParent="true"
+                        android:text="@string/user_account_level_info_points"
+                        android:textSize="11sp"
+                        android:textColor="@color/text_color_gray"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:layout_weight="1"
+                        android:layout_alignParentRight="true"
+                        android:text="@string/user_account_level_info_fee_rate"
+                        android:textSize="11sp"
+                        android:textColor="@color/text_color_gray"/>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/line_market_gray"/>
+
+                <ListView
+                    android:id="@+id/level_info_listview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:listSelector="#00000000"
+                    android:scrollbars="none"
+                    android:divider="@null"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@color/white"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingBottom="15dp"
+                android:layout_marginBottom="46dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="19dp"
+                    android:text="@string/user_account_level_earn_points"
+                    android:textSize="13sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"/>
+
+                <!--<ScrollView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_marginTop="18dp">-->
+
+                <ListView
+                    android:id="@+id/level_rule_listview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="18dp"
+                    android:listSelector="#00000000"
+                    android:scrollbars="none"
+                    android:divider="@null"/>
+
+                <!--</ScrollView>-->
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 主背景色值 -->
+    <color name="blue_color">#607d8b</color>
+
+    <color name="viewpager_header_line_blue_color">#4D88BE</color>
+
+    <color name="red_color">#e52a2a</color>
+    <color name="green_color">#13c868</color>
+    <color name="background_color">#ebeff3</color>
+
+
+    <!-- 主背景色值 -->
+
+    <color name="background_color2">#D5D5D5</color>
+    <!-- 状态栏色值 -->
+    <color name="status_bar_bg">#607d8b</color>
+    <!-- 头部颜色值 -->
+    <color name="main_header_bg">#1F2A40</color>
+    <!-- 底部颜色值 -->
+    <color name="main_footer_bg">#ffffff</color>
+    <!-- 登录头部颜色值 -->
+    <color name="main_login_header_bg">#00a1d6</color>
+
+    <color name="background_color_white">#ffffff</color>
+
+    <color name="background_lucency">#00000000</color>
+
+    <!--竖分割线-->
+    <color name="vertical_line_color">#D5D5D5</color>
+    <!--横分割线-->
+    <color name="horizontal_line_color">#C7C7C7</color>
+    <color name="horizontal_line_color2">#ebebeb</color>
+
+
+    <!-- 底栏字体颜色 -->
+    <color name="footer_text_color_normal">#91919d</color>
+    <!--<color name="footer_text_color_selected">#03a2d6</color>-->
+    <color name="footer_text_color_selected">#478ECF</color>
+
+    <!-- 按钮颜色 -->
+    <color name="bnt_color">#E70101</color>
+    <color name="bnt_color_selected">#DE394D</color>
+    <color name="bnt_color2">#1BA905</color>
+    <color name="bnt_color2_selected">#47A938</color>
+    <color name="bnt_color3">#f3c761</color>
+    <color name="bnt_color3_selected">#c0ffbd21</color>
+    <color name="bnt_color4">#faedbd</color>
+
+
+    <!--上涨幅度底色-->
+    <color name="ll_market_rate_red_color">#E34B50</color>
+    <color name="ll_market_rate_green_color">#30C296</color>
+    <color name="ll_market_rate_gray_color">#6F6D79</color>
+
+    <color name="bnt_login_color">#E70101</color>
+    <color name="bnt_login_color_selected">#DE394D</color>
+
+    <color name="bnt_register_color">@android:color/transparent</color>
+    <color name="bnt_register_color_selected">#1F2A40</color>
+    <color name="bnt_register_color_normal">#1F2F50</color>
+
+
+    <color name="text_color_black">#333333</color>
+    <color name="text_color_white">#ffffff</color>
+    <color name="text_color_gray">#666666</color>
+    <color name="text_color_red">#E70101</color>
+    <color name="text_color_green">#1BA905</color>
+    <color name="text_color_hint">#ffaaaaaa</color>
+    <color name="text_color_blue">#24a5da</color>
+    <color name="text_color_user_blue">#478ECF</color>
+    <color name="text_color_light_gray">#828291</color>
+    <color name="text_color_bright_gray">#91919d</color>
+    <color name="text_color_market_gray">#6F6D79</color>
+    <color name="text_color_light_blue">#4D88BE</color>
+    <color name="text_price_up">#30C296</color>
+    <color name="text_price_down">#E34B4F</color>
+    <color name="text_price_zero">#607D8B</color>
+    <color name="text_hint_color">#999999</color>
+
+    <!--K线图颜色值-->
+    <color name="klinebg">#090A0B</color>
+    <color name="klinebgline">#292929</color>
+    <color name="klinexyword">#d6d6d6</color>
+    <color name="klinered">#CD1A1E</color>
+    <color name="klinegreen">#25A749</color>
+    <color name="kline5dayline">#dddddd</color>
+    <color name="kline10dayline">#ede32e</color>
+    <color name="kline30dayline">#f600ff</color>
+    <color name="klineaxis">#b2bccd</color>
+    <color name="kblack">#E0EEE0</color>
+    <color name="kViewblack">#181818</color>
+    <color name="kViewjwblack">#292929</color>
+    <color name="kViewztblack">#6b6c6e</color>
+    <color name="kViewzt_yellow">#daae01</color>
+    <color name="kViewclickblack">#BEC5DA</color>
+    <color name="tabbg">#272729</color>
+    <color name="tabbgselected">#3b3b3d</color>
+    <color name="tab_select_white">#f2f2f2</color>
+    <color name="background_coler">#EFF0F2</color>
+    <color name="top_coler">#1F2A40</color>
+    <color name="white">#ffffff</color>
+    <color name="sell_bg_color">#f8eae9</color>
+    <color name="buy_bg_color">#f7f9ef</color>
+    <color name="marker_detail_button_textsize_color">#8d8d99</color>
+    <color name="marker_detail_button_full_color">#30c296</color>
+
+    <color name="subject_select">#E70101</color>
+    <color name="subject_select2">#DE394D</color>
+    <color name="tint2">#999999</color>
+    <color name="subject">#505050</color>
+    <color name="subject2">#1BA905</color>
+    <color name="subject3">#47A938</color>
+
+    <color name="separator_line_gray">#E6E6E6</color>
+    <color name="black">#333333</color>
+    <color name="lend_bg">#24a5da</color> <!-- Android standard ICS color -->
+
+    <color name="line_gray">#eaedf2</color>
+    <!--<color name="user_account_line">#E4E4E4</color>-->
+    <color name="user_account_line">#CCCCCC</color>
+    <color name="line_market_gray">#d7d7d7</color>
+    <color name="line_market_red">#fa748a</color>
+    <color name="sub_title_text">#8E8E9A</color>
+    <color name="account_list_item_button_bg">#4D88BE</color>
+    <color name="trans_exchange_buy_btn">#30c296</color>
+    <color name="trans_exchange_sell_btn">#e34b4f</color>
+    <color name="green_button">#2Cb38A</color>
+
+    <color name="asset_bill_grren">#30C296</color>
+    <color name="asset_bill_red">#E34B4F</color>
+    <color name="asset_currency_blue">#4D88BE</color>
+    <color name="sub_title">#8E8E9A</color>
+    <color name="asset_carrycoin_blue">#199ED8</color>
+    <color name="colorAccent">#8E8E9A</color>
+    <color name="trans_exchange_buy">#30c296</color>
+    <color name="trans_exchange_buy_colorAccent">#2C8B6C</color>
+    <color name="trans_exchange_buy_ripple">#33A27D</color>
+    <color name="trans_exchange_sell">#e34b4f</color>
+    <color name="trans_exchange_sell_colorAccent">#B02D30</color>
+    <color name="trans_exchange_sell_ripple">#CD3A3E</color>
+    <color name="gray_bg">#F2F3F6</color>
+    <color name="login_register_divider">#BCBCBC</color>
+    <color name="bottom_blue">#4E84B2</color>
+    <color name="btn_sign_up_bg">#2DB38A</color>
+    <color name="btn_sign_up_bg_colorAccent">#228668</color>
+    <color name="btn_sign_up_bg_ripple">#269D79</color>
+    <color name="btn_login_bg">#4D88BE</color>
+    <color name="btn_login_bg_colorAccent">#356693</color>
+    <color name="btn_login_bg_ripple">#3F79AD</color>
+    <color name="btn_bottom_bg">#4D88BE</color>
+    <color name="user_account_black">#333333</color>
+    <color name="dialog_bg">#80000000</color>
+    <color name="cpb_red">#CD3A3E</color>
+    <color name="ddd">#2C8B6C</color>
+
+    <color name="analysis_green">#30C296</color>
+    <color name="analysis_red">#E34B4F</color>
+    <color name="analysis_gray">#F2F2F2</color>
+
+    <color name="trans_title">#5B5B5B</color>
+
+    <color name="chart_radio_select">#435862</color>
+    <color name="chart_radio_no_select">#607D8B</color>
+    <!--意见反馈未点选文字默认颜色-->
+    <color name="feedback_textview_unselected_color">#4E4F51</color>
+    <!--意见反馈 我的历史记录中 客服回复的字颜色-->
+    <color name="feedback_customer_response_color">#607D8B</color>
+    <!--radiobutton选中颜色-->
+    <color name="radiobutton_bg_selected">#5688BF</color>
+
+    <color name="progress_bar_color">#E0E0E0</color>
+    <color name="progress_second_bar_color_green">#30C296</color>
+    <color name="progress_second_bar_color_red">#E34B4F</color>
+    <color name="keyboard_bg">#2E3C45</color>
+    <color name="thumb_color">#557280</color>
+
+</resources>

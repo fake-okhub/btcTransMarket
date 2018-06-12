@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_trans_select"
+    android:background="@color/gray_bg"
+    style="@style/layout_trans_select">
+
+    <LinearLayout style="@style/match_weight_h"
+        android:background="@color/blue_color" >
+
+        <TextView
+            android:id="@+id/tv_header_title1"
+            style="@style/tv_trans_select_title"
+            android:background="@drawable/view_click_background"
+            android:text="@string/trans_mai" />
+
+        <TextView
+            android:id="@+id/tv_header_title2"
+            style="@style/tv_trans_select_title"
+            android:background="@drawable/view_click_background"
+            android:text="@string/trans_mao" />
+
+        <TextView
+            android:id="@+id/tv_header_title3"
+            style="@style/tv_trans_select_title"
+            android:background="@drawable/view_click_background"
+            android:text="@string/trans_dqwt" />
+
+        <TextView
+            android:id="@+id/tv_header_title4"
+            style="@style/tv_trans_select_title"
+            android:background="@drawable/view_click_background"
+            android:text="@string/trans_lswt" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@color/blue_color"
+        android:paddingBottom="1px"
+        style="@style/match_wrap_h">
+
+        <View
+            android:id="@+id/view_header_line1"
+            style="@style/trans_view_line"
+            android:visibility="invisible" />
+
+        <View
+            android:id="@+id/view_header_line2"
+            style="@style/trans_view_line"
+            android:visibility="invisible" />
+        <!--<View-->
+        <!--android:id="@+id/view_header_line2"-->
+        <!--android:visibility="invisible"-->
+        <!--style="@style/trans_view_line"/>-->
+        <View
+            android:id="@+id/view_header_line3"
+            style="@style/trans_view_line"
+            android:visibility="invisible" />
+
+        <View
+            android:id="@+id/view_header_line4"
+
+            style="@style/trans_view_line" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:background="@drawable/bg_shadow_bottom"
+        android:layout_height="3dp" />
+</LinearLayout>

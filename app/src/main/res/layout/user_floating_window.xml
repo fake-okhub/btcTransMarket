@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    style="@style/match_match"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/layout_main_header" />
+    <LinearLayout
+        style="@style/match_match_bg_color">
+        <View
+            android:layout_marginTop="@dimen/margin_padding_20"
+           style="@style/view_line_v"/>
+        <RelativeLayout
+            style="@style/rl_user_item">
+            <TextView
+                android:text="@string/user_xfck"
+               style="@style/tv_user_item" />
+            <com.chbtc.bitglobal.view.SwitchView
+                style="@style/sv_user"
+                android:id="@+id/view_switch"/>
+        </RelativeLayout>
+        <View
+            style="@style/view_line_v"/>
+    </LinearLayout>
+</LinearLayout>

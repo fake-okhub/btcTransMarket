@@ -1,0 +1,38 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_exchange_order_detail_trade_item_layout"
+    android:layout_width="match_parent"
+    android:layout_height="29dp">
+
+
+    <TextView
+        android:id="@+id/fragment_exchange_order_detail_trade_item_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="15dp"
+        android:textColor="@color/text_color_black"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/fragment_exchange_order_detail_trade_item_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:textColor="@color/text_color_black"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/fragment_exchange_order_detail_trade_item_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|end"
+        android:layout_marginEnd="16dp"
+        android:textColor="@color/text_color_black"
+        android:textSize="14sp" />
+
+
+    <!--<View-->
+    <!--style="@style/match_wrap_bg_color"-->
+    <!--android:layout_height="1dp" />-->
+</FrameLayout>

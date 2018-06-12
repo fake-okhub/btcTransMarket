@@ -1,0 +1,36 @@
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/background_color"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+   <LinearLayout
+       style="@style/match_wrap_h"
+       android:layout_margin="5dp"
+       android:background="@color/background_color_white">
+      <LinearLayout
+          android:layout_margin="10dp"
+          style="@style/weight_wrap">
+         <TextView
+             android:text="@string/asset_hkje"
+             android:layout_marginBottom="5dp"
+             style="@style/tv_user_gray_14"/>
+         <TextView
+             android:id="@+id/tv_price"
+             android:text="￥3000.00"
+             style="@style/tv_user_red_14" />
+      </LinearLayout>
+      <LinearLayout
+          android:layout_margin="10dp"
+          style="@style/wrap_wrap">
+         <TextView
+             android:text="@string/asset_hksj"
+             android:layout_marginBottom="5dp"
+             style="@style/tv_user_gray_14" />
+         <TextView
+             android:id="@+id/tv_time"
+             android:text="2016-06-21 12:12:12"
+             style="@style/tv_user_black_14" />
+      </LinearLayout>
+   </LinearLayout>
+</LinearLayout>

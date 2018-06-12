@@ -1,0 +1,54 @@
+<resources>
+    <style name="tv_asset_lend_quick_gray" parent="tv_user_gray_14">
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+    <style name="tv_asset_lend_quick_black" parent="tv_user_black_14">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">@dimen/margin_padding_5</item>
+    </style>
+    <style name="tv_asset_lend_quick_black_fh" parent="tv_user_black_26">
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+    <style name="tv_asset_lend_quick_gray_item" parent="tv_user_gray_14">
+    </style>
+    <style name="tv_asset_lend_quick_black_item_top" parent="tv_user_black_14">
+    </style>
+    <style name="tv_asset_lend_quick_black_item_bom" parent="tv_user_black_18">
+        <item name="android:layout_marginTop">@dimen/margin_padding_5</item>
+    </style>
+    <style name="tv_asset_lend_quick_red_item_bom" parent="tv_user_red_18">
+        <item name="android:layout_marginTop">@dimen/margin_padding_5</item>
+    </style>
+
+    <style name="CustomCheckboxTheme_Lend" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/checkbox_lend_style</item>
+    </style>
+
+    <style name="ll_asset_keyboard" parent="weight_match">
+        <item name="android:background">@drawable/bnt_keyboard</item>
+    </style>
+    <style name="ll_asset_keyboard2" parent="match_weight">
+        <item name="android:background">@drawable/bnt_keyboard</item>
+    </style>
+    <style name="btn_asset_keyboard" parent="match_match">
+        <item name="android:layout_margin">0.01dp</item>
+        <item name="android:background">@drawable/keyboard_click</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="btn_asset_keyboard2" parent="match_match">
+        <item name="android:layout_margin">0.01dp</item>
+        <item name="android:background">@drawable/keyboard_click</item>
+    </style>
+    <style name="btn_asset_sell" parent="match_match">
+        <item name="android:layout_margin">0.01dp</item>
+        <item name="android:textColor">@color/text_color_white</item>
+        <item name="android:background">@drawable/bnt_click_b</item>
+    </style>
+    <style name="btn_asset_buy" parent="match_match">
+        <item name="android:layout_margin">0.01dp</item>
+        <item name="android:textColor">@color/text_color_white</item>
+        <item name="android:background">@drawable/bnt_click_r</item>
+    </style>
+</resources>

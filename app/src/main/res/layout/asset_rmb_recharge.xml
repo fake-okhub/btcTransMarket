@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    style="@style/match_match"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/layout_main_header" />
+    <LinearLayout
+        style="@style/match_match_bg_color">
+        <View
+            android:layout_marginTop="@dimen/margin_padding_20"
+            style="@style/user_safety_line"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/rl_xzyh"
+            style="@style/rl_user_item">
+            <TextView
+                android:text="@string/safety_xzyh"
+                style="@style/tv_user_item" />
+            <View
+                style="@style/weight_wrap"/>
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:id="@+id/img_bank"
+                style="@style/wrap_wrap"
+                android:layout_gravity="center_vertical"/>
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:id="@+id/ed_xzyh"
+                style="@style/tv_user_gray_14" />
+            <ImageView
+                android:id="@+id/img_mome"
+                style="@style/img_user_item_r"/>
+        </LinearLayout>
+        <View
+            style="@style/user_safety_line"/>
+        <RelativeLayout
+            style="@style/rl_user_item">
+            <TextView
+                android:id="@+id/tv_yhkh"
+                android:text="@string/safety_yhkh"
+                style="@style/tv_user_item" />
+            <EditText
+                android:layout_toRightOf="@+id/tv_yhkh"
+                android:id="@+id/ed_yhkh"
+                android:hint="@string/safety_yhkh_hint"
+                style="@style/ed_user_safety" />
+        </RelativeLayout>
+        <View
+            style="@style/user_safety_line"/>
+
+        <RelativeLayout
+            style="@style/rl_user_item">
+            <TextView
+                android:id="@+id/tv_skr"
+                android:text="@string/asset_bill_hkr"
+                style="@style/tv_user_item" />
+            <EditText
+                android:editable="false"
+                android:layout_toRightOf="@+id/tv_skr"
+                android:id="@+id/ed_hkr"
+                android:hint="@string/asset_bill_hkr_hint"
+                style="@style/ed_user_safety" />
+        </RelativeLayout>
+
+        <View
+            style="@style/user_safety_line"/>
+        <RelativeLayout
+            style="@style/rl_user_item">
+            <TextView
+                android:id="@+id/tv_czje"
+                android:text="@string/asset_recharge_czje"
+                style="@style/tv_user_item" />
+            <EditText
+                android:inputType="number"
+                android:layout_toRightOf="@+id/tv_czje"
+                android:id="@+id/ed_czje"
+                android:hint="@string/asset_recharge_czje_hint"
+                style="@style/ed_user_safety" />
+        </RelativeLayout>
+        <View
+            style="@style/user_safety_line"/>
+        <LinearLayout
+            android:visibility="gone"
+            android:layout_margin="@dimen/margin_padding_10"
+            style="@style/match_wrap_h">
+            <TextView
+                style="@style/tv_user_gray_12" />
+        </LinearLayout>
+        <Button
+            android:id="@+id/bnt_commit"
+            android:text="@string/user_xyb"
+            android:background="@drawable/bnt_login"
+            style="@style/but_user_safety" />
+    </LinearLayout>
+</LinearLayout>

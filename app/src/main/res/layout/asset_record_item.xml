@@ -1,0 +1,55 @@
+<LinearLayout
+    style="@style/match_match"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/tv_index"
+        android:layout_marginLeft="@dimen/margin_padding_5"
+        android:padding="@dimen/margin_padding_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/tv_user_black_16"/>
+    <LinearLayout
+        android:id="@+id/ll_asset_record"
+        android:padding="@dimen/margin_padding_10"
+        android:background="@drawable/bnt_click_background"
+        style="@style/match_wrap">
+        <LinearLayout
+            style="@style/match_wrap_h">
+            <TextView
+                android:text="+2340.028"
+                android:textColor="@color/bnt_login_color_selected"
+                android:id="@+id/tv_record_sl"
+                style="@style/tv_user_black_16" />
+            <TextView
+                android:text="已取消"
+                android:layout_marginLeft="@dimen/margin_padding_10"
+                android:id="@+id/tv_record_zt"
+                style="@style/tv_user_gray_12" />
+            <View
+                android:layout_height="@dimen/w_0.1"
+               style="@style/weight_wrap"/>
+            <TextView
+                android:text="08-08 18:18"
+                android:id="@+id/tv_record_sj"
+                style="@style/tv_user_gray_14" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="@dimen/margin_padding_5"
+            style="@style/match_wrap_h">
+            <TextView
+                android:id="@+id/tv_record_yh"
+                android:text="中国银行（2132432）"
+                android:drawableLeft="@mipmap/icon_msg_recharge"
+                android:drawablePadding="@dimen/margin_padding_5"
+                style="@style/tv_user_gray_12" />
+            <View
+                android:layout_height="@dimen/w_0.1"
+                style="@style/weight_wrap"/>
+            <TextView
+                android:text="No.1231343546575"
+                android:id="@+id/tv_record_lsh"
+                style="@style/tv_user_gray_12" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

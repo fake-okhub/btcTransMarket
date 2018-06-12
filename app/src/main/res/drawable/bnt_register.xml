@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:state_focused="true">
+    <shape >
+        <!-- 填充的颜色：这里设置背景透明 -->
+        <solid android:color="@color/bnt_register_color_selected" />
+        <stroke
+            android:width="0.5dp"
+            android:color="@color/text_color_white" />
+        <corners
+            android:radius="5dp"/>
+    </shape>
+</item>
+<item android:state_pressed="true">
+    <shape>
+        <solid android:color="@color/bnt_register_color_selected" />
+        <stroke
+            android:width="0.5dp"
+            android:color="@color/text_color_white" />
+        <corners
+            android:radius="5dp"/>
+    </shape>
+</item>
+<item android:state_focused="false">
+    <shape >
+        <!-- 填充的颜色：这里设置背景透明 -->
+        <solid android:color="@color/bnt_register_color" />
+        <stroke
+            android:width="0.5dp"
+            android:color="@color/text_color_white" />
+        <corners
+            android:radius="5dp"/>
+    </shape>
+</item>
+<item android:state_pressed="false">
+    <shape >
+        <solid android:color="@color/bnt_register_color" />
+        <stroke
+            android:width="0.5dp"
+            android:color="@color/text_color_white" />
+        <corners
+            android:radius="5dp"/>
+    </shape>
+</item>
+</selector>
+

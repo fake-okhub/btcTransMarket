@@ -1,0 +1,57 @@
+<LinearLayout
+    style="@style/match_match"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/layout_main_header" />
+    <LinearLayout
+        style="@style/match_match_bg_color">
+        <View
+            android:layout_marginTop="@dimen/margin_padding_10"
+            style="@style/user_safety_line"/>
+        <RelativeLayout
+            style="@style/rl_user_item">
+            <TextView
+                android:id="@+id/tv_my"
+                android:text="@string/asset_my"
+                style="@style/tv_user_item" />
+            <EditText
+                android:id="@+id/ed_xmjmy"
+                android:inputType="number"
+                android:layout_toRightOf="@+id/tv_my"
+                android:layout_toLeftOf="@+id/tv_zt"
+                android:hint="@string/asset_mxj_hint"
+                style="@style/ed_user_safety" />
+            <TextView
+                android:id="@+id/tv_zt"
+                android:layout_alignParentRight="true"
+                android:text="@string/user_zt"
+                style="@style/tv_asset_red" />
+        </RelativeLayout>
+        <View
+            style="@style/user_safety_line2"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            style="@style/rl_user_item">
+            <ImageView
+                android:layout_gravity="center_vertical"
+                android:src="@mipmap/ico_tips"
+                style="@style/wrap_wrap" />
+            <TextView
+                android:layout_margin="@dimen/margin_padding_5"
+                android:text="@string/asset_mydh_hint"
+                style="@style/tv_user_gray_12" />
+            <TextView
+                android:id="@+id/tv_hint"
+                android:layout_margin="@dimen/margin_padding_5"
+                style="@style/tv_user_red_12" />
+        </LinearLayout>
+        <View
+            style="@style/user_safety_line"/>
+        <Button
+            android:id="@+id/bnt_commit"
+            android:text="@string/asset_xzdh"
+            android:maxLength="50"
+            android:background="@drawable/bnt_login"
+            style="@style/but_user_safety" />
+    </LinearLayout>
+</LinearLayout>

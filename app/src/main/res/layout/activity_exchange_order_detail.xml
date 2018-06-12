@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tl="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_exchange_order_detail_ll"
+    style="@style/match_match"
+    android:background="@color/gray_bg"
+    tools:context="com.android.bitglobal.activity.market.MarketDetailActivity">
+
+    <FrameLayout style="@style/layout_header">
+
+        <ImageView
+            android:id="@+id/activity_exchange_order_detail_head_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="@dimen/margin_padding_20"
+            android:src="@mipmap/icon_sub_view_back" />
+
+        <TextView
+            android:id="@+id/activity_exchange_order_detail_head_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="56dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:text="@string/exchange_order_detail_title"
+            android:textSize="20sp"
+            android:textColor="@color/white"/>
+
+    </FrameLayout>
+
+    <com.flyco.tablayout.SlidingTabLayout
+        android:id="@+id/activity_exchange_order_detail_tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue_color"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        tl:tl_indicator_color="@color/tab_select_white"
+        tl:tl_indicator_gravity="BOTTOM"
+        tl:tl_indicator_height="3dp"
+        tl:tl_tab_space_equal="true"
+        tl:tl_textBold="SELECT" />
+
+    <View
+        android:layout_width="match_parent"
+        android:background="@drawable/bg_shadow_bottom"
+        android:layout_height="4dp" />
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/activity_exchange_order_detail_vp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

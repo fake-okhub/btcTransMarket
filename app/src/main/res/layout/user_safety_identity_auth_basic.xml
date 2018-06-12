@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    style="@style/match_match"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/layout_main_header" />
+    <LinearLayout
+        style="@style/match_match_bg_color">
+        <View
+            android:layout_marginTop="@dimen/margin_padding_20"
+            style="@style/user_safety_line"/>
+        <RelativeLayout
+            android:id="@+id/rl_zjdq"
+            style="@style/rl_user_item">
+            <TextView
+                android:id="@+id/tv_zjdq"
+                android:text="@string/safety_zjqd"
+                style="@style/tv_user_item" />
+            <TextView
+                android:text="@string/safety_zg"
+                android:gravity="center_vertical"
+                android:layout_toRightOf="@+id/tv_zjdq"
+                android:layout_toLeftOf="@+id/img_zjdq"
+                android:id="@+id/ed_zjdq"
+                style="@style/ed_user_safety" />
+            <ImageView
+                android:id="@+id/img_zjdq"
+                style="@style/img_user_item_r"/>
+        </RelativeLayout>
+        <View
+            style="@style/user_safety_line"/>
+        <RelativeLayout
+            style="@style/rl_user_item">
+            <TextView
+                android:id="@+id/tv_zjxm"
+                android:text="@string/safety_zjxm"
+                style="@style/tv_user_item" />
+            <EditText
+                android:layout_toRightOf="@+id/tv_zjxm"
+                android:id="@+id/ed_zjxm"
+                android:hint="@string/safety_zjxm_hint"
+                style="@style/ed_user_safety" />
+        </RelativeLayout>
+        <View
+            style="@style/user_safety_line"/>
+        <RelativeLayout
+            style="@style/rl_user_item">
+            <TextView
+                android:id="@+id/tv_zjhm"
+                android:text="@string/safety_zjhm"
+                style="@style/tv_user_item" />
+            <EditText
+                android:layout_toRightOf="@+id/tv_zjhm"
+                android:id="@+id/ed_zjhm"
+                android:hint="@string/safety_zjhm_hint"
+                style="@style/ed_user_safety" />
+        </RelativeLayout>
+        <View
+            style="@style/user_safety_line"/>
+        <Button
+            android:id="@+id/bnt_commit"
+            android:text="@string/user_xyb"
+            android:background="@drawable/bnt_login"
+            style="@style/but_user_safety" />
+    </LinearLayout>
+</LinearLayout>

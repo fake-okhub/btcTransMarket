@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    style="@style/match_match"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/layout_main_header"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:id="@+id/avaliable_balance_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp">
+
+        <TextView
+            android:id="@+id/avaliable_balance_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:text="@string/account_send_all"
+            android:textSize="15sp"
+            android:textColor="@color/asset_currency_blue"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/line_market_gray"/>
+
+    <LinearLayout
+        android:id="@+id/rl_xzyh"
+        style="@style/asset_carrycoin_item">
+
+        <TextView
+            style="@style/asset_carrycoin_main_title"
+            android:text="@string/account_currency_to"/>
+
+        <LinearLayout
+            style="@style/asset_carrycoin_sub_title_layout">
+
+            <TextView
+                android:id="@+id/carrycoin_address"
+                style="@style/asset_carrycoin_sub_title"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="@dimen/asset_carrycoin_divider_margin"
+        android:layout_marginRight="@dimen/asset_carrycoin_divider_margin"
+        android:background="@color/line_market_gray"/>
+
+    <RelativeLayout
+        style="@style/asset_carrycoin_item">
+
+        <TextView
+            android:id="@+id/amount_text"
+            style="@style/asset_carrycoin_main_title"
+            android:text="@string/account_currency_amount"/>
+
+        <LinearLayout
+            android:id="@+id/carrycoin_account_layout"
+            android:layout_below="@id/amount_text"
+            style="@style/asset_carrycoin_sub_title_layout">
+
+            <EditText
+                android:id="@+id/carrycoin_account"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textSize="15sp"
+                android:textColorHint="@color/text_hint_color"
+                android:maxLength="20"
+                android:maxLines="1"
+                android:inputType="numberDecimal"
+                android:background="@null"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/currency_type_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/carrycoin_account_layout"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/bg_text_radius"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"
+            android:text="BTC"
+            android:textColor="@color/white"
+            android:textSize="15sp"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="@dimen/asset_carrycoin_divider_margin"
+        android:layout_marginRight="@dimen/asset_carrycoin_divider_margin"
+        android:background="@color/line_market_gray"/>
+
+    <LinearLayout
+        style="@style/asset_carrycoin_item">
+
+        <TextView
+            style="@style/asset_carrycoin_main_title"
+            android:text="@string/account_currency_amount_FEE"/>
+
+        <LinearLayout
+            style="@style/asset_carrycoin_sub_title_layout">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/carry_fee"
+                android:text="0.0005 BTC"
+                android:textSize="15sp"
+                android:textColor="@color/user_account_black"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="@dimen/asset_carrycoin_divider_margin"
+        android:layout_marginRight="@dimen/asset_carrycoin_divider_margin"
+        android:background="@color/line_market_gray"/>
+
+    <Button
+        android:id="@+id/bnt_commit"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginLeft="@dimen/asset_carrycoin_divider_margin"
+        android:layout_marginRight="@dimen/asset_carrycoin_divider_margin"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:layout_marginTop="37dp"
+        android:text="@string/account_withdraw"
+        android:textSize="14sp"
+        android:background="@drawable/btn_bottom_dark_blue_radius"/>
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:visibility="gone">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            style="@style/rl_user_item">
+            <TextView
+                android:text="提币地址"
+                style="@style/tv_user_item" />
+
+            <EditText
+                android:hint="请输入提币地址"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:ellipsize="end"
+                android:padding="@dimen/margin_padding_10"
+                android:background="@null"
+                android:textColor="@color/text_color_black"
+                android:textColorHint="@color/text_color_gray"
+                android:textSize="10sp"
+                android:singleLine="true"
+                 />
+            <ImageView
+                android:layout_height="wrap_content"
+                android:layout_width="50dp"
+                android:layout_gravity="center_vertical|right"
+                android:src="@mipmap/ico_arrowright"></ImageView>
+        </LinearLayout>
+        <View
+            style="@style/user_safety_line"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            style="@style/rl_user_item">
+            <TextView
+                android:text="提币数额"
+                style="@style/tv_user_item" />
+
+            <EditText
+                android:layout_weight="1"
+                style="@style/ed_user_safety"/>
+            <TextView
+                android:text="提币费率："
+                style="@style/tv_user_item" />
+            <TextView
+                style="@style/tv_user_item" />
+        </LinearLayout>
+        <View
+            style="@style/user_safety_line"/>
+        <RelativeLayout
+            android:id="@+id/rl_zjmm"
+            style="@style/rl_user_item">
+            <TextView
+                android:id="@+id/tv_yhkh"
+                android:text="资金密码"
+                style="@style/tv_user_item" />
+            <EditText
+                android:layout_toRightOf="@+id/tv_yhkh"
+                android:id="@+id/carrycoin_pwd"
+                android:password="true"
+                android:hint="请输入资金密码"
+                style="@style/ed_user_safety" />
+        </RelativeLayout>
+        <View
+            style="@style/user_safety_line"/>
+        <RelativeLayout
+            android:id="@+id/rl_dxyzm"
+            style="@style/rl_user_item">
+            <TextView
+                android:id="@+id/tv_szzh"
+                android:text="短信验证码"
+                style="@style/tv_user_item" />
+            <RelativeLayout
+                android:layout_toRightOf="@id/tv_szzh"
+                style="@style/match_wrap">
+                <EditText
+                    android:id="@+id/carrycoin_sms"
+                    android:hint="@string/user_dxyzm_hint"
+                    android:layout_toLeftOf="@+id/bnt_code"
+                    android:inputType="number"
+                    android:maxLines="1"
+                    android:maxLength="10"
+                    style="@style/ed_user_login"  />
+                <Button
+                    android:id="@+id/bnt_code"
+                    android:text="@string/user_hqyzm"
+                    android:background="@drawable/bnt_login_gray"
+                    style="@style/bnt_user_verify_code"/>
+            </RelativeLayout>
+        </RelativeLayout>
+        <View
+            style="@style/user_safety_line"/>
+        <RelativeLayout
+            android:id="@+id/rl_ggyzm"
+            style="@style/rl_user_item">
+            <TextView
+                android:id="@+id/tv_ggyzm"
+                android:text="@string/user_ggyzm"
+                style="@style/tv_user_item" />
+            <EditText
+                android:layout_toRightOf="@+id/tv_ggyzm"
+                android:layout_toLeftOf="@+id/bnt_zt"
+                android:id="@+id/ed_ggyzm"
+                android:hint="@string/user_ggyzm_hint"
+                android:maxLength="6"
+                android:maxLines="1"
+                android:inputType="number"
+                style="@style/ed_user_safety" />
+            <Button
+                android:id="@+id/bnt_zt"
+                android:text="@string/user_zt"
+                android:background="@drawable/bnt_register_verify_code"
+                style="@style/bnt_user_verify_code"/>
+        </RelativeLayout>
+        <View
+            style="@style/user_safety_line"/>
+        <Button
+            android:text="申请提币"
+            android:background="@drawable/bnt_login"
+            style="@style/but_user_safety" />
+    </LinearLayout>
+    <RelativeLayout
+        style="@style/match_match_bg_color"
+        android:visibility="gone">
+        <TextView
+            style="@style/tv_user_black_16"
+            android:id="@+id/tv_no_ts"
+            android:visibility="gone"
+            android:layout_centerInParent="true"
+            android:text="@string/asset_carraycoin_hint"/>
+        <com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayout
+            android:id="@+id/swipyrefreshlayout"
+            style="@style/match_match"
+            app:direction="both">
+            <ListView
+                android:listSelector="@color/background_color"
+                android:id="@+id/listview"
+                android:scrollbars="none"
+                android:divider="@color/vertical_line_color"
+                android:dividerHeight="@dimen/w_0.3"
+                style="@style/match_match" />
+        </com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayout>
+    </RelativeLayout>
+</LinearLayout>

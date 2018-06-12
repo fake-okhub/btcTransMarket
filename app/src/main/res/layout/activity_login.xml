@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/match_match"
+    android:background="@color/white">
+
+    <include layout="@layout/layout_main_header" />
+
+    <LinearLayout
+        style="@style/login_sign_up_layout">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/ed_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/user_dlzh"
+                android:typeface="monospace"
+                android:drawableLeft="@mipmap/icon_user_phone"
+                style="@style/user_edit_login" />
+
+            <ImageView
+                android:id="@+id/clearEdNameImage"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:visibility="gone"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:background="@mipmap/user_clear"/>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/line_market_gray"/>
+
+        <!--<RelativeLayout-->
+            <!--android:id="@+id/rl_xzqh"-->
+            <!--style="@style/match_wrap">-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/ed_qh"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:gravity="center_vertical"-->
+                <!--android:text="@string/safety_zgdl"-->
+                <!--android:drawableLeft="@mipmap/ico_earth"-->
+                <!--style="@style/user_edit_login"-->
+                <!--android:layout_alignParentTop="true"-->
+                <!--android:layout_alignParentStart="true" />-->
+
+            <!--<ImageView-->
+                <!--style="@style/img_user_login_r"-->
+                <!--android:src="@mipmap/ico_arrowright" />-->
+
+            <!--<View-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="0.5dp"-->
+                <!--android:layout_below="@id/ed_qh"-->
+                <!--android:background="@color/line_market_gray"/>-->
+
+        <!--</RelativeLayout>-->
+
+        <EditText
+            android:id="@+id/ed_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:typeface="monospace"
+            android:hint="@string/user_dlmm"
+            android:layout_toLeftOf="@+id/img_eyes_close"
+            android:drawableLeft="@mipmap/login_pwd"
+            android:layout_marginTop="10dp"
+            style="@style/user_edit_login"  />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/line_market_gray"/>
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="18dp"
+            android:textAllCaps="false"
+            android:background="@drawable/btn_sign_up_bg"
+            android:text="@string/user_dl"
+            android:textSize="16sp"
+            android:textColor="@color/white" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/tv_forget"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="@string/user_wjdlmm"
+                android:textSize="12dp"
+                android:textColor="#585B64"/>
+
+            <TextView
+                android:id="@+id/sign_up_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:textStyle="bold"
+                android:textColor="#478ECF"
+                android:text="@string/user_sign_up"
+                android:textSize="12dp"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:background="@color/background_coler"
+        style="@style/match_match"
+        android:visibility="gone">
+<!--        <ImageView
+            android:id="@+id/btn_head_back"
+            android:layout_margin="@dimen/margin_padding_10"
+            android:src="@mipmap/btn_return_red"
+            style="@style/wrap_wrap" />-->
+        <LinearLayout
+            android:layout_marginTop="70dp"
+            android:paddingLeft="@dimen/margin_padding_30"
+            android:paddingRight="@dimen/margin_padding_30"
+            style="@style/match_wrap">
+            <ImageView
+                android:layout_margin="@dimen/margin_padding_10"
+                android:scaleType="centerInside"
+                android:layout_gravity="center"
+                style="@style/wrap_wrap" />
+           <!--<TextView-->
+                <!--android:layout_gravity="center_horizontal"-->
+                <!--android:text="@string/user_dlzgbtb"-->
+                <!--style="@style/tv_user_black_18" />-->
+            <LinearLayout
+                android:layout_marginTop="@dimen/margin_padding_30"
+                android:background="@drawable/user_select_t_bg"
+                style="@style/match_wrap">
+                <!--<EditText-->
+                    <!--android:id="@+id/ed_name"-->
+                    <!--android:hint="@string/user_dlzh"-->
+                <!--android:typeface="monospace"-->
+                    <!--android:drawableLeft="@mipmap/ico_user"-->
+                    <!--style="@style/ed_user_login" />-->
+                <View
+                    style="@style/user_safety_line"/>
+                <RelativeLayout
+                    style="@style/match_wrap">
+                    <!--<EditText-->
+                        <!--android:id="@+id/ed_pwd"-->
+                        <!--android:inputType="textPassword"-->
+                        <!--android:hint="@string/user_dlmm"-->
+                    <!--android:typeface="monospace"-->
+                        <!--android:layout_toLeftOf="@+id/img_eyes_close"-->
+                        <!--android:drawableLeft="@mipmap/ico_lock"-->
+                        <!--style="@style/ed_user_login"  />-->
+                    <ImageView
+                        android:id="@+id/img_eyes_close"
+                        style="@style/img_user_login_r"
+                        android:src="@mipmap/ico_eyes_close" />
+                </RelativeLayout>
+            </LinearLayout>
+            <!--<Button-->
+                <!--android:id="@+id/btn_login"-->
+                <!--android:text="@string/user_dl"-->
+                <!--android:background="@drawable/bnt_login"-->
+                <!--style="@style/but_user_login" />-->
+            <!--<TextView-->
+                <!--android:layout_gravity="center"-->
+                <!--android:id="@+id/tv_forget"-->
+                <!--android:layout_marginTop="20dp"-->
+                <!--android:textColor="@color/blue_color"-->
+                <!--android:text="@string/user_wjdlmm"-->
+                <!--style="@style/tv_user_black_12"/>-->
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:padding="@dimen/margin_padding_20"
+            android:layout_alignParentBottom="true"
+            style="@style/match_wrap_h">
+
+            <Button
+                android:id="@+id/btn_register"
+                android:text="@string/user_register"
+                android:textColor="@color/blue_color"
+                android:background="@drawable/btn_register_select"
+                style="@style/but_user_login" />
+         <!--   <TextView
+                android:id="@+id/tv_abroad"
+                android:text="@string/user_hwsjdl"
+                style="@style/tv_user_black_12"/>
+            <TextView
+                android:text="|"
+                android:layout_marginRight="@dimen/margin_padding_5"
+                android:layout_marginLeft="@dimen/margin_padding_5"
+                style="@style/tv_user_black_12"/>-->
+
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

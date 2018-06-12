@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/match_match">
+
+    <include layout="@layout/layout_main_header" />
+
+    <LinearLayout
+        style="@style/login_sign_up_layout">
+
+        <LinearLayout
+            android:id="@+id/ll_ggyzm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:gravity="center">
+
+                <EditText
+                    android:id="@+id/ed_ggyzm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_centerVertical="true"
+                    android:hint="@string/user_ggyzm_hint"
+                    android:maxLength="6"
+                    android:maxLines="1"
+                    android:inputType="number"
+                    android:background="@null"
+                    android:textSize="14sp"
+                    style="@style/user_edit_login"
+                    android:textColor="@color/text_color_black"
+                    android:drawableLeft="@mipmap/ico_lock"
+                    android:typeface="monospace"/>
+
+                <View
+                    android:layout_width="0.5dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@color/line_market_gray"/>
+
+                <Button
+                    android:id="@+id/bnt_ggyzm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="16dp"
+                    android:background="@drawable/btn_sign_up_bg"
+                    android:gravity="center"
+                    android:text="@string/user_zt"
+                    android:textSize="15sp"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/line_market_gray"/>
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/ed_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:inputType="textPassword"
+            android:typeface="monospace"
+            android:hint="@string/user_qssmm"
+            android:drawableLeft="@mipmap/ico_lock"
+            style="@style/user_edit_login"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/line_market_gray"/>
+
+        <EditText
+            android:id="@+id/ed_pwd2"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:inputType="textPassword"
+            android:typeface="monospace"
+            android:hint="@string/user_qqrmm"
+            android:layout_toLeftOf="@+id/img_eyes_close2"
+            android:drawableLeft="@mipmap/ico_lock"
+            style="@style/user_edit_login"  />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/line_market_gray"/>
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/btn_sign_up_bg"
+            android:text="@string/user_start_now"
+            android:textSize="16sp"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        style="@style/match_match"
+        android:visibility="gone">
+        <ImageView
+            android:id="@+id/btn_head_back"
+            android:layout_margin="@dimen/margin_padding_10"
+            android:src="@mipmap/btn_return_red"
+            style="@style/wrap_wrap" />
+        <LinearLayout
+            android:layout_marginTop="70dp"
+            android:paddingLeft="@dimen/margin_padding_30"
+            android:paddingRight="@dimen/margin_padding_30"
+            style="@style/match_wrap">
+            <TextView
+                android:layout_gravity="center_horizontal"
+                android:text="@string/user_szdlmm"
+                style="@style/tv_user_black_18" />
+            <LinearLayout
+                android:layout_marginTop="@dimen/margin_padding_30"
+                android:background="@drawable/user_select_t_bg"
+                style="@style/match_wrap">
+                <!--<LinearLayout-->
+                    <!--android:visibility="gone"-->
+                    <!--android:id="@+id/ll_ggyzm"-->
+                    <!--style="@style/match_wrap">-->
+                    <!--<RelativeLayout-->
+                        <!--style="@style/match_wrap">-->
+                        <!--<EditText-->
+                            <!--android:id="@+id/ed_ggyzm"-->
+                            <!--android:hint="@string/user_ggyzm_hint"-->
+                <!--android:typeface="monospace"-->
+                            <!--android:layout_toLeftOf="@+id/bnt_ggyzm"-->
+                            <!--android:drawableLeft="@mipmap/ico_lock"-->
+                            <!--style="@style/ed_user_login"  />-->
+                        <!--<Button-->
+                            <!--android:id="@+id/bnt_ggyzm"-->
+                            <!--android:text="@string/user_zt"-->
+                            <!--android:background="@drawable/bnt_login_gray"-->
+                            <!--style="@style/bnt_user_verify_code"/>-->
+                    <!--</RelativeLayout>-->
+                    <!--<View-->
+                        <!--style="@style/user_safety_line"/>-->
+                <!--</LinearLayout>-->
+                <RelativeLayout
+                    style="@style/match_wrap">
+
+                    <ImageView
+                        android:id="@+id/img_eyes_close"
+                        style="@style/img_user_login_r"
+                        android:src="@mipmap/ico_eyes_close" />
+
+                    <!--<EditText-->
+                        <!--android:id="@+id/ed_pwd"-->
+                        <!--android:inputType="textPassword"-->
+                        <!--android:hint="@string/user_szdlmm"-->
+                        <!--android:drawableLeft="@mipmap/ico_lock"-->
+                    <!--android:typeface="monospace"-->
+                        <!--style="@style/ed_user_login"-->
+                        <!--android:layout_alignParentTop="true"-->
+                        <!--android:layout_alignParentStart="true" />-->
+                </RelativeLayout>
+                <View
+                    style="@style/user_safety_line"/>
+                <RelativeLayout
+                    style="@style/match_wrap">
+                    <!--<EditText-->
+                        <!--android:id="@+id/ed_pwd2"-->
+                        <!--android:inputType="textPassword"-->
+                        <!--android:hint="@string/user_qrdlmm"-->
+                    <!--android:typeface="monospace"-->
+                        <!--android:layout_toLeftOf="@+id/img_eyes_close2"-->
+                        <!--android:drawableLeft="@mipmap/ico_lock"-->
+                        <!--style="@style/ed_user_login"  />-->
+                    <ImageView
+                        android:id="@+id/img_eyes_close2"
+                        style="@style/img_user_login_r"
+                        android:src="@mipmap/ico_eyes_close" />
+                </RelativeLayout>
+            </LinearLayout>
+            <!--<Button-->
+                <!--android:id="@+id/btn_register"-->
+                <!--android:text="@string/user_wczc"-->
+                <!--android:background="@drawable/bnt_login"-->
+                <!--style="@style/but_user_login" />-->
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

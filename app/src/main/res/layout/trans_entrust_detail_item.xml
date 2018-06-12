@@ -1,0 +1,45 @@
+<LinearLayout
+style="@style/match_wrap"
+xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:padding="10dp"
+    style="@style/match_wrap_h_bg_white">
+    <LinearLayout
+        style="@style/wrap_wrap">
+        <LinearLayout
+            style="@style/match_wrap_h">
+            <TextView
+                android:id="@+id/tv_number"
+                android:text="฿24.20"
+                style="@style/tv_user_black_16" />
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/tv_price"
+            android:text="成交价：￥3949.45"
+            android:layout_marginTop="5dp"
+            style="@style/tv_user_gray_16"/>
+    </LinearLayout>
+    <View
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="0.1dp"/>
+    <LinearLayout
+        style="@style/wrap_wrap">
+        <TextView
+            android:id="@+id/tv_turnover"
+            android:text="￥4231.45"
+            android:layout_gravity="right"
+            style="@style/tv_user_black_16"/>
+        <TextView
+            style="@style/tv_user_gray_16"
+            android:layout_gravity="right"
+            android:id="@+id/tv_time"
+            android:text="2016-06-21 06:12:23"
+            android:layout_marginTop="5dp"/>
+    </LinearLayout>
+</LinearLayout>
+<View
+    style="@style/match_wrap_bg_color"
+    android:layout_height="5dp"/>
+</LinearLayout>

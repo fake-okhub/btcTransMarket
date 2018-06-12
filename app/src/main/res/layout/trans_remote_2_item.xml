@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/match_wrap_h">
+
+    <LinearLayout
+        android:id="@+id/ll_trans_item"
+        style="@style/match_wrap_h"
+        android:background="@drawable/bnt_click_keypwd"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp">
+        <!--<TextView-->
+        <!--android:minWidth="30dp"-->
+        <!--android:id="@+id/tv_title"-->
+        <!--android:text="&#45;&#45;&#45;&#45;"-->
+        <!--style="@style/tv_market_b" />-->
+        <!--<View-->
+        <!--android:layout_width="5dp"-->
+        <!--android:layout_height="1dp"/>-->
+
+        <TextView
+            android:id="@+id/tv_price"
+            android:layout_marginStart="14dp"
+            style="@style/tv_user_gray_14"
+            android:text="--"
+            android:gravity="left"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/tv_number"
+            android:layout_marginEnd="10dp"
+            style="@style/tv_user_black_14"
+            android:text="--" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,89 @@
+<LinearLayout
+    style="@style/match_match"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/layout_main_header" />
+    <LinearLayout
+        style="@style/match_match_bg_color">
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_marginBottom="10dp"
+            style="@style/match_wrap_h_bg_white">
+            <View
+                android:layout_height="0.1dp"
+                style="@style/weight_match"/>
+            <LinearLayout
+                style="@style/wrap_wrap">
+                <TextView
+                    android:text="@string/trans_wtjg"
+                    android:layout_gravity="center_horizontal"
+                    style="@style/tv_user_gray_14" />
+                <TextView
+                    android:id="@+id/tv_wtjg"
+                    android:layout_marginTop="5dp"
+                    android:text="￥0.00"
+                    android:layout_gravity="center_horizontal"
+                    style="@style/tv_user_black_16"/>
+            </LinearLayout>
+            <View
+                android:layout_height="0.1dp"
+                style="@style/weight_match"/>
+            <LinearLayout
+                style="@style/wrap_wrap">
+                <TextView
+                    android:text="@string/trans_wtsl"
+                    android:layout_gravity="center_horizontal"
+                    style="@style/tv_user_gray_14" />
+                <TextView
+                    android:id="@+id/tv_wtsl"
+                    android:layout_marginTop="5dp"
+                    android:text="฿0.00"
+                    android:layout_gravity="center_horizontal"
+                    style="@style/tv_user_black_16"/>
+            </LinearLayout>
+            <View
+                android:layout_height="0.1dp"
+                style="@style/weight_match"/>
+            <LinearLayout
+                style="@style/wrap_wrap">
+                <TextView
+                    android:text="@string/trans_cjsl"
+                    android:layout_gravity="center_horizontal"
+                    style="@style/tv_user_gray_14" />
+                <TextView
+                    android:id="@+id/tv_cjsl"
+                    android:layout_marginTop="5dp"
+                    android:text="฿0.00"
+                    android:layout_gravity="center_horizontal"
+                    style="@style/tv_user_black_16"/>
+            </LinearLayout>
+            <View
+                android:layout_height="0.1dp"
+                style="@style/weight_match"/>
+       </LinearLayout>
+        <TextView
+            android:id="@+id/tv_no_ts"
+            android:visibility="gone"
+            android:text="@string/trans_myycjwtsj"
+            android:layout_gravity="center"
+            android:layout_marginTop="35dp"
+            style="@style/tv_user_gray_16"/>
+        <ListView
+            android:id="@+id/listview"
+            android:scrollbars="none"
+            android:divider="@color/background_color"
+            android:dividerHeight="0dp"
+            style="@style/match_weight"/>
+
+        <LinearLayout
+            android:id="@+id/ll_commit"
+            style="@style/match_wrap_bg_white">
+            <Button
+                android:id="@+id/bnt_commit"
+                android:background="@drawable/bnt_login"
+                android:text="@string/trans_cxwt"
+                android:layout_marginTop="10dp"
+                style="@style/but_user_exit" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

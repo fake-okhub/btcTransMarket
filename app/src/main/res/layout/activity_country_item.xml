@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/match_wrap">
+    <TextView
+        android:id="@+id/tv_index"
+        android:padding="@dimen/margin_padding_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/tv_user_gray_14"/>
+    <LinearLayout
+        style="@style/match_wrap_h"
+        android:background="@drawable/bnt_click_background"
+        android:padding="10dp">
+        <TextView
+            android:id="@+id/tv_name"
+            android:text="中国"
+            style="@style/tv_user_black_14" />
+        <TextView
+            android:layout_marginLeft="@dimen/margin_padding_5"
+            android:id="@+id/tv_name2"
+            style="@style/tv_user_gray_14" />
+    </LinearLayout>
+</LinearLayout>

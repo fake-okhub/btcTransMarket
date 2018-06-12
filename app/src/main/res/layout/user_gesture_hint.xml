@@ -1,0 +1,28 @@
+<LinearLayout style="@style/match_match"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/layout_main_header" />
+    <LinearLayout
+        style="@style/match_match_bg_color">
+        <View
+            style="@style/match_weight"/>
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:src="@mipmap/lock_learn_defalut"
+            style="@style/wrap_wrap" />
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:text="@string/user_ssmmsz_hint"
+            android:layout_marginTop="@dimen/margin_padding_10"
+            style="@style/tv_user_gray_12"/>
+        <View
+            style="@style/match_weight"/>
+        <Button
+            android:id="@+id/bnt_commit"
+            android:text="@string/user_ssmmsz"
+            android:background="@drawable/bnt_login"
+            style="@style/but_user_asset" />
+        <View
+            android:layout_height="@dimen/margin_padding_20"
+            style="@style/wrap_wrap"/>
+    </LinearLayout>
+</LinearLayout>

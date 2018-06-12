@@ -1,0 +1,104 @@
+<LinearLayout
+    style="@style/match_match"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/layout_main_header" />
+    <LinearLayout
+        style="@style/match_match_bg_color">
+        <LinearLayout
+            style="@style/match_wrap_bg_white">
+            <TextView
+                android:id="@+id/tv_txje_ts"
+                android:text="@string/asset_fbsl"
+                android:layout_margin="@dimen/margin_padding_10"
+                style="@style/tv_user_black_16"/>
+            <LinearLayout
+                android:paddingLeft="@dimen/margin_padding_10"
+                style="@style/match_wrap_h">
+                <TextView
+                    android:id="@+id/tv_assets_txje"
+                    style="@style/tv_user_red_26" />
+                <TextView
+                    android:layout_marginLeft="@dimen/margin_padding_10"
+                    android:id="@+id/tv_assets_txje_lx"
+                    style="@style/tv_user_gray_18" />
+            </LinearLayout>
+            <View
+                android:layout_marginTop="@dimen/margin_padding_10"
+               style="@style/user_safety_line2"/>
+            <LinearLayout
+                android:layout_marginTop="@dimen/margin_padding_5"
+                android:layout_marginLeft="@dimen/margin_padding_10"
+                style="@style/match_wrap_h">
+                <TextView
+                    android:text="@string/asset_kgfd"
+                    style="@style/tv_user_black_14"/>
+                <TextView
+                    android:id="@+id/tv_assets_sl"
+                    style="@style/tv_user_red_14"/>
+                <TextView
+                    android:id="@+id/tv_assets_sl_dw"
+                    style="@style/tv_user_gray_14"
+                    android:layout_marginLeft="@dimen/margin_padding_10"/>
+            </LinearLayout>
+            <LinearLayout
+                android:paddingBottom="@dimen/margin_padding_5"
+                android:layout_marginLeft="@dimen/margin_padding_10"
+                android:layout_marginTop="@dimen/margin_padding_5"
+                style="@style/match_wrap_h">
+                <TextView
+                    android:text="@string/asset_dz"
+                    style="@style/tv_user_black_14"/>
+                <TextView
+                    android:id="@+id/tv_assets_dz"
+                    style="@style/tv_user_gray_14"/>
+            </LinearLayout>
+            <LinearLayout
+                android:visibility="gone"
+                android:paddingBottom="@dimen/margin_padding_5"
+                android:layout_marginLeft="@dimen/margin_padding_10"
+                android:layout_marginTop="@dimen/margin_padding_5"
+                style="@style/match_wrap_h">
+                <TextView
+                    android:text="@string/asset_bz"
+                    style="@style/tv_user_black_14"/>
+                <TextView
+                    android:id="@+id/tv_assets_bz"
+                    style="@style/tv_user_gray_14"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/rl_asset_hint"
+            style="@style/match_wrap">
+            <View
+                style="@style/user_safety_line2"/>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_height="wrap_content"
+                style="@style/rl_user_item">
+                <ImageView
+                    android:layout_gravity="center_vertical"
+                    android:src="@mipmap/ico_tips"
+                    style="@style/wrap_wrap" />
+                <TextView
+                    android:id="@+id/tv_hint"
+                    android:layout_margin="@dimen/margin_padding_5"
+                    android:text="@string/asset_wlndzhaq"
+                    style="@style/tv_user_gray_12" />
+            </LinearLayout>
+        </LinearLayout>
+        <View
+            style="@style/user_safety_line"/>
+        <include layout="@layout/safety_confirm" />
+        <Button
+            android:id="@+id/bnt_commit"
+            android:text="@string/asset_qrfb"
+            android:background="@drawable/bnt_login"
+            style="@style/but_user_safety" />
+        <Button
+            android:visibility="gone"
+            android:id="@+id/bnt_see"
+            android:text="@string/asset_ckjl"
+            android:background="@drawable/bnt_login_green"
+            style="@style/but_user_safety" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="20dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/analysis_padding_all"
+            android:paddingRight="@dimen/analysis_padding_all"
+            android:layout_marginTop="17dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/market_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/market_analysis_24hr_data"
+                android:textColor="@color/text_color_black"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/market_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="5dp"
+                android:layout_marginTop="13dp"
+                android:layout_below="@id/market_title"
+                android:gravity="start"
+                android:text="@string/no_data"
+                android:textSize="22sp"
+                android:textColor="@color/text_color_black"
+                />
+
+            <TextView
+                android:id="@+id/market_rose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/market_price"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="bottom"
+                android:text="@string/no_data"
+                android:textColor="@color/text_color_black"
+                android:textSize="22sp"
+                />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:paddingLeft="@dimen/analysis_padding_all"
+            android:paddingRight="@dimen/analysis_padding_all"
+            android:layout_marginTop="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginRight="4dp"
+                android:background="@color/analysis_gray"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="11dp"
+                    android:layout_marginLeft="15dp"
+                    android:text="@string/market_analysis_high_price"
+                    android:textSize="12sp"
+                    android:textColor="#777786"/>
+
+                <TextView
+                    android:id="@+id/high_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginLeft="15dp"
+                    android:text="@string/no_data"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginLeft="4dp"
+                android:background="@color/analysis_gray"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="11dp"
+                    android:layout_marginLeft="15dp"
+                    android:text="@string/market_analysis_low_price"
+                    android:textSize="12sp"
+                    android:textColor="#777786"/>
+
+                <TextView
+                    android:id="@+id/low_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginLeft="15dp"
+                    android:text="@string/no_data"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/analysis_padding_all"
+            android:paddingRight="@dimen/analysis_padding_all"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/market_analysis_buy"
+                        android:textSize="11sp"
+                        android:textColor="@color/analysis_green"/>
+
+                    <TextView
+                        android:id="@+id/buyRatioText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/no_data"
+                        android:textColor="@color/analysis_green"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/volumeTitleText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/market_analysis_volume"
+                        android:textSize="11sp"
+                        android:textColor="#777786"/>
+
+                    <TextView
+                        android:id="@+id/volumeText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/no_data"
+                        android:textSize="17sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:layout_alignParentRight="true"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/market_analysis_sell"
+                        android:textSize="11sp"
+                        android:textColor="@color/analysis_red"/>
+
+                    <TextView
+                        android:id="@+id/sellRatioText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/no_data"
+                        android:textSize="17sp"
+                        android:textColor="@color/analysis_red"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <ProgressBar
+                android:id="@+id/volumeProgressBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="11dp"
+                android:max="100"
+                style="@style/analysisProgressbar"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="25dp"
+            android:background="#d7d7d7"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/analysis_padding_all"
+            android:paddingRight="@dimen/analysis_padding_all"
+            android:layout_marginTop="20dp"
+            android:text="@string/market_analysis_change_analyze"
+            android:textColor="@color/text_color_black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/analysis_padding_all"
+            android:paddingRight="@dimen/analysis_padding_all"
+            android:layout_gravity="center"
+            android:layout_marginBottom="23dp"
+            android:layout_marginTop="18dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        style="@style/analysis_text_layout"
+                        android:layout_marginRight="4dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="start"
+                            android:text="@string/market_analysis_6_hour"
+                            android:textColor="#777786"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/sixHourRoseText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="4dp"
+                            android:gravity="start"
+                            android:text="@string/no_data"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        style="@style/analysis_text_layout"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginRight="4dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="start"
+                            android:text="@string/market_analysis_1_day"
+                            android:textColor="#777786"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/day_rose"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="4dp"
+                            android:gravity="start"
+                            android:text="@string/no_data"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        style="@style/analysis_text_layout"
+                        android:layout_marginLeft="4dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="start"
+                            android:text="@string/market_analysis_1_week"
+                            android:textColor="#777786"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/week_rose"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="4dp"
+                            android:gravity="start"
+                            android:text="@string/no_data"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        style="@style/analysis_text_layout"
+                        android:layout_marginRight="4dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="start"
+                            android:text="@string/market_analysis_1_month"
+                            android:textColor="#777786"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/month_rose"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="4dp"
+                            android:gravity="start"
+                            android:text="@string/no_data"
+                            android:textSize="16sp"
+                            android:textColor="@color/black"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        style="@style/analysis_text_layout"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginRight="4dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="start"
+                            android:text="@string/market_analysis_3_month"
+                            android:textColor="#777786"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/threeMonthRose"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="4dp"
+                            android:gravity="start"
+                            android:text="@string/no_data"
+                            android:textSize="16sp"
+                            android:textColor="@color/black"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        style="@style/analysis_text_layout"
+                        android:layout_marginLeft="4dp">
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="start"
+                            android:text="@string/market_analysis_6_month"
+                            android:textColor="#777786"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/sixMonthRose"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="4dp"
+                            android:gravity="start"
+                            android:text="@string/no_data"
+                            android:textSize="16sp"
+                            android:textColor="@color/black" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#d7d7d7"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/analysis_padding_all"
+            android:paddingRight="@dimen/analysis_padding_all"
+            android:layout_marginTop="20dp"
+            android:text="@string/market_analysis_change_trend_view"
+            android:textColor="@color/text_color_black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <lecho.lib.hellocharts.view.LineChartView
+            android:id="@+id/market_linechart"
+            android:layout_width="match_parent"
+            android:layout_height="135dp"
+            android:layout_marginTop="9dp"
+            android:paddingLeft="@dimen/analysis_padding_all"
+            android:paddingRight="@dimen/analysis_padding_all"
+            android:visibility="invisible"
+            android:focusable="true" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginEnd="25dp"
+            android:paddingLeft="@dimen/analysis_padding_all"
+            android:paddingRight="@dimen/analysis_padding_all"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/market_chart_time_01"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="10sp"
+                android:textColor="@color/text_color_gray"/>
+            <TextView
+                android:id="@+id/market_chart_time_02"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="10sp"
+                android:textColor="@color/text_color_gray"/>
+            <TextView
+                android:id="@+id/market_chart_time_03"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="10sp"
+                android:textColor="@color/text_color_gray"/>
+            <TextView
+                android:id="@+id/market_chart_time_04"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="10sp"
+                android:textColor="@color/text_color_gray"/>
+            <TextView
+                android:id="@+id/market_chart_time_05"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="10sp"
+                android:textColor="@color/text_color_gray"/>
+            <TextView
+                android:id="@+id/market_chart_time_06"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="10sp"
+                android:textColor="@color/text_color_gray"/>
+            <TextView
+                android:id="@+id/market_chart_time_07"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="10sp"
+                android:textColor="@color/text_color_gray"/>
+
+        </LinearLayout>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/analysis_padding_all"
+            android:paddingRight="@dimen/analysis_padding_all"
+            android:layout_marginTop="15dp"
+            android:checkedButton="@+id/radionButton01"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radionButton01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/investment_tab_left"
+                android:button="@null"
+                android:checked="true"
+                android:gravity="center"
+                android:paddingTop="17dp"
+                android:paddingBottom="17dp"
+                android:text="@string/market_chart_6hour"
+                android:textColor="@color/text_color_white"
+                android:textSize="@dimen/text_size_14" />
+
+            <RadioButton
+                android:id="@+id/radionButton02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_weight="1"
+                android:background="@color/analysis_gray"
+                android:button="@null"
+                android:gravity="center"
+                android:paddingTop="17dp"
+                android:paddingBottom="17dp"
+                android:text="@string/market_chart_1day"
+                android:textColor="@color/marker_detail_button_textsize_color"
+                android:textSize="@dimen/text_size_14" />
+
+            <RadioButton
+                android:id="@+id/radionButton03"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_weight="1"
+                android:background="@color/analysis_gray"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/market_chart_1week"
+                android:paddingTop="17dp"
+                android:paddingBottom="17dp"
+                android:textColor="@color/marker_detail_button_textsize_color"
+                android:textSize="@dimen/text_size_14" />
+
+            <RadioButton
+                android:id="@+id/radionButton04"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_weight="1"
+                android:background="@color/analysis_gray"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/market_chart_1month"
+                android:paddingTop="17dp"
+                android:paddingBottom="17dp"
+                android:textColor="@color/marker_detail_button_textsize_color"
+                android:textSize="@dimen/text_size_14" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+</ScrollView>

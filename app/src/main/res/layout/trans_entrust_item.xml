@@ -1,0 +1,78 @@
+<LinearLayout
+style="@style/match_wrap_h"
+android:paddingLeft="@dimen/margin_padding_5"
+android:paddingRight="@dimen/margin_padding_5"
+xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_marginBottom="5dp"
+        android:padding="5dp"
+        android:background="@drawable/bnt_click_background"
+        style="@style/match_wrap_h_bg_white">
+        <ImageView
+            android:id="@+id/img_type"
+            android:src="@mipmap/ico_type_buy"
+            android:layout_gravity="center_vertical"
+            style="@style/wrap_wrap" />
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_marginLeft="15dp"
+            style="@style/wrap_wrap">
+            <LinearLayout
+                style="@style/match_wrap_h">
+                <TextView
+                    android:id="@+id/tv_number"
+                    android:text="24.20 BTC"
+                    android:layout_weight="1"
+                    style="@style/tv_user_black_16"/>
+                <TextView
+                   android:text="2225.34 CNY"
+                    android:id="@+id/tv_price"
+                    android:layout_weight="1"
+                    style="@style/tv_user_black_16"/>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/tv_hint"
+                android:text="24.20 BTC = 1125.46 CNY"
+                style="@style/tv_user_gray_14"
+                android:layout_marginTop="3dp"/>
+            <LinearLayout
+                android:id="@+id/ll_bfb"
+                android:layout_marginTop="3dp"
+                android:layout_width="match_parent"
+                android:layout_height="3dp">
+                <View
+                    android:id="@+id/view_bfb"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/img_del"
+            android:padding="@dimen/margin_padding_5"
+            style="@style/wrap_wrap"
+            android:src="@mipmap/icon_key_del"
+            android:layout_gravity="center_vertical"/>
+        <LinearLayout
+            android:id="@+id/ll_time"
+            android:orientation="vertical"
+            style="@style/wrap_match">
+            <TextView
+                android:id="@+id/tv_time1"
+                android:text="12:12:20"
+                style="@style/tv_user_gray_16"/>
+            <View
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:id="@+id/tv_time2"
+                android:layout_gravity="right"
+                android:text="06-12"
+                style="@style/tv_user_gray_16"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

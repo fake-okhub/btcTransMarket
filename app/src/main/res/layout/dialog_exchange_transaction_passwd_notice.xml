@@ -1,0 +1,47 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_user_commit"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <FrameLayout
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/ed_user_confirm">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="56dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="22dp"
+            android:text="@string/asset_wszzjmm_sz"
+            android:textColor="@color/text_color_black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/exchange_transaction_passwd_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_marginBottom="24dp"
+            android:layout_marginEnd="124dp"
+            android:text="@string/dialog_cancel_text"
+            android:textColor="@color/text_color_light_blue"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/exchange_transaction_passwd_set"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_marginBottom="24dp"
+            android:layout_marginEnd="36dp"
+            android:text="@string/dialog_set_text"
+            android:textColor="@color/text_color_light_blue"
+            android:textSize="13sp" />
+    </FrameLayout>
+
+</FrameLayout>

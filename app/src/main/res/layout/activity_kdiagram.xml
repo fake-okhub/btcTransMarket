@@ -1,0 +1,139 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/match_match"
+    android:background="@color/background_coler"
+    android:orientation="vertical">
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/activity_kchart_ll_status"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="70dp"-->
+        <!--android:background="#30343C"-->
+        <!--android:baselineAligned="false"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<RelativeLayout-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="1.6"-->
+            <!--android:gravity="center_vertical">-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/activity_kchart_price"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:layout_marginStart="60dp"-->
+                <!--android:paddingTop="18dp"-->
+                <!--android:text=""-->
+                <!--android:textColor="@color/chart_yellow"-->
+                <!--android:textSize="17sp" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/activity_kchart_title"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:layout_marginStart="60dp"-->
+                <!--android:paddingBottom="18dp"-->
+                <!--android:text=""-->
+                <!--android:textColor="@color/chart_white"-->
+                <!--android:textSize="15sp" />-->
+        <!--</RelativeLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="1"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:orientation="vertical">-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/activity_kchart_high"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="HIGH &#45;&#45;"-->
+                <!--android:textColor="@color/chart_white"-->
+                <!--android:textSize="10sp" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/activity_kchart_low"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:text="LOW  &#45;&#45;"-->
+                <!--android:textColor="@color/chart_white"-->
+                <!--android:textSize="10sp" />-->
+
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="1"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:orientation="vertical">-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/activity_kchart_range"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="RANGE &#45;&#45;"-->
+                <!--android:textColor="@color/chart_white"-->
+                <!--android:textSize="10sp" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/activity_kchart_volume"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:text="VOLUME &#45;&#45;"-->
+                <!--android:textColor="@color/chart_white"-->
+                <!--android:textSize="10sp" />-->
+
+        <!--</LinearLayout>-->
+    <!--</LinearLayout>-->
+
+        <LinearLayout
+            android:id="@+id/leftLayout"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="#607D8B"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/activity_kchart_lay"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="10dp"
+                android:background="#FFFFFF"/>
+
+            <ImageView
+                android:id="@+id/activity_kchart_back"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:scaleType="fitXY"
+                android:src="@mipmap/chart_flip"/>
+
+        </LinearLayout>
+
+
+    <com.android.bitglobal.view.chart.KChartView
+        android:id="@+id/activity_kchart_view"
+        android:layout_toRightOf="@id/leftLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+</RelativeLayout>

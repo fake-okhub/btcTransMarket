@@ -1,0 +1,918 @@
+<resources>
+    <string name="app_name">BitGlobal</string>
+
+    <!--Error-->
+    <string name="app_network_interruption_toast">網絡中斷，請檢查您的網絡狀態</string>
+
+    <!-- 頁面名稱 -->
+    <string name="main_navigation_market">行情</string>
+    <string name="main_navigation_trans">交易</string>
+    <string name="main_navigation_asset">資金</string>
+    <string name="main_navigation_user">安全</string>
+
+    <string name="user_manage_sqsx">授權失效，需要重新登錄</string>
+
+
+    <string name="user_fz">複製</string>
+    <string name="user_fzcg_toast">複製成功</string>
+    <string name="user_zt">粘貼</string>
+    <string name="user_paste">粘貼</string>
+    <string name="user_ztsb_toast">無數據粘貼</string>
+    <string name="user_xg">修改</string>
+    <string name="user_qd">確定</string>
+    <string name="user_qr">確認</string>
+    <string name="user_qx">取消</string>
+    <string name="user_tj">提交</string>
+    <string name="user_yqx">已取消</string>
+    <string name="user_pz">拍照</string>
+    <string name="user_xc">相冊</string>
+
+    <!-- 資金-->
+    <string name="account_ky">可用:</string>
+    <string name="account_dj">凍結:</string>
+    <string name="account_current_value">當前價格</string>
+    <string name="account_btc">BTC</string>
+    <string name="account_bitcoin">Bitcoin</string>
+    <string name="account_total">總額</string>
+    <string name="account_deposit">充值</string>
+    <string name="account_withdraw">提現</string>
+    <string name="account_available">可用：</string>
+    <string name="account_on_orders">凍結：</string>
+    <string name="account_balance">資產</string>
+    <string name="account_balance_title">資金</string>
+    <string name="account_records">記錄</string>
+    <string name="account_currency_choose_detail">請將#發送到下方顯示的二維碼充值地址</string>
+    <string name="account_currency_info">1.轉賬###至該地址以充值您的賬戶，###會在##次確認後轉賬。\n
+        2.支付更多的手續費會加快###充值速度。</string>
+    <string name="account_currency_copy_address">複製地址</string>
+    <string name="account_avaliable_balance">可提現金額 :&#160;</string>
+    <string name="account_send_all">發送所有</string>
+    <string name="account_currency_to">提現地址</string>
+    <string name="account_currency_amount">提現數量</string>
+    <string name="account_currency_amount_in">#提現數量</string>
+    <string name="account_currency_amount_FEE">手續費</string>
+    <string name="account_carry_coin_choose_model">— 請選擇方式 —</string>
+    <string name="account_carry_coin_alert_scan">掃壹掃</string>
+    <string name="account_carry_coin_alert_paste">粘貼</string>
+    <string name="account_carry_coin_alert_address">提現地址</string>
+    <string name="account_withdraw_title">您將提現 ###</string>
+    <string name="cancel">取消</string>
+    <!-- 交易-->
+    <string name="trans_qb">全部</string>
+    <string name="trans_jy">交易</string>
+    <string name="trans_exchange_title">交易</string>
+    <string name="trans_exchange_avaliable">可用</string>
+    <string name="trans_mc">賣出</string>
+    <string name="trans_qbcx">全部撤銷</string>
+    <string name="trans_dqwt">當前委託</string>
+    <string name="trans_lswt">歷史委託</string>
+    <string name="trans_mywtsj">親，您沒有委託訂單數據</string>
+    <string name="trans_myycjwtsj">親，您沒有委託訂單數據</string>
+    <string name="trans_exchange_order_detail_trade_empty">無歷史記錄</string>
+    <string name="trans_wgdsjl_toast">無更多數據了</string>
+    <string name="trans_wwtsj">無委託數據</string>
+    <string name="trans_wtcg">委託成功</string>
+    <string name="trans_wtsb">委託失敗</string>
+    <string name="trans_cxcg">撤銷成功</string>
+    <string name="trans_cxwt">撤銷委託</string>
+    <string name="trans_wtxq">委託詳情</string>
+
+    <string name="trans_mo">默認</string>
+    <string name="trans_mai">買</string>
+    <string name="trans_mao">賣</string>
+    <string name="trans_buy">購買</string>
+    <string name="trans_sell">賣出</string>
+    <string name="trans_info">您將以#的價格##@###</string>
+    <string name="trans_dang">檔</string>
+    <string name="trans_he">合</string>
+    <string name="trans_wtjg">委託價（###）</string>
+    <string name="trans_cjjg">數量（###）</string>
+    <string name="trans_wtsl">委託數量</string>
+    <string name="trans_cjsl">成交數量</string>
+    <string name="trans_jg">價格</string>
+    <string name="trans_sl">數量</string>
+    <string name="trans_dlhjxjy">登錄後進行交易</string>
+    <string name="trans_jye">交易額</string>
+    <string name="trans_jyed">交易額:</string>
+    <string name="trans_xhmr">現貨買入</string>
+    <string name="trans_xhmc">現貨賣出</string>
+    <string name="trans_cjj">成交價：</string>
+    <string name="trans_ma">買</string>
+    <string name="trans_mi">賣</string>
+    <string name="trans_mad">買入</string>
+    <string name="trans_mid">賣出</string>
+    <string name="trans_waiting">等待成交</string>
+    <string name="avg_price">成交均價 ：</string>
+    <string name="order_price">委託價格 :</string>
+    <string name="trans_history_avg_price">平均價格 :</string>
+
+    <string name="trans_ky">可用</string>
+    <string name="trans_kd">可兌</string>
+    <string name="trans_km">可買</string>
+    <string name="trans_kmm">可賣</string>
+    <string name="trans_zzc">總資產</string>
+
+    <string name="trans_km_btc">可用BTC</string>
+    <string name="trans_available">可用#:</string>
+    <string name="trans_km_eth">可買ETH</string>
+
+    <string name="trans_jzc">凈資產</string>
+    <string name="trans_kj">可借</string>
+    <string name="trans_dj">凍結</string>
+    <string name="trans_yj">已借</string>
+    <string name="trans_jr">借入</string>
+    <string name="trans_zc">資產</string>
+    <string name="trans_jd">借貸</string>
+    <string name="trans_jk">借款</string>
+    <string name="trans_cz">充值</string>
+    <string name="trans_tx">提現</string>
+    <string name="trans_sb">收幣</string>
+    <string name="trans_fb">付幣</string>
+
+
+
+
+    <string name="trans_qrmc">確認賣出</string>
+    <string name="trans_qrmr">確認買入</string>
+    <string name="trans_djqr">再次輕觸確認</string>
+    <string name="trans_jg_hint">請輸入委託價格</string>
+    <string name="trans_sl_hint">請輸入委託數量</string>
+    <string name="trans_nykqzjmmbh_hint">您已經開啟資金密碼保護</string>
+    <string name="trans_nmrjgyjj_hint">您的買入價高於當前均價</string>
+    <string name="trans_nmcjdyjj_hint">您的賣出價低於當前均價</string>
+    <string name="trans_cxqbwt_hint">確認撤銷全部委託?</string>
+    <string name="trans_balance">資金</string>
+
+    <!-- 用戶中心-->
+    <string name="user_register">沒有賬號？立即註冊</string>
+    <string name="user_dl">登錄</string>
+    <string name="user_zc">註冊</string>
+    <string name="user_hysyzgbtb">歡迎使用中國比特幣</string>
+    <string name="user_kqndhzhbzl">開啟您的數字貨幣交易之旅</string>
+    <string name="user_dlzgbtb">登錄中國比特幣</string>
+    <string name="user_zczgbtb">賬號註冊</string>
+    <string name="user_aqdldcyz">安全登錄多重驗證</string>
+    <string name="user_exit_title">是否要登出帳戶？</string>
+    <string name="user_exit_yes">登出</string>
+    <string name="user_exit_no">取消</string>
+
+    <string name="user_yzdl">驗證登錄</string>
+    <string name="user_czmm">重置密碼</string>
+    <string name="user_dlcg_toast">登錄成功</string>
+    <string name="user_xgcg">修改成功</string>
+    <string name="user_ljdl">立即登錄</string>
+    <string name="user_tcdqdl">退出當前登錄</string>
+    <string name="user_wjmm">忘記密碼</string>
+    <string name="user_wjdlmm">忘記密碼</string>
+    <string name="user_zhdlmm">找回登錄密碼</string>
+    <string name="user_hwsjdl">海外手機登錄</string>
+    <string name="user_zgsjdl">中國手機登錄</string>
+    <string name="user_yhmyxdl">用戶名/郵箱登錄</string>
+    <string name="user_xyb">下壹步</string>
+
+    <string name="user_xzzcfs">選擇註冊方式</string>
+    <string name="user_xzzhfs">選擇找回方式</string>
+    <string name="user_qhzsjhzc">切換至手機號碼註冊</string>
+    <string name="user_qhzdzyxzc">已有賬號，立即登錄</string>
+    <string name="user_sjhzc">手機號碼註冊</string>
+    <string name="user_register_by_phone">手機號碼註冊</string>
+    <string name="user_sjzhmm">手機號碼找回</string>
+    <string name="user_dzyjzh">電子郵件找回</string>
+    <string name="user_dzyxzc">電子郵件註冊</string>
+    <string name="user_register_by_email">電子郵件註冊</string>
+    <string name="user_yxzhmm">郵箱找回密碼</string>
+    <string name="user_cxfsyj">重新發送郵件</string>
+
+    <string name="user_czcg_toast">操作成功</string>
+    <string name="user_czcg_google">操作成功</string>
+    <string name="user_zcxzh">註冊賬號</string>
+    <string name="user_wczc">完成註冊</string>
+    <string name="user_zccg">註冊成功</string>
+    <string name="user_ljzc">立即註冊</string>
+    <string name="user_tjyz">下壹步</string>
+
+
+    <string name="user_yyzhljdl">已有賬號？立即登錄</string>
+    <string name="user_hqyzm">發送</string>
+
+
+    <string name="user_dlzh">電子郵箱/手機號</string>
+    <string name="user_dlzh_hint">請輸入登錄賬號</string>
+    <string name="user_dlzh_hint_toast">請輸入登錄賬號</string>
+    <string name="user_dlmm">登錄密碼</string>
+    <string name="user_dlmm_hint">請輸入登錄密碼</string>
+    <string name="user_dlmm_hint_toast">登錄密碼不能為空</string>
+    <string name="user_dlmm_qr_hint_toast">請輸入確認密碼</string>
+    <string name="user_dtyzm">動態驗證碼</string>
+    <string name="user_dtyzm_hint">請輸入動態驗證碼</string>
+    <string name="user_dxyzm">短信驗證碼</string>
+    <string name="user_dxyzm_hint">請輸入短信驗證碼</string>
+    <string name="user_dxyzm_hint_toast">短信驗證碼不能為空</string>
+    <string name="user_dxyzm_cw_hint">短信驗證碼錯誤</string>
+    <string name="user_srndyx">請輸入郵箱地址</string>
+    <string name="user_srndyx_toast">郵箱不能為空</string>
+    <string name="user_yxyzm">郵箱驗證碼</string>
+    <string name="user_yxyzm_gs_toast">郵箱格式不正確</string>
+    <string name="user_yxyzm_hint">郵箱驗證碼</string>
+    <string name="user_yxyzm_hint_toast">郵箱驗證碼不能為空</string>
+    <string name="user_yxyzm_cw_hint_toast">郵箱驗證碼不正確</string>
+    <string name="user_zjmm">資金密碼</string>
+    <string name="user_zjmm_hint">請輸入資金密碼</string>
+    <string name="user_zjmm_hint_toast">資金密碼不能為空</string>
+    <string name="user_sjhm">手機號碼</string>
+    <string name="user_sjhm_hint">請輸入手機號</string>
+    <string name="user_sjhm_hint_toast">請輸入手機號碼</string>
+    <string name="user_sremail_hint_toast">請輸入郵箱地址</string>
+    <string name="user_ggyzm">谷歌驗證碼</string>
+    <string name="user_ggyzm_hint">請輸入谷歌驗證碼</string>
+    <string name="user_ggyzm_hint_toast">谷歌驗證碼不能為空</string>
+    <string name="user_dtyzm_toast">短信驗證碼不能為空</string>
+
+    <string name="user_yjzccg_hint1">系統已向您的電子郵箱發送激活郵件，請查收。</string>
+    <string name="user_yjzccg_hint2">請登錄您的電子郵箱並點擊鏈接激活賬戶</string>
+    <string name="user_yjzccg_hint3">如果您沒有收到激活郵件，請耐心等候並查看您的垃圾郵件。</string>
+
+
+    <string name="user_szdlmm">設置登錄密碼</string>
+    <string name="user_qrdlmm">確認登錄密碼</string>
+
+    <string name="user_qssmm">請輸入密碼</string>
+    <string name="user_qqrmm">請確認密碼</string>
+
+    <string name="user_maio">秒</string>
+    <string name="user_qsrxdmm">請輸入新的密碼</string>
+    <string name="user_qzcsrmm">請再次輸入密碼</string>
+    <string name="user_mmzslws">密碼至少六位數</string>
+    <string name="user_lcmmsrbyz_toast">兩次輸入密碼不壹致</string>
+    <string name="user_check_pwd_toast">密碼8~20位，且為字母、數字、符號等任意兩種以上的組合</string>
+
+    <string name="user_zjmmxg">資金密碼修改</string>
+    <string name="user_dlmmxg">確認</string>
+
+    <string name="user_dlzc">登錄/註冊</string>
+    <string name="user_dqjf">當前積分</string>
+    <string name="user_aqzx">安全設置</string>
+    <string name="user_aqyz">安全驗證</string>
+    <string name="user_bzphsz">幣種偏好設置</string>
+    <string name="user_jgjb">價格警報</string>
+    <string name="user_xfck">懸浮窗口</string>
+    <string name="user_hlbz">費率標準</string>
+    <string name="user_tjjl">推薦獎勵</string>
+    <string name="user_dskfz">打賞開發者</string>
+    <string name="user_dskfz_dsfs">請選擇打賞方式</string>
+    <string name="user_wytc">我要吐槽</string>
+    <string name="user_gfgg">官方公告</string>
+    <string name="user_xxts">消息推送</string>
+    <string name="user_lxkf">聯繫客服</string>
+    <string name="user_gywm">關於我們</string>
+    <string name="user_bbgx">版本更新</string>
+    <string name="user_zxdl">註銷登錄</string>
+    <string name="user_jgyj">價格預警</string>
+    <string name="user_hlzz">費率規則</string>
+    <string name="user_jdgz">風險說明</string>
+    <string name="user_wdxx">我的信息</string>
+    <string name="user_wdzc">我的資產</string>
+    <string name="user_info">全球最大的智慧幣交易平台</string>
+    <string name="user_price_alerts_notice">價格預警提醒</string>
+    <string name="user_price_alerts_notice_info">當市場價格觸及設定的預警價格後，系統會接收提示通知</string>
+    <string name="user_language">語言</string>
+    <string name="user_set_language">設置語言</string>
+    <string name="user_announcement_detail">公告詳情</string>
+
+    <string name="push_success">推送設置成功！</string>
+    <string name="push_failure">推送設置失敗！</string>
+    <string name="push_hint">推送提醒</string>
+
+
+
+
+    <string name="user_content_tips">您有任何意見或建議可以通過吐槽反映給我們</string>
+
+    <string name="user_dlmmsz">登錄密碼設置</string>
+    <string name="user_set_login_password">登錄密碼設置</string>
+    <string name="user_zjmmsz">資金密碼設置</string>
+    <string name="user_zjmmsz_title">資金密碼設置</string>
+    <string name="user_ggrzsz">谷歌驗證設置</string>
+    <string name="user_set_google">谷歌驗證設置</string>
+
+
+    <string name="user_gjsmrz">高級實名認證</string>
+
+    <string name="user_ssmmsz">手勢密碼設置</string>
+    <string name="user_dlyzsz">登錄驗證設置</string>
+
+
+    <string name="user_zfyzsz">提現驗證設置</string>
+    <string name="user_jyyzsz">交易驗證設置</string>
+
+    <string name="user_ssmmsz_hint">創建您的解鎖圖案，更好的保護您的賬戶信息</string>
+    <string name="user_kqssmm">開啟手勢密碼</string>
+    <string name="user_czssmm">重置手勢密碼</string>
+    <string name="user_cxszmm">重新設置密碼</string>
+    <string name="user_qszssmm">請設置手勢密碼</string>
+    <string name="user_ssmmcw">手勢密碼錯誤</string>
+    <string name="user_ssmmszcg_toast">手勢密碼設置成功</string>
+    <string name="user_zsljsd">請最少鏈接4個點</string>
+    <string name="user_qzchzmm">請再次繪製手勢密碼</string>
+    <string name="user_yschzbyz">與上次繪製不壹致</string>
+
+
+    <string name="user_yddlyz">異地登錄驗證</string>
+    <string name="user_ggecyz">谷歌二次驗證</string>
+    <string name="user_ggecyz_wkq_toast">請先開啟谷歌驗證</string>
+    <string name="user_ggecyz_hint">開啟後，登錄時要求輸入谷歌驗證碼</string>
+    <string name="user_yddlyz_gb">關閉谷歌二次驗證</string>
+    <string name="user_yddlyz_sr">此次操作需要輸入谷歌驗證碼</string>
+
+    <string name="user_dxtxyz">短信提現驗證</string>
+    <string name="user_dxtxyz_hint">開啟後，支付時要求輸入短信驗證碼</string>
+
+    <string name="user_yxtxyz">郵箱提現驗證</string>
+    <string name="user_yxtxyz_hint">開啟後，支付時要求輸入郵箱驗證碼</string>
+
+    <string name="user_jyecyz">交易二次驗證</string>
+    <string name="user_jyecyz_hint"></string>
+
+    <string name="user_ggtxyz">谷歌提現驗證</string>
+    <string name="user_ggtxyz_gb">關閉谷歌提現驗證</string>
+    <string name="user_ggtxyz_hint">開啟後，支付時要求輸入谷歌驗證碼</string>
+
+    <string name="user_zjjyyz">資金密碼驗證</string>
+    <string name="user_zjjyyz_gb">關閉資金密碼驗證</string>
+    <string name="user_zjjyyz_hint">開啟後，交易時要求輸入資金密碼</string>
+    <string name="user_zjjyyz_sr">此次操作需要輸入資金密碼</string>
+
+    <string name="user_security">安全設置</string>
+    <string name="user_announcements">公告</string>
+    <string name="user_settings">設置</string>
+    <string name="user_update">更新</string>
+    <string name="user_update_next_time">下次再說</string>
+    <string name="user_update_update_now">立即更新</string>
+    <string name="user_update_update_to">版本更新</string>
+    <string name="user_update_version">版本:&#160;</string>
+    <string name="user_enforce_update_version">檢測到必要的更新，需更新到最新版本後使用</string>
+    <string name="user_enforce_update_version_confirm_button">立即更新</string>
+    <string name="user_update_size">包大小:&#160;</string>
+    <string name="user_logout">登出</string>
+    <string name="user_log_out">登出</string>
+    <string name="user_sign_up">註冊</string>
+    <string name="user_login">登錄</string>
+    <string name="user_vip">VIP</string>
+    <string name="user_account_level">賬戶等級</string>
+    <string name="user_account_level_info">規則</string>
+    <string name="user_account_level_details">詳情</string>
+    <string name="user_account_level_benefits">賬戶等級權益</string>
+    <string name="user_account_level_info_level">賬戶等級</string>
+    <string name="user_account_level_info_points">積分</string>
+    <string name="user_account_level_info_fee_rate">手續費折扣</string>
+    <string name="user_account_level_earn_points">如何獲得積分?</string>
+    <string name="user_account_level_details_date">日期</string>
+    <string name="user_account_level_details_type">類型</string>
+    <string name="user_account_level_details_points">獲得積分</string>
+    <string name="user_account_level_details_my_points">我的積分:</string>
+    <string name="user_account_current_value">總資產摺算</string>
+    <string name="user_no_login_info">Bitglobal是全球體驗最好，安全性最高的數字貨幣交易平台</string>
+    <string name="user_send">發送</string>
+    <string name="user_get_code">發送</string>
+    <string name="user_use_email">使用郵箱註冊</string>
+    <string name="user_use_mobile">使用手機號註冊</string>
+    <string name="user_start_now">開始吧</string>
+    <string name="user_start_now_confirm">確認</string>
+    <string name="user_next">下壹步</string>
+    <string name="user_button_sign_up">註冊</string>
+    //修改登錄密碼
+    <string name="safety_jdlmm">舊登錄密碼</string>
+    <string name="safety_xdlmm">新登錄密碼</string>
+    <string name="safety_qrdlmm">新登錄密碼確認</string>
+    //修改資金密碼
+    <string name="safety_jzjmm">舊資金密碼</string>
+    <string name="safety_xzjmm">新資金密碼</string>
+    <string name="safety_qrzjmm">新資金密碼確認</string>
+
+    <string name="safety_jmm_hint">請輸入舊密碼</string>
+    <string name="safety_jmm_hint_toast">請輸入舊密碼</string>
+    <string name="safety_xmm_hint">請輸入新密碼</string>
+    <string name="safety_xmm_hint_toast">請輸入新密碼</string>
+    <string name="safety_qrmm_hint">新登錄密碼確認</string>
+    <string name="safety_qrmm_hint_toast">新登錄密碼確認</string>
+
+    //google認證
+    <string name="safety_my">密鑰&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</string>
+    <string name="safety_xzczfs">選擇操作</string>
+    <string name="safety_my_hint">請輸入密鑰</string>
+    <string name="safety_kqggyz">開啟谷歌驗證</string>
+    <string name="safety_gbggyz">關閉谷歌驗證</string>
+    <string name="safety_xgggyz">修改谷歌驗證</string>
+    <string name="safety_on_open_google">您還未開啟谷歌驗證，請先開啟！</string>
+
+    <string name="safety_zgdl">中國 +86</string>
+    <string name="safety_zg">中國</string>
+    <string name="safety_gjxx">國家信息</string>
+
+    //實名認證
+    <string name="safety_tjrz">提交認證</string>
+    <string name="safety_shbtg">審核不通過：</string>
+    <string name="safety_grjbxx">個人基本資料</string>
+    <string name="safety_grjbxx_hint">初步登記身份信息後即可就行小額充值和提現</string>
+    <string name="safety_sfzxx">提交身份證件照</string>
+    <string name="safety_sfzxx_hint">證件照通過後即可進行大額充值和提現</string>
+    <string name="safety_yhkxx">銀行卡信息認證</string>
+    <string name="safety_yhkxx_hint">大陸用戶需同時認證本人身份證開戶的銀行卡</string>
+    <string name="safety_dzzm">住址證明認證</string>
+    <string name="safety_dzzm_hint">非大陸用戶需同時認證地址證明</string>
+    <string name="safety_identification_hint">您的認證正在審核，請耐心等候</string>
+    <string name="safety_identification_suc">認證已通過</string>
+
+
+
+
+
+    <string name="safety_zjqd">證件地區</string>
+    <string name="safety_zjxm">證件姓名</string>
+    <string name="safety_zjxm_hint">請輸入證件的真實姓名</string>
+    <string name="safety_zjxm_hint_toast">請輸入證件的真實姓名</string>
+    <string name="safety_zjhm">證件號碼</string>
+    <string name="safety_zjhm_hint">請輸入正確的證件號碼</string>
+    <string name="safety_zjhm_hint_toast">请输入正确的证件号码</string>
+
+    <string name="safety_kh">[卡號]</string>
+    <string name="safety_zfbzh">支付寶賬號</string>
+    <string name="safety_mylszh">沒有歷史賬號</string>
+    <string name="safety_lsyhk">歷史記錄</string>
+    <string name="safety_xzyh">選擇銀行</string>
+    <string name="safety_xzyh_hint">請選擇銀行</string>
+    <string name="safety_address_hint">提現地址不能為空</string>
+    <string name="safety_num_hint">提現金額不能為空</string>
+    <string name="safety_num_error_hint">提現金額過大</string>
+    <string name="safety_num_error_1_hint">提現數量不能小於#@</string>
+    <string name="safety_num_error_2_hint">超過最大數額</string>
+    <string name="safety_sms_hint">短信驗證碼</string>
+    <string name="safety_sms_hint_toast">短信驗證碼不能為空</string>
+    <string name="safety_google_hint">谷歌驗證碼</string>
+    <string name="safety_khyh">開戶銀行</string>
+    <string name="safety_khyh_hint_toast">請選擇開戶銀行</string>
+    <string name="safety_yhkh">銀行卡號</string>
+    <string name="safety_yhkh_hint">請輸入銀行卡號</string>
+    <string name="safety_yhkh_hint_toast">請輸入銀行卡號</string>
+    <string name="safety_ckr">持卡人&#160;&#160;&#160;&#160;</string>
+    <string name="safety_ckr_hint">請輸入持卡人姓名</string>
+    <string name="safety_ckr_hint_toast">請輸入持卡人姓名</string>
+    <string name="safety_ylsj">預留手機</string>
+    <string name="safety_ylsj_hint">請輸入該卡開戶預留手機號碼</string>
+    <string name="safety_ylsj_hint_toast">請輸入該卡開戶預留手機號碼</string>
+    <string name="safety_xzdq">選擇地區</string>
+    <string name="safety_szzh">所在支行</string>
+    <string name="safety_szzh_hint">請輸入所在支行</string>
+    <string name="safety_scsczjz">上傳手持證件照</string>
+    <string name="safety_sczzzm">上傳住址證明</string>
+    <string name="safety_sczjzmz">上傳證件正面照</string>
+    <string name="safety_sczjfmz">上傳證件反面照</string>
+
+    <string name="safety_sczjz_hint">請上傳身份證照片,務必保證證件照文字清晰可見</string>
+    <string name="safety_scsczjz_hint">請確保人和證件都清晰可見，不可使用合成照片</string>
+    <string name="safety_sczzzm_hint">請確保住址證明文字清晰可見，不可使用合成圖</string>
+    <string name="safety_scszjzfm_hint">請確保證件照上的文字清晰可見，不可使用合成照片</string>
+    <string name="safety_scsczjz_xz_toast">請上傳手持證件照</string>
+    <string name="safety_sczjzmz_xz_toast">請上傳證件正面照</string>
+    <string name="safety_sczjfmz_xz_toast">請上傳證件反面照</string>
+    <string name="safety_sczzzzm_xz_toast">請上傳住址證明！</string>
+    <string name="safety_zzzm_hint">1、目前可接受住址證明文件類型有：3個月有效的水、電、燃氣費及信用卡賬單或政府機關、司法機關開具的證明等，其中需包括您的姓名和詳細居住地址；\n2、暫不接受身份證、戶口本、護照、社保、以及快遞單作為住址證明；\n3、住址證明文件上的日期和住址等信息不可手寫；\n4、住址證明圖片整體要求清晰可見(允許水印)。</string>
+    <string name="safety_myqkqx_toast">您沒有開啟權限</string>
+    <string name="safety_xfct">沒有打開顯示懸浮窗口權限</string>
+
+    <!-- 財務-->
+    <string name="asset_zzczh">總資產摺合（CNY）</string>
+    <string name="asset_wddz">我的收幣地址(點擊複製)</string>
+    <string name="asset_zhye">賬戶餘額</string>
+    <string name="asset_ky">可用：</string>
+    <string name="asset_dz">地址：</string>
+    <string name="asset_sl">數量：</string>
+    <string name="asset_bz">備註：</string>
+    <string name="asset_jr">借入：</string>
+    <string name="asset_kj">可借：</string>
+    <string name="asset_mrhl">每日匯率：</string>
+    <string name="asset_mrhl_hint">未選擇免息劵</string>
+    <string name="asset_jr_hint">請輸入借入數量</string>
+    <string name="asset_fbsl">付幣數量</string>
+    <string name="asset_dz_hint">請選擇付幣地址或掃描錄入</string>
+    <string name="asset_dz_hint_toast">請選擇付幣地址或掃描錄入</string>
+    <string name="asset_sl_hint">請輸入付幣數量</string>
+    <string name="asset_sl_hint_toast">请输入付币数量</string>
+    <string name="asset_bz_hint">請輸入備註信息</string>
+    <string name="asset_sjdz">實際到賬：</string>
+    <string name="asset_dzdz">到賬地址：</string>
+    <string name="asset_kgf">礦工費</string>
+    <string name="asset_kgfd">礦工費：</string>
+    <string name="asset_qrfb">確認付幣</string>
+    <string name="asset_fbcg">付幣成功</string>
+    <string name="asset_ckjl">查看記錄</string>
+    <string name="asset_fbjl">付幣記錄</string>
+    <string name="asset_fbjlxq">付幣記錄詳情</string>
+    <string name="asset_fbdz">付幣地址</string>
+    <string name="asset_yebz_toast">餘額不足</string>
+    <string name="asset_fbslbndykgf">付幣數量不能低於礦工費</string>
+    <string name="asset_qrjxjk">確認進行借款？</string>
+
+    <string name="asset_sxfy">手續費用：</string>
+    <string name="asset_tjsj">提交時間：</string>
+    <string name="asset_clsj">處理時間：</string>
+    <string name="asset_clzt">處理狀態：</string>
+    <string name="asset_qxfb">取消付幣</string>
+
+    <string name="asset_smewm">掃&#160;&#160;壹&#160;&#160;掃</string>
+    <string name="asset_smcg_toast">掃描成功</string>
+    <string name="asset_nrwk">內容為空</string>
+    <string name="asset_wlndzhaq">為了您的賬戶安全，需要完成以下驗證</string>
+    <string name="safety_message">本次操作需要您填寫</string>
+    <string name="safety_and">和</string>
+
+    <string name="asset_cjtbjt">從剪貼板粘貼</string>
+    <string name="asset_xzczfs">選擇操作方式</string>
+
+    <string name="asset_ljfbjl">歷史付幣記錄</string>
+    <string name="asset_zwbz">暫無備註</string>
+    <string name="asset_xgdzbz">修改地址備註</string>
+    <string name="asset_qnhmydz">親,您還沒有歷史付幣記錄！</string>
+
+    <string name="asset_recharge_hint">親,您還沒有歷史充值記錄！</string>
+    <string name="asset_carraycoin_hint">親,您還沒有歷史提現記錄！</string>
+
+    <string name="asset_rzrb">融資融幣</string>
+    <string name="asset_yjhk">壹鍵還款</string>
+    <string name="asset_yjhk_hint">請選擇要還款的選項</string>
+    <string name="asset_wyjk">我要借款</string>
+    <string name="asset_zzcjrzc">總資產/借入資產：</string>
+    <string name="asset_qrjk">確認借款</string>
+
+
+    <string name="asset_djanbsty">點擊按鈕表示同意</string>
+    <string name="asset_syxy">使用協議</string>
+    <string name="asset_rzrbxy">《融資融幣業務用戶使用協議》</string>
+
+    <string name="asset_bsy">不使用</string>
+    <string name="asset_mxj">免息劵</string>
+    <string name="asset_dhmxj">兌換免息劵</string>
+    <string name="asset_jfdh">積分兌換</string>
+    <string name="asset_mydh">密鑰兌換</string>
+    <string name="asset_my">密鑰</string>
+    <string name="asset_mydh_hint">免息券密鑰可以通過官方活動或系統贈送獲取</string>
+    <string name="asset_mxj_hint">請輸入免息券密鑰</string>
+    <string name="asset_mxj_hint_toast">請輸入免息券密鑰</string>
+    <string name="asset_xzdhfs">選擇兌換方式</string>
+    <string name="asset_zwkymxj">暫無可用免息劵</string>
+    <string name="asset_gqsj">過期時間：</string>
+    <string name="asset_xyjf">現有積分</string>
+    <string name="asset_xyjf_hint">每10積分可以兌換1元免息卷，最低1000積分起兌</string>
+    <string name="asset_dhjf">兌換積分</string>
+    <string name="asset_dhjf_hint">請輸入兌換積分</string>
+    <string name="asset_dhjf_hint_toast">請輸入兌換積分</string>
+    <string name="asset_khdxmjed">可獲得免息券額度</string>
+
+    <string name="asset_jfbz_toast">積分不足</string>
+    <string name="asset_yqdq_toast">1000積分兌起</string>
+    <string name="asset_xzdh">現在兌換</string>
+
+    <string name="asset_myjkjl">親,您沒有借款記錄！</string>
+    <string name="asset_myyhkdjl">親,您沒有需要還款的記錄！</string>
+    <string name="asset_myhkjl">親,您沒有還款記錄！</string>
+
+    <string name="asset_kyje">可用金額</string>
+    <string name="asset_hkze">還款總額</string>
+    <string name="asset_hkje">還款金額</string>
+    <string name="asset_hkje_hint">請輸入還款金額</string>
+    <string name="asset_hkje_hint_toast">請輸入還款金額</string>
+    <string name="asset_syje">剩餘金額</string>
+    <string name="asset_yjyh">借入/已還：</string>
+    <string name="asset_jrje">借入金額</string>
+    <string name="asset_yhje">應還金額</string>
+    <string name="asset_yhbj">已還本金</string>
+    <string name="asset_yhze">已還總額</string>
+    <string name="asset_ljlx">累計利息</string>
+    <string name="asset_khje">可還金額</string>
+    <string name="asset_qrhk">確認還款</string>
+    <string name="asset_yjts">已借天數</string>
+    <string name="asset_whlx">未還利息</string>
+    <string name="asset_rll">日利率</string>
+    <string name="asset_wsymxj">未使用免息劵</string>
+    <string name="asset_mx">，免息</string>
+    <string name="asset_zhje">總還金額：</string>
+    <string name="asset_hklxts">注意：還去本金後，利息從餘額中扣除</string>
+    <string name="asset_jkxq">借款詳情</string>
+    <string name="asset_jkje">借款金額</string>
+    <string name="asset_hkxq">還款詳情</string>
+    <string name="asset_hksj">還款時間</string>
+
+    <string name="asset_rmbcz">人民幣充值</string>
+    <string name="asset_rmbtx">人民幣提現</string>
+    <string name="asset_dcz">待充值</string>
+    <string name="asset_rmbcz_hint">您有壹筆充值等待處理</string>
+    <string name="asset_zfbcz">支付寶充值</string>
+    <string name="asset_zfbcz_hint">操作簡單，到賬快速，0手續費</string>
+    <string name="asset_yhhk">銀行匯款</string>
+    <string name="asset_yhhk_hint">支持各大銀行匯款，安全快捷</string>
+    <string name="asset_lszd">歷史賬單</string>
+    <string name="asset_zdxq">賬單詳情</string>
+    <string name="asset_lszd_hint">無歷史記錄</string>
+
+    <string name="asset_bill_zdlx">賬單類型：</string>
+    <string name="asset_bill_zhye">賬戶餘額：</string>
+    <string name="asset_bill_zdsj">賬單時間：</string>
+
+
+    <string name="asset_bill_txje">提現金額</string>
+    <string name="asset_bill_txje_hint">請輸入提現金額</string>
+    <string name="asset_bill_skr">&#160;&#160;&#160;&#160;收款人</string>
+    <string name="asset_bill_hkr">&#160;&#160;&#160;&#160;匯款人</string>
+    <string name="asset_bill_skr_hint">請輸入收款人姓名</string>
+    <string name="asset_bill_hkr_hint">請輸入匯款人姓名</string>
+
+
+    <string name="asset_bill_hksje">（匯款時填寫的金額）</string>
+    <string name="asset_bill_mshk">馬上匯款</string>
+    <string name="asset_bill_rhzfbzz">如何支付寶轉賬？</string>
+
+    <string name="asset_bill_lsbh">流水編號：</string>
+    <string name="asset_bill_hkzt">匯款狀態：</string>
+    <string name="asset_bill_txzt">提現狀態：</string>
+    <string name="asset_bill_bzxx">備註信息：</string>
+    <string name="asset_bill_hryh">匯入銀行：</string>
+    <string name="asset_bill_skyh">收款銀行：</string>
+    <string name="asset_bill_hrzh">匯入賬號：</string>
+    <string name="asset_bill_fkzh">付款賬號：</string>
+    <string name="asset_bill_skzh">收款賬號：</string>
+    <string name="asset_bill_skr2">&#160;&#160;&#160;&#160;收款人：</string>
+    <string name="asset_bill_skf">&#160;&#160;&#160;&#160;收款方：</string>
+    <string name="asset_bill_fkf">&#160;&#160;&#160;&#160;付款方：</string>
+
+    <string name="asset_recharge_czjl">充值記錄</string>
+    <string name="asset_recharge_txjl">提現記錄</string>
+    <string name="asset_recharge_czxq">充值詳情</string>
+    <string name="asset_recharge_txxq">提現詳情</string>
+    <string name="asset_recharge_czzh">充值賬號</string>
+    <string name="asset_recharge_czzh_hint">請輸入支付寶賬號</string>
+    <string name="asset_recharge_czzh_hint_toast">請輸入支付寶賬號</string>
+    <string name="asset_recharge_czje">充值金額</string>
+    <string name="asset_recharge_czje_hint">請輸入充值金額</string>
+    <string name="asset_recharge_czje_hint_toast">請輸入充值金額</string>
+    <string name="asset_qxcz">取消充值</string>
+    <string name="asset_qrtx">確認提現</string>
+    <string name="asset_qxtx">取消提現</string>
+
+    <string name="asset_wszzjmm_toast">您還未設置資金密碼</string>
+    <string name="asset_wszzjmm_sz">請設置資金密碼</string>
+    <string name="asset_wsmrz">您還未進行實名認證</string>
+    <string name="asset_wsmrz_sz">請實名認證</string>
+    <string name="asset_wsmrz_hint">您的認證正在審核，請耐心等候</string>
+
+    <string name="market_hqsz">行情設置</string>
+    <string name="market_qcxz">（輕觸選擇，長按右側進行拖動排序）</string>
+    <string name="market_btchq">BTC行情</string>
+    <string name="market_etchq">ETC行情</string>
+    <string name="market_ltchq">LTC行情</string>
+    <string name="market_ethhq">ETH行情</string>
+    <string name="market_24xszgj">24H最高價</string>
+    <string name="market_24xszdj">24H最底價</string>
+    <string name="market_24xscjl">24H成交量</string>
+    <string name="market_dw_q">千</string>
+    <string name="market_dw_w">萬</string>
+    <string name="market_dw_bw">百萬</string>
+    <string name="market_dw_y">億</string>
+    <string name="market_t">天</string>
+
+    <string name="market_jgsx">請輸入價格上限</string>
+    <string name="market_jgxx">請輸入價格下限</string>
+
+
+
+
+    <string name="save">保存</string>
+    <string name="version_hint">發現新的版本是否更新？</string>
+    <string name="version_isnew">已經是最新版本</string>
+    <string name="no_activity">暫無活動</string>
+    <string name="price_max">請輸入價格上限</string>
+    <string name="price_min">請輸入價格下限</string>
+
+    <string name="feed_suc_toast">吐槽成功！</string>
+    <string name="feed_hint_toast"> 請填寫吐槽內容！</string>
+    <string name="country_toast"> 請填寫國家！</string>
+    <string name="realName_toast"> 請填寫真實姓名！</string>
+    <string name="cardId_toast"> 請填寫證件號碼！</string>
+
+
+
+    <!--    K線界面-->
+    <string name="string_btc">BTC現貨價格</string>
+    <string name="string_ltc">LTC現貨價格</string>
+    <string name="string_etc">ETC現貨價格</string>
+    <string name="string_eth">ETH現貨價格</string>
+
+
+    <string name="price_btc">BTC現貨價格</string>
+    <string name="price_ltc">LTC現貨價格</string>
+    <string name="price_etc">ETC現貨價格</string>
+    <string name="price_eth">ETH現貨價格</string>
+
+    <string name="close_quota">關閉指標</string>
+    <string name="specifications">技術指標</string>
+    <string name="one_min">1分</string>
+    <string name="three_min">3分</string>
+    <string name="five_min">5分</string>
+    <string name="fifteen_min">15分</string>
+    <string name="thirty_min">30分</string>
+    <string name="one_hour">1小時</string>
+    <string name="two_hour">2小時</string>
+    <string name="four_hour">4小時</string>
+    <string name="six_hour">6小時</string>
+    <string name="twelve_hour">12小時</string>
+    <string name="one_day">1天</string>
+    <string name="three_day">3天</string>
+    <string name="one_week">1周</string>
+
+    <string name="open">開</string>
+    <string name="close">收</string>
+    <string name="region">幅</string>
+    <string name="vol">量</string>
+    <string name="high">高</string>
+    <string name="low">低</string>
+
+
+
+    <string name="share_error_toast">分享出錯</string>
+    <string name="share_suc_toast">分享成功</string>
+    <string name="share_remove_toast">取消分享</string>
+
+
+
+    <string name="details">查看詳情</string>
+    <string name="no_money">賬號餘額不足，請充值！</string>
+    <string name="no_coin">賬號可賣數量為0</string>
+
+    <!-- Accessibility description sent when user starts drawing a lock pattern. [CHAR LIMIT=NONE] -->
+    <string name="lockscreen_access_pattern_start">Pattern started</string>
+    <!-- Accessibility description sent when the pattern times out and is cleared. [CHAR LIMIT=NONE] -->
+    <string name="lockscreen_access_pattern_cleared">Pattern cleared</string>
+    <!-- Accessibility description sent when user adds a cell to the pattern. [CHAR LIMIT=NONE]  -->
+    <string name="lockscreen_access_pattern_cell_added">Cell added</string>
+    <!-- Accessibility description sent when user completes drawing a pattern. [CHAR LIMIT=NONE] -->
+    <string name="lockscreen_access_pattern_detected">Pattern completed</string>
+
+
+    <!--掃碼登錄-->
+    <string name="home_smdl">掃碼登錄</string>
+    <string name="home_qrdl">確認登錄</string>
+    <string name="home_kszf">快速支付</string>
+    <string name="home_smdl_hint1">掃碼登錄確認</string>
+    <string name="home_smdl_hint2">為保障賬戶安，請確保本人操作</string>
+    <string name="home_smdl_hint3">登錄後可開啟掃碼付幣功能</string>
+    <string name="home_smdl_hint4">根據掃碼結果，為您推薦壹下業務</string>
+
+    <!--安全中心-->
+    <string name="safety_dlyzfs">登錄驗證方式：</string>
+    <string name="safety_txyzfs">提現驗證方式：</string>
+    <string name="safety_jyyzfs">交易驗證方式：</string>
+    <string name="safety_mmyz">密碼</string>
+    <string name="safety_ydyz">異地驗證</string>
+    <string name="safety_dxyz">短信驗證</string>
+    <string name="safety_yxyz">郵箱驗證</string>
+    <string name="safety_ggyz">谷歌驗證</string>
+    <string name="safety_yjgb">永久關閉</string>
+    <string name="safety_gblss">關閉6個小時</string>
+    <string name="safety_szkq">始終開啟</string>
+    <string name="safety_ggrzsz">您還未開啟谷歌驗證</string>
+    <string name="safety_ggrzkq">您已開啟谷歌驗證</string>
+
+    <!--提現手續費提示-->
+    <string name="asset_pthz">內部轉賬:</string>
+    <string name="asset_pthz_hint">BitGlobal和BitBank之間轉賬不走區塊鏈,免手續費,極速到賬</string>
+
+    <string name="carry_sms_get">請獲取短信驗證碼</string>
+    <string name="carry_coin">提現</string>
+    <string name="carry_coin_successful">操作成功</string>
+    <string name="trans_ex_km">可賣</string>
+
+
+
+    <!--賬號管理-->
+    <string name="user_manage_zhgl">賬號管理</string>
+    <string name="user_manage_hint">當前本機已登錄的用戶</string>
+    <string name="user_manage_wqtyh">暫無其他賬號，快去添加吧</string>
+    <string name="user_id">登錄賬號：</string>
+    <string name="user_name">實名認證：</string>
+    <string name="user_wname">未實名認證</string>
+    <string name="user_sqygq">授權已過期</string>
+    <string name="user_sqygq_sfcxhq">是否重新獲取?</string>
+    <string name="user_sqygq_cxhq">重新獲取</string>
+    <string name="user_tc">退出</string>
+    <string name="user_qh">切換</string>
+    <string name="user_yc">移除</string>
+
+
+    <string name="market_detail_tab_chart_title">圖表</string>
+    <string name="market_detail_tab_analysis_title">分析</string>
+    <string name="market_detail_tab_others_title">其他</string>
+    <string name="market_detail_tab_others_nodata">無其他數據</string>
+    <string name="market_detail_tab_trade_title">交易</string>
+    <string name="trans_exchange_price">價格</string>
+    <string name="trans_exchange_amount">數量</string>
+    <string name="trans_exchange_total">總額:</string>
+    <string name="trans_exchange_buy_orders">買單</string>
+    <string name="trans_exchage_sell_orders">賣單</string>
+    <string name="trans_input_confirm">確定</string>
+    <string name="trans_finished_count">總額（###）</string>
+    <string name="trans_exchange_order_detail_tab_info_title">信息</string>
+    <string name="trans_exchange_order_detail_tab_trade_title">成交</string>
+    <string name="exchange_order_detail_title">委託詳情</string>
+    <string name="exchange_order_detail_info_date">日期</string>
+    <string name="exchange_order_detail_info_type">類型</string>
+    <string name="exchange_order_detail_info_price">價格</string>
+    <string name="exchange_order_detail_info_avg_price">成交均價</string>
+    <string name="exchange_order_detail_info_amount">委託數量</string>
+    <string name="exchange_order_detail_info_finished">已成交</string>
+    <string name="exchange_order_detail_info_total">總額</string>
+    <string name="exchange_order_detail_trade_time">時間</string>
+    <string name="exchange_order_detail_info_type_buy">買入</string>
+    <string name="exchange_order_detail_info_type_sell">賣出</string>
+    <string name="exchange_order_detail_info_order_price">委託價格</string>
+    <string name="announcement_title">公告</string>
+    <string name="balance_empty_placeholder">0.00000000</string>
+    <string name="dialog_cancel_text">取消</string>
+    <string name="dialog_withdraw">提現</string>
+    <string name="dialog_withdraw_google_hint">谷歌驗證碼</string>
+    <string name="dialog_set_text">去設置</string>
+    <string name="dialog_confirm">確定</string>
+    <string name="dialog_queren">確認</string>
+    <string name="dialog_close">關閉</string>
+    <string name="market_24_high">最高 : </string>
+    <string name="market_24_low">最低 : </string>
+    <string name="market_vol">量：</string>
+    <string name="market_others_vol">成交量 :</string>
+    <string name="market_legal_tender_symbol">$</string>
+    <string name="market_chart_6hour">6小時</string>
+    <string name="market_chart_1day">1天</string>
+    <string name="market_chart_1week">1周</string>
+    <string name="market_chart_1month">1月</string>
+    <string name="market_analysis_24hr_data">24小時數據</string>
+    <string name="market_analysis_high_price">最高價</string>
+    <string name="market_analysis_low_price">最低價</string>
+    <string name="market_analysis_volume">成交量（###）</string>
+    <string name="market_analysis_buy">買入</string>
+    <string name="market_analysis_sell">賣出</string>
+    <string name="market_analysis_change_analyze">浮動分析</string>
+    <string name="market_analysis_change_trend_view">走勢圖</string>
+    <string name="market_analysis_6_hour">6小時</string>
+    <string name="market_analysis_1_day">1天</string>
+    <string name="market_analysis_1_week">1周</string>
+    <string name="market_analysis_1_month">1月</string>
+    <string name="market_analysis_3_month">3月</string>
+    <string name="market_analysis_6_month">6月</string>
+    <string name="marker_detail_24hr_hight">24小時最高</string>
+    <string name="marker_detail_1_day">最低</string>
+    <string name="marker_detail_24hr_low">24小時最低</string>
+    <string name="marker_detail_1_week">1周</string>
+    <string name="marker_detail_vol">成交量</string>
+    <string name="marker_detail_1_month">1月</string>
+    <string name="market_detail_trade_time">時間</string>
+    <string name="market_detail_trade_price">價格</string>
+    <string name="market_detail_trade_amount">數量</string>
+    <string name="title_activity_with_draw_from_scan">WithDrawFromScanActivity</string>
+    <string name="action_settings">設置</string>
+    <string name="scan_result">掃描結果:</string>
+    <string name="scan_login_available">可用:</string>
+    <string name="home_message_close">關閉</string>
+    <string name="dialog_update_confirm">更新</string>
+    <string name="dialog_update_content">已經發布，請下載最新版本</string>
+    <string name="cancel_order">取消訂單</string>
+    <string name="dialog_cancel_order_content">您確定取消該筆訂單？</string>
+    <string name="dialog_alert_price">預警價格</string>
+    <string name="dialog_alert_price_hint">折合#價格</string>
+    <string name="dialog_current_price">當前價格：</string>
+    <string name="dialog_input_alert_price_toast">價格不能為空</string>
+    <string name="dialog_delete_confirm">確定要刪除嗎?</string>
+
+    <!--設置界面相關 設置折算貨幣-->
+    <string name="setting_currency">折算貨幣</string>
+    <string name="setting_currency_USD">美元</string>
+    <string name="setting_currency_CNY">人民幣</string>
+    <string name="setting_currency_EUR">歐元</string>
+    <string name="setting_currency_GBP">英鎊</string>
+    <string name="setting_currency_AUD">澳元</string>
+
+    <!--建議反饋-->
+    <string name="setting_feedback_title">意見反饋</string>
+    <string name="setting_feedback_history">歷史記錄</string>
+    <string name="setting_feedback_sub_title">您有任何意見或建議都可以反饋給我們</string>
+    <string name="setting_feedback_function_suggest">功能建議</string>
+    <string name="setting_feedback_operator_fault">操作故障</string>
+    <string name="setting_feedback_leave_suggest">請留下您的寶貴意見</string>
+    <string name="setting_feedback_leave_contact">聯繫方式</string>
+    <string name="setting_feedback_input_contact">請輸入手機號或郵箱</string>
+    <string name="setting_feedback_sumbit">提交</string>
+    <string name="setting_feedback_help_center">幫助中心</string>
+    <string name="setting_feedback_nodata">您尚未提交任何意见反馈</string>
+
+    <string name="scan">掃描二維碼</string>
+    <string name="set_successful_toast">設置成功</string>
+    <string name="log_out_toast">帳戶已退出</string>
+    <string name="free">免費</string>
+
+</resources>

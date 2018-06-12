@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    style="@style/match_match"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/layout_main_header" />
+
+    <LinearLayout style="@style/match_match_bg_color">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusableInTouchMode="true"
+            android:paddingBottom="15dp"
+            android:paddingLeft="13dp"
+            android:paddingRight="13dp"
+            android:paddingTop="15dp">
+
+            <TextView
+                android:id="@+id/titleText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/user_price_alerts_notice"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <com.android.bitglobal.view.SwitchView
+                android:id="@+id/view_switch"
+                style="@style/sv_user"
+                android:layout_centerVertical="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/titleText"
+                android:layout_marginRight="60dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/user_price_alerts_notice_info"
+                android:textColor="@color/text_color_gray"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <View style="@style/view_line_v" />
+
+        <RelativeLayout
+            android:id="@+id/changeLanguage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bnt_click_background"
+            android:focusableInTouchMode="false"
+            android:paddingBottom="15dp"
+            android:paddingLeft="13dp"
+            android:paddingRight="13dp"
+            android:paddingTop="15dp">
+
+            <TextView
+                android:id="@+id/languageTitleText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/user_set_language"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/languageText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/languageTitleText"
+                android:layout_marginRight="60dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/text_color_gray"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <View style="@style/view_line_v" />
+
+        <!--设置折算货币-->
+        <RelativeLayout
+            android:id="@+id/rl_usermp_set_currency"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bnt_click_background"
+            android:focusableInTouchMode="false"
+            android:paddingBottom="15dp"
+            android:paddingLeft="13dp"
+            android:paddingRight="13dp"
+            android:paddingTop="15dp">
+
+            <TextView
+                android:id="@+id/tv_usermp_set_currency"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:text="@string/setting_currency"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/tv_usermp_set_usd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_usermp_set_currency"
+                android:layout_marginRight="60dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/text_color_gray"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <View style="@style/view_line_v" />
+
+        <View
+            style="@style/view_line_v"
+            android:layout_marginTop="@dimen/margin_padding_20"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            style="@style/rl_user_item"
+            android:visibility="gone">
+
+            <TextView
+                style="@style/tv_user_item"
+                android:text="@string/user_jgjb" />
+
+            <com.android.bitglobal.view.SwitchView
+                android:id="@+id/view_switch2"
+                style="@style/sv_user" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_hint_test"
+            style="@style/rl_user_item"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusableInTouchMode="true"
+            android:paddingBottom="15dp"
+            android:paddingLeft="13dp"
+            android:paddingRight="13dp"
+            android:paddingTop="15dp">
+
+            <TextView
+                android:id="@+id/tv_test_hint"
+                android:layout_width="1px"
+                android:layout_height="1px"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true" />
+        </RelativeLayout>
+
+        <View
+            style="@style/view_line_v"
+            android:visibility="gone" />
+    </LinearLayout>
+</LinearLayout>

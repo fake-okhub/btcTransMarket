@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:paddingTop="28dp"
+        android:paddingBottom="24dp"
+        android:paddingLeft="18dp"
+        android:paddingRight="18dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/withdraw_title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="15sp"/>
+
+        <LinearLayout
+            android:id="@+id/rl_zjmm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/carrycoin_pwd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:typeface="monospace"
+                android:layout_centerVertical="true"
+                android:textSize="13sp"
+                android:hint="@string/user_zjmm"
+                android:textColorHint="@color/text_color_gray"
+                android:maxLines="1"
+                android:background="@null"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/line_market_gray"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/rl_ggyzm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/ed_ggyzm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_centerVertical="true"
+                    android:textSize="13sp"
+                    android:typeface="monospace"
+                    android:hint="@string/dialog_withdraw_google_hint"
+                    android:textColorHint="@color/text_color_gray"
+                    android:maxLength="6"
+                    android:maxLines="1"
+                    android:inputType="number"
+                    android:background="@null"/>
+
+                <View
+                    android:layout_width="0.5dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/login_register_divider"/>
+
+                <Button
+                    android:id="@+id/bnt_zt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="16dp"
+                    android:background="#00000000"
+                    android:gravity="center"
+                    android:text="@string/user_zt"
+                    android:textSize="13sp"
+                    android:textColor="@color/text_color_blue"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/line_market_gray"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/rl_dxyzm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/carrycoin_sms"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_centerVertical="true"
+                    android:textSize="13sp"
+                    android:typeface="monospace"
+                    android:hint="@string/user_dxyzm"
+                    android:textColorHint="@color/text_color_gray"
+                    android:maxLength="6"
+                    android:maxLines="1"
+                    android:background="@null"
+                    android:inputType="number"/>
+
+                <View
+                    android:layout_width="0.5dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/login_register_divider"/>
+
+                <Button
+                    android:id="@+id/bnt_code"
+                    android:layout_width="wrap_content"
+                    android:layout_height="16dp"
+                    android:background="#00000000"
+                    android:gravity="center"
+                    android:text="@string/user_get_code"
+                    android:textSize="13sp"
+                    android:textColor="@color/text_color_blue"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/line_market_gray"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:layout_marginTop="27dp">
+
+            <TextView
+                android:id="@+id/cancel_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dialog_cancel_text"
+                android:textColor="@color/text_color_light_blue"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/withdraw_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="21dp"
+                android:text="@string/dialog_withdraw"
+                android:textColor="@color/text_color_light_blue"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

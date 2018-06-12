@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/match_match"
+    android:background="@color/black">
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/linear"-->
+        <!--style="@style/match_wrap">-->
+
+        <!--<View style="@style/user_safety_line" />-->
+
+        <!--<LinearLayout-->
+            <!--style="@style/match_wrap_h"-->
+            <!--android:gravity="center"-->
+            <!--android:padding="@dimen/margin_padding_10">-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/button_numkeyboardview_minus"-->
+                <!--style="@style/wrap_wrap"-->
+                <!--android:src="@mipmap/ico_minus" />-->
+
+            <!--<SeekBar-->
+                <!--android:id="@+id/seekBar"-->
+                <!--style="@style/weight_wrap"-->
+                <!--android:maxHeight="5dp"-->
+                <!--android:paddingLeft="@dimen/margin_padding_10"-->
+                <!--android:paddingRight="@dimen/margin_padding_10"-->
+                <!--android:progressDrawable="@drawable/seekbar_layer_list_red"-->
+                <!--android:thumb="@mipmap/slide_point" />-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/button_numkeyboardview_add"-->
+                <!--style="@style/wrap_wrap"-->
+                <!--android:src="@mipmap/ico_plus" />-->
+        <!--</LinearLayout>-->
+    <!--</LinearLayout>-->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/vertical_line_color" />
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="55dp"-->
+        <!--android:orientation="horizontal">-->
+
+
+        <!--<LinearLayout style="@style/ll_asset_keyboard">-->
+
+            <!--<Button-->
+                <!--android:id="@+id/button_numkeyboardview_sub"-->
+                <!--style="@style/btn_asset_keyboard"-->
+                <!--android:text="—"-->
+                <!--android:textSize="25sp" />-->
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout style="@style/ll_asset_keyboard">-->
+
+            <!--<Button-->
+                <!--android:id="@+id/button_numkeyboardview_plus"-->
+                <!--style="@style/btn_asset_keyboard"-->
+                <!--android:text="＋"-->
+                <!--android:textSize="25sp" />-->
+        <!--</LinearLayout>-->
+
+
+    <!--</LinearLayout>-->
+
+    <LinearLayout
+        style="@style/match_match_h"
+        android:weightSum="4">
+
+        <LinearLayout
+            style="@style/weight_match"
+            android:layout_weight="3">
+
+            <LinearLayout style="@style/match_weight_h">
+
+                <LinearLayout style="@style/ll_asset_keyboard">
+
+                    <Button
+                        android:id="@+id/button_numkeyboardview_one"
+                        style="@style/btn_asset_keyboard"
+                        android:text="1" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/ll_asset_keyboard">
+
+                    <Button
+                        android:id="@+id/button_numkeyboardview_two"
+                        style="@style/btn_asset_keyboard"
+                        android:text="2" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/ll_asset_keyboard">
+
+                    <Button
+                        android:id="@+id/button_numkeyboardview_three"
+                        style="@style/btn_asset_keyboard"
+                        android:text="3" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout style="@style/match_weight_h">
+
+                <LinearLayout style="@style/ll_asset_keyboard">
+
+                    <Button
+                        android:id="@+id/button_numkeyboardview_four"
+                        style="@style/btn_asset_keyboard"
+                        android:text="4" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/ll_asset_keyboard">
+
+                    <Button
+                        android:id="@+id/button_numkeyboardview_five"
+                        style="@style/btn_asset_keyboard"
+                        android:text="5" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/ll_asset_keyboard">
+
+                    <Button
+                        android:id="@+id/button_numkeyboardview_six"
+                        style="@style/btn_asset_keyboard"
+                        android:text="6" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout style="@style/match_weight_h">
+
+                <LinearLayout style="@style/ll_asset_keyboard">
+
+                    <Button
+                        android:id="@+id/button_numkeyboardview_seven"
+                        style="@style/btn_asset_keyboard"
+                        android:text="7" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/ll_asset_keyboard">
+
+                    <Button
+                        android:id="@+id/button_numkeyboardview_eight"
+                        style="@style/btn_asset_keyboard"
+                        android:text="8" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/ll_asset_keyboard">
+
+                    <Button
+                        android:id="@+id/button_numkeyboardview_nine"
+                        style="@style/btn_asset_keyboard"
+                        android:text="9" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/match_weight_h">
+
+                <LinearLayout style="@style/ll_asset_keyboard">
+
+                    <Button
+                        android:id="@+id/button_numkeyboardview_zero"
+                        style="@style/btn_asset_keyboard"
+                        android:text="0" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/ll_asset_keyboard">
+
+                    <Button
+                        android:id="@+id/button_numkeyboardview_point"
+                        style="@style/btn_asset_keyboard"
+                        android:text="." />
+                </LinearLayout>
+
+                <LinearLayout style="@style/ll_asset_keyboard">
+
+                    <RelativeLayout
+                        android:id="@+id/exit"
+                        style="@style/btn_asset_keyboard">
+
+                        <Button
+                            android:id="@+id/button_numkeyboardview_clean_all"
+                            style="@style/btn_asset_keyboard"
+                            android:text="C"
+                            android:textSize="18sp" />
+                        <!--<ImageView-->
+                        <!--android:layout_centerInParent="true"-->
+                        <!--android:src="@mipmap/ico_pickoff"-->
+                        <!--style="@style/wrap_wrap" />-->
+                    </RelativeLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout style="@style/weight_match">
+
+            <LinearLayout style="@style/ll_asset_keyboard2">
+
+                <RelativeLayout
+                    android:id="@+id/button_numkeyboardview_clear"
+                    style="@style/btn_asset_keyboard2">
+
+                    <ImageView
+                        style="@style/wrap_wrap"
+                        android:layout_centerInParent="true"
+                        android:src="@mipmap/icon_key_del" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/ll_asset_keyboard2">
+
+                <RelativeLayout
+                    android:id="@+id/buy"
+                    style="@style/btn_asset_keyboard2">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="OK"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                    <!--<ImageView-->
+                    <!--style="@style/wrap_wrap"-->
+                    <!--android:layout_centerInParent="true"-->
+                    <!--android:src="@mipmap/ico_pickoff" />-->
+                </RelativeLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <View style="@style/user_safety_line" />
+
+</LinearLayout>

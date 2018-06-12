@@ -1,0 +1,66 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.android.bitglobal.fragment.trans.ExchangeOrderDetailTradeFragment">
+
+    <TextView
+        android:id="@+id/fragment_exchange_order_detail_trade_no_ts"
+        style="@style/tv_user_gray_16"
+        android:layout_gravity="center"
+        android:text="@string/trans_exchange_order_detail_trade_empty"
+        android:visibility="gone" />
+
+    <FrameLayout
+        android:id="@+id/fragment_exchange_order_detail_trade_title"
+        android:layout_width="match_parent"
+        android:layout_height="35dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_gravity="center_vertical"
+            android:text="@string/exchange_order_detail_trade_time"
+            android:textColor="@color/text_color_gray"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/fragment_exchange_order_detail_trade_price_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:text="@string/exchange_order_detail_info_price"
+            android:textColor="@color/text_color_gray"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/fragment_exchange_order_detail_trade_amount_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_gravity="center_vertical|end"
+            android:text="@string/market_detail_trade_amount"
+            android:textColor="@color/text_color_gray"
+            android:textSize="10sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_gravity="bottom"
+            android:background="@color/line_market_gray" />
+
+    </FrameLayout>
+
+    <ListView
+        android:id="@+id/fragment_exchange_order_detail_trade_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="35dp"
+        android:divider="@color/background_color"
+        android:dividerHeight="0dp"
+        android:scrollbars="none" />
+
+</FrameLayout>

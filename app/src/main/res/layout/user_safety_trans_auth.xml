@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    style="@style/match_match"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/layout_main_header" />
+    <LinearLayout
+        style="@style/match_match_bg_color">
+        <View
+            android:layout_marginTop="@dimen/margin_padding_20"
+           style="@style/user_safety_line"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            style="@style/rl_user_item">
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:text="@string/user_zjjyyz"
+               style="@style/tv_user_item" />
+            <View
+               style="@style/weight_wrap"/>
+            <Spinner
+                android:layout_gravity="center_vertical"
+                android:id="@+id/sp_zjmmyz"
+                style="@style/spinner_safety"/>
+            <ImageView
+                android:layout_gravity="center_vertical"
+                style="@style/img_user_item_r"/>
+        </LinearLayout>
+        <View
+            style="@style/user_safety_line"/>
+        <TextView
+            android:text="@string/user_zjjyyz_hint"
+            android:layout_margin="@dimen/margin_padding_10"
+            style="@style/tv_user_gray_12" />
+        <View
+            android:layout_marginTop="@dimen/margin_padding_5"
+            style="@style/user_safety_line"/>
+        <RelativeLayout
+            style="@style/rl_user_item"
+            android:visibility="gone">
+            <TextView
+                android:text="@string/user_jyecyz"
+                style="@style/tv_user_item" />
+            <com.chbtc.bitglobal.view.SwitchView
+                style="@style/sv_user"
+                android:id="@+id/view_switch_jyecyz"/>
+        </RelativeLayout>
+        <View
+            style="@style/user_safety_line"
+            android:visibility="gone"/>
+        <TextView
+            android:text="@string/user_jyecyz_hint"
+            android:layout_margin="@dimen/margin_padding_10"
+            style="@style/tv_user_gray_12" />
+    </LinearLayout>
+</LinearLayout>

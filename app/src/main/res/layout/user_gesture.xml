@@ -1,0 +1,36 @@
+<LinearLayout
+    style="@style/match_match"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        style="@style/match_match">
+        <ImageView
+            android:id="@+id/btn_head_back"
+            android:layout_margin="@dimen/margin_padding_10"
+            android:src="@mipmap/btn_return_red"
+            style="@style/wrap_wrap" />
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/margin_padding_10"
+            style="@style/wrap_wrap" />
+        <TextView
+            android:id="@+id/tv_head_title"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/app_name"
+            style="@style/tv_user_black_14" />
+
+        <com.android.bitglobal.view.lockview.LockPatternView
+            android:id="@+id/lpv_lock"
+            style="@style/match_match"/>
+        <View
+            style="@style/match_weight"/>
+        <TextView
+            android:visibility="invisible"
+            android:id="@+id/tv_hint"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/user_wjmm"
+            style="@style/tv_user_black_14" />
+        <View
+            style="@style/match_weight"/>
+    </LinearLayout>
+
+</LinearLayout>

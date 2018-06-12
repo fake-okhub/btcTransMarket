@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    style="@style/match_match"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/layout_main_header" />
+    <LinearLayout
+        style="@style/match_match_bg_color">
+
+        <LinearLayout
+            android:id="@+id/ll_identity_scsfz"
+            style="@style/ll_user_identity">
+            <ImageView
+                android:id="@+id/img_identity_1"
+                android:src="@mipmap/ico_auth_upload"
+                style="@style/ll_ll_img_user_identity_picture"/>
+            <LinearLayout
+                style="@style/ll_ll_user_identity">
+                <TextView
+                    android:text="@string/safety_sczzzm"
+                    style="@style/ll_ll_tv_black_user_identity_picture" />
+                <TextView
+                    android:text="@string/safety_sczzzm_hint"
+                    style="@style/ll_ll_tv_gray_user_identity" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_margin="@dimen/margin_padding_10"
+            style="@style/match_wrap_h">
+            <TextView
+                android:drawablePadding="@dimen/margin_padding_5"
+                android:text="@string/safety_zzzm_hint"
+                android:id="@+id/tv_hint"
+                android:layout_gravity="center_vertical"
+                style="@style/tv_user_gray_12"/>
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/bnt_commit"
+            android:text="@string/user_xyb"
+            android:background="@drawable/bnt_login"
+            style="@style/but_user_safety" />
+    </LinearLayout>
+</LinearLayout>

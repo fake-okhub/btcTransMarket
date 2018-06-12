@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_header_select"
+    style="@style/layout_header_select">
+    <LinearLayout
+        android:id="@+id/ll_head_btc"
+        style="@style/weight_wrap">
+        <TextView
+            android:layout_marginTop="@dimen/margin_padding_5"
+            android:text="BTC"
+            android:layout_gravity="center_horizontal"
+            style="@style/tv_user_white_14" />
+        <TextView
+            android:id="@+id/tv_head_jg1"
+            android:text="￥ 0.00"
+            android:layout_gravity="center_horizontal"
+            style="@style/tv_user_white_14" />
+        <LinearLayout
+            android:layout_gravity="center_horizontal"
+            style="@style/wrap_wrap_h">
+            <TextView
+                android:id="@+id/tv_head_rate1"
+                android:text="+ 0.00"
+                style="@style/tv_user_red_14" />
+            <ImageView
+                android:id="@+id/img_head_zh1"
+                android:layout_marginLeft="@dimen/margin_padding_5"
+                android:src="@mipmap/ico_up2_red"
+                style="@style/wrap_wrap_cv" />
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/img_head_xs1"
+            android:layout_gravity="center_horizontal"
+            android:src="@mipmap/ico_slideslect"
+            style="@style/wrap_wrap" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_head_eth"
+        style="@style/weight_wrap">
+        <TextView
+            android:layout_marginTop="@dimen/margin_padding_5"
+            android:text="ETH"
+            android:layout_gravity="center_horizontal"
+            style="@style/tv_user_white_14" />
+        <TextView
+            android:id="@+id/tv_head_jg2"
+            android:text="￥ 0.00"
+            android:layout_gravity="center_horizontal"
+            style="@style/tv_user_white_14" />
+        <LinearLayout
+            android:layout_gravity="center_horizontal"
+            style="@style/wrap_wrap_h">
+            <TextView
+                android:id="@+id/tv_head_rate2"
+                android:text="+ 0.00"
+                style="@style/tv_user_red_14" />
+            <ImageView
+                android:id="@+id/img_head_zh2"
+                android:layout_marginLeft="@dimen/margin_padding_5"
+                android:src="@mipmap/ico_up2_red"
+                style="@style/wrap_wrap_cv" />
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/img_head_xs2"
+            android:visibility="invisible"
+            android:layout_gravity="center_horizontal"
+            android:src="@mipmap/ico_slideslect"
+            style="@style/wrap_wrap" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_head_etc"
+        style="@style/weight_wrap">
+        <TextView
+            android:layout_marginTop="@dimen/margin_padding_5"
+            android:text="ETC"
+            android:layout_gravity="center_horizontal"
+            style="@style/tv_user_white_14" />
+        <TextView
+            android:id="@+id/tv_head_jg3"
+            android:text="￥ 0.00"
+            android:layout_gravity="center_horizontal"
+            style="@style/tv_user_white_14" />
+        <LinearLayout
+            android:layout_gravity="center_horizontal"
+            style="@style/wrap_wrap_h">
+            <TextView
+                android:id="@+id/tv_head_rate3"
+                android:text="+ 0.00"
+                style="@style/tv_user_red_14" />
+            <ImageView
+                android:id="@+id/img_head_zh3"
+                android:layout_marginLeft="@dimen/margin_padding_5"
+                android:src="@mipmap/ico_up2_red"
+                style="@style/wrap_wrap_cv" />
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/img_head_xs3"
+            android:visibility="invisible"
+            android:layout_gravity="center_horizontal"
+            android:src="@mipmap/ico_slideslect"
+            style="@style/wrap_wrap" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_head_ltc"
+        style="@style/weight_wrap">
+        <TextView
+            android:layout_marginTop="@dimen/margin_padding_5"
+            android:text="LTC"
+            android:layout_gravity="center_horizontal"
+            style="@style/tv_user_white_14" />
+        <TextView
+            android:id="@+id/tv_head_jg4"
+            android:text="￥ 0.00"
+            android:layout_gravity="center_horizontal"
+            style="@style/tv_user_white_14" />
+        <LinearLayout
+            android:layout_gravity="center_horizontal"
+            style="@style/wrap_wrap_h">
+            <TextView
+                android:id="@+id/tv_head_rate4"
+                android:text="+ 0.00"
+                style="@style/tv_user_red_14" />
+            <ImageView
+                android:id="@+id/img_head_zh4"
+                android:layout_marginLeft="@dimen/margin_padding_5"
+                android:src="@mipmap/ico_up2_red"
+                style="@style/wrap_wrap_cv" />
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/img_head_xs4"
+            android:visibility="invisible"
+            android:layout_gravity="center_horizontal"
+            android:src="@mipmap/ico_slideslect"
+            style="@style/wrap_wrap" />
+    </LinearLayout>
+</LinearLayout>

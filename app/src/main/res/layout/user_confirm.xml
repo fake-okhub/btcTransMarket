@@ -1,0 +1,47 @@
+<RelativeLayout
+    android:id="@+id/rl_user_commit"
+    style="@style/match_match"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_width="200dp"
+        android:layout_centerInParent="true"
+        style="@style/wrap_wrap">
+        <LinearLayout
+            android:layout_marginTop="@dimen/margin_padding_30"
+            android:padding="@dimen/margin_padding_10"
+            android:background="@drawable/ed_user_confirm"
+            style="@style/match_wrap">
+            <TextView
+                android:id="@+id/tv_user_title1"
+                android:layout_marginTop="@dimen/margin_padding_20"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/trans_qrmr"
+                style="@style/tv_user_black_14" />
+            <TextView
+                android:id="@+id/tv_user_title2"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/margin_padding_5"
+                android:text="@string/trans_nykqzjmmbh_hint"
+                style="@style/tv_user_gray_12" />
+            <EditText
+                android:id="@+id/ed_user_safePwd"
+                android:inputType="textPassword"
+                android:maxLength="20"
+                android:hint="@string/user_zjmm_hint"
+                style="@style/ed_user_confirm" />
+            <Button
+                android:id="@+id/bnt_user_commit"
+                style="@style/btn_user_confirm_buy"
+                android:text="@string/user_qr"/>
+            <Button
+                android:id="@+id/bnt_user_cancel"
+                style="@style/btn_user_confirm_buy"
+                android:text="@string/user_qx"/>
+        </LinearLayout>
+        <ImageView
+            android:layout_centerHorizontal="true"
+            android:visibility="gone"
+            android:layout_width="60dp"
+            android:layout_height="60dp"/>
+    </RelativeLayout>
+</RelativeLayout>

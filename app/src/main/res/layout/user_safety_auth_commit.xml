@@ -1,0 +1,19 @@
+<LinearLayout style="@style/match_match"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/layout_main_header" />
+    <LinearLayout
+        style="@style/match_match_bg_color">
+        <LinearLayout
+            style="@style/match_wrap_bg_white">
+            <TextView
+                android:id="@+id/safetyMessageText"
+                android:layout_margin="@dimen/margin_padding_8"
+                style="@style/tv_user_gray_14" />
+        </LinearLayout>
+        <include layout="@layout/safety_confirm" />
+        <Button
+            android:id="@+id/bnt_commit"
+            android:text="@string/user_qr"
+            style="@style/btn_normal_submit" />
+    </LinearLayout>
+</LinearLayout>

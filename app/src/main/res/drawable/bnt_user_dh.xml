@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:state_focused="true">
+    <shape android:shape="rectangle" >
+        <!-- 填充的颜色：这里设置背景透明 -->
+        <solid android:color="@color/subject3" />
+        <corners android:radius="3dip" />
+    </shape>
+</item>
+<item android:state_pressed="true">
+    <shape android:shape="rectangle">
+        <solid android:color="@color/subject3" />
+        <corners android:radius="3dip" />
+    </shape>
+</item>
+<item android:state_focused="false">
+    <shape android:shape="rectangle" >
+        <!-- 填充的颜色：这里设置背景透明 -->
+        <solid android:color="@color/subject2" />
+        <corners android:radius="3dip" />
+    </shape>
+</item>
+<item android:state_pressed="false">
+    <shape android:shape="rectangle">
+        <solid android:color="@color/subject2" />
+        <corners android:radius="3dip" />
+    </shape>
+</item>
+</selector>
+<!--
+
+<item android:state_focused="true" android:drawable="@color/tint1"/>
+<item android:state_pressed="true" android:drawable="@color/tint1" />
+<item android:drawable="@color/white"/>-->

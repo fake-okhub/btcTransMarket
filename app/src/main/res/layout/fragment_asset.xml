@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+style="@style/match_match">
+<include
+	layout="@layout/layout_main_header" />
+<RelativeLayout
+	android:id="@+id/rl_asset_mydl"
+	android:background="@color/background_color_white"
+	style="@style/match_wrap">
+	<ImageView
+		android:layout_centerHorizontal="true"
+		android:src="@mipmap/bg_slidestart"
+		style="@style/wrap_wrap" />
+	<LinearLayout
+		style="@style/match_match">
+		<View
+			android:layout_weight="1"
+			android:layout_width="match_parent"
+			android:layout_height="0dp"/>
+		<Button
+			android:id="@+id/btn_asset_login"
+			android:background="@drawable/bnt_login"
+			style="@style/but_user_exit"
+			android:text="@string/user_ljdl"/>
+		<View
+			android:layout_width="match_parent"
+			android:layout_height="30dp"/>
+	</LinearLayout>
+</RelativeLayout>
+<LinearLayout
+	android:id="@+id/ll_asset_ydl"
+	android:visibility="gone"
+	style="@style/match_wrap">
+	<LinearLayout
+		android:background="@color/main_header_bg"
+		style="@style/match_wrap">
+		<TextView
+			android:text="@string/asset_zzczh"
+			style="@style/tv_user_white_12"
+			android:layout_gravity="center_horizontal"
+			android:drawableLeft="@mipmap/ico_asset"
+			android:drawablePadding="5dp" />
+		<TextView
+			android:id="@+id/tv_totalAssets"
+			android:text="0.00"
+			android:layout_margin="@dimen/margin_padding_10"
+			android:layout_gravity="center_horizontal"
+			style="@style/tv_user_white_30"/>
+	</LinearLayout>
+	<View
+		style="@style/view_line_v"/>
+	<ListView
+		android:listSelector="@color/background_color"
+		android:id="@+id/listview"
+		android:scrollbars="none"
+		android:divider="@color/background_color"
+		android:dividerHeight="0dp"
+		style="@style/match_match" />
+</LinearLayout>
+</LinearLayout>

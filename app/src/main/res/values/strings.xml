@@ -1,0 +1,931 @@
+<resources>
+    <string name="app_name">BitGlobal</string>
+
+    <!--Error-->
+    <string name="app_network_interruption_toast">Network interruption, please check your website.</string>
+
+    <!--Pagename -->
+    <string name="main_navigation_market">Market</string>
+    <string name="main_navigation_trans">Exchange</string>
+    <string name="main_navigation_asset">Balances</string>
+    <string name="main_navigation_user">Account</string>
+
+    <string name="user_manage_sqsx">The authentication is invalid，please login again</string>
+
+
+    <string name="user_fz">COPY</string>
+    <string name="user_fzcg_toast">Copy successfully.</string>
+    <string name="user_zt">Paste</string>
+    <string name="user_paste">PASTE</string>
+    <string name="user_ztsb_toast">No data to paste.</string>
+    <string name="user_xg">Modify</string>
+    <string name="user_qd">Confirm</string>
+    <string name="user_qr">Confirm</string>
+    <string name="user_qx">Cancel</string>
+    <string name="user_tj">Submit</string>
+    <string name="user_yqx">Canceled</string>
+    <string name="user_pz">Take photo</string>
+    <string name="user_xc">Albums</string>
+
+    <!-- 资金-->
+    <string name="account_ky">Available:</string>
+    <string name="account_dj">Freeze:</string>
+    <string name="account_current_value">Current Price</string>
+    <string name="account_btc">BTC</string>
+    <string name="account_bitcoin">Bitcoin</string>
+    <string name="account_total">Total</string>
+    <string name="account_deposit">Deposit</string>
+    <string name="account_withdraw">Withdraw</string>
+    <string name="account_available">Available：</string>
+    <string name="account_on_orders">On Orders：</string>
+    <string name="account_balance">Balance</string>
+    <string name="account_balance_title">Balances</string>
+    <string name="account_records">Records</string>
+    <string name="account_currency_choose_detail">Please sent # to the below QR code address.</string>
+    <string name="account_currency_info">1.### transfer to this address will be deposited into your account after ## times confirmations.\n
+2.You may pay more miner fee if you want speed up the deposit.</string>
+    <string name="account_currency_copy_address">COPY ADDRESS</string>
+    <string name="account_avaliable_balance">Available Balance :&#160;</string>
+    <string name="account_send_all">Send All</string>
+    <string name="account_currency_to">To</string>
+    <string name="account_currency_amount">Amount</string>
+    <string name="account_currency_amount_in">Amount in #</string>
+    <string name="account_currency_amount_FEE">Fee</string>
+    <string name="account_carry_coin_choose_model">— Choose Model —</string>
+    <string name="account_carry_coin_alert_scan">QR Code</string>
+    <string name="account_carry_coin_alert_paste">Paste</string>
+    <string name="account_carry_coin_alert_address">&#160;Address</string>
+    <string name="account_withdraw_title">You will withdraw ###</string>
+    <string name="cancel">Cancel</string>
+    <!-- Trade-->
+    <string name="trans_qb">All</string>
+    <string name="trans_exchange_title">EXCHANGE</string>
+    <string name="trans_exchange_avaliable">Available</string>
+
+    <string name="trans_jy">Exchange</string>
+    <string name="trans_mc">Sell</string>
+    <string name="trans_qbcx">Cancel all</string>
+    <string name="trans_dqwt">Orders</string>
+    <string name="trans_lswt">History</string>
+    <string name="trans_mywtsj">You don\'t have record.</string>
+    <string name="trans_myycjwtsj">You don\'t have record.</string>
+    <string name="trans_exchange_order_detail_trade_empty">No record.</string>
+    <string name="trans_wgdsjl_toast">No more data.</string>
+    <string name="trans_wwtsj">No data.</string>
+    <string name="trans_wtcg">Entrustment Success.</string>
+    <string name="trans_wtsb">Entrustment failure.</string>
+    <string name="trans_cxcg">Cancel successfully.</string>
+    <string name="trans_cxwt">Cancel entrustment</string>
+    <string name="trans_wtxq">Entrustment Detail</string>
+
+    <string name="trans_mo">Def</string>
+    <string name="trans_mai">Buy</string>
+    <string name="trans_mao">Sell</string>
+    <string name="trans_buy">buy</string>
+    <string name="trans_sell">sell</string>
+    <string name="trans_info">you will ## @ ### at #</string>
+    <string name="trans_dang">Stall</string>
+    <string name="trans_he">Conbine</string>
+    <string name="trans_wtjg">Price(###)</string>
+    <string name="trans_cjjg">Amount(###)</string>
+    <string name="trans_wtsl">Entrust amount</string>
+    <string name="trans_cjsl">Transaction volume</string>
+    <string name="trans_jg">Price</string>
+    <string name="trans_sl">Amount</string>
+    <string name="trans_dlhjxjy">Please Sign in first</string>
+    <string name="trans_jye">Total Cost</string>
+    <string name="trans_jyed">Total Cost:</string>
+    <string name="trans_xhmr">BUY</string>
+    <string name="trans_xhmc">SELL</string>
+    <string name="trans_cjj">Transaction Price</string>
+    <string name="trans_ma">Buy</string>
+    <string name="trans_mi">Sell</string>
+    <string name="trans_mad">Buy</string>
+    <string name="trans_mid">Sell</string>
+    <string name="trans_waiting">Waiting</string>
+    <string name="avg_price">Avg.Price ：</string>
+    <string name="order_price">Order.Price ：</string>
+    <string name="trans_history_avg_price">Avg.Price :</string>
+
+    <string name="trans_ky">Available</string>
+    <string name="trans_kd">Worth</string>
+    <string name="trans_km">Worth</string>
+    <string name="trans_kmm">To Sell</string>
+    <string name="trans_zzc">TotalAsset</string>
+
+    <string name="trans_km_btc">Available BTC</string>
+    <string name="trans_available">Available #:</string>
+    <string name="trans_km_eth">To Sell ETH</string>
+
+    <string name="trans_jzc">NetAsset</string>
+    <string name="trans_kj">CanBorrow</string>
+    <string name="trans_dj">Frozen</string>
+    <string name="trans_yj">Borrowed</string>
+    <string name="trans_jr">Borrow</string>
+    <string name="trans_zc">Asset</string>
+    <string name="trans_jd">Loan</string>
+    <string name="trans_jk">Borrow</string>
+    <string name="trans_cz">Deposit</string>
+    <string name="trans_tx">Withdraw</string>
+    <string name="trans_sb">Receive</string>
+    <string name="trans_fb">Send</string>
+
+
+
+
+    <string name="trans_qrmc">Confirm to sell</string>
+    <string name="trans_qrmr">Confirm to buy</string>
+    <string name="trans_djqr">Confirm again</string>
+    <string name="trans_jg_hint">Please enter the entrustment price.</string>
+    <string name="trans_sl_hint">Please enter the entrustment amount.</string>
+    <string name="trans_nykqzjmmbh_hint">You have opened transaction password protection</string>
+    <string name="trans_nmrjgyjj_hint">Your price is higher than current price</string>
+    <string name="trans_nmcjdyjj_hint">Your price is lower than current price</string>
+    <string name="trans_cxqbwt_hint">Confirm to cancel all entrustment?</string>
+    <string name="trans_balance">Balances</string>
+
+    <!--User Center-->
+    <string name="user_register">No Account?Register now</string>
+    <string name="user_dl">Login</string>
+    <string name="user_zc">Sign Up</string>
+    <string name="user_hysyzgbtb">Welcome to BITGLOBAL</string>
+    <string name="user_kqndhzhbzl">Start Your Trip of Cryptocurrencies</string>
+    <string name="user_dlzgbtb">Sign in  </string>
+    <string name="user_zczgbtb">Account Register</string>
+    <string name="user_aqdldcyz">Login with multiple safety verification</string>
+    <string name="user_exit_title">Are you confirmed to log out?</string>
+    <string name="user_exit_yes">YES</string>
+    <string name="user_exit_no">NO</string>
+
+    <string name="user_yzdl">Login verification</string>
+    <string name="user_czmm">Reset Password</string>
+    <string name="user_dlcg_toast">successfully login.</string>
+    <string name="user_xgcg">Modify successfully.</string>
+    <string name="user_ljdl">Login</string>
+    <string name="user_tcdqdl">Sign Out</string>
+    <string name="user_wjmm">Forgot Password</string>
+    <string name="user_wjdlmm">Forgot Password</string>
+    <string name="user_zhdlmm">Recover login password</string>
+    <string name="user_hwsjdl">Overseas user</string>
+    <string name="user_zgsjdl">China Mainland user</string>
+    <string name="user_yhmyxdl">Username/Email</string>
+    <string name="user_xyb">Next</string>
+
+    <string name="user_xzzcfs">Select the way to sign up</string>
+    <string name="user_xzzhfs">Select the way to recover your account</string>
+    <string name="user_qhzsjhzc">Phone number</string>
+    <string name="user_qhzdzyxzc">Already have account,login immediately</string>
+    <string name="user_sjhzc">Sign up by phone number</string>
+    <string name="user_register_by_phone">Use Mobile</string>
+    <string name="user_sjzhmm">Use Mobile</string>
+    <string name="user_dzyjzh">Use E-mail</string>
+    <string name="user_dzyxzc">Sign up by E-mail</string>
+    <string name="user_register_by_email">Use E-mail</string>
+    <string name="user_yxzhmm">Recover password by E-mail</string>
+    <string name="user_cxfsyj">RESEND E-MAIL</string>
+
+    <string name="user_czcg_toast">Operate successfully.</string>
+    <string name="user_czcg_google">Set successfully.</string>
+    <string name="user_zcxzh">Sign Up</string>
+    <string name="user_wczc">Complete sign up</string>
+    <string name="user_zccg">Sign up successfully.</string>
+    <string name="user_ljzc">Sign up now</string>
+    <string name="user_tjyz">Next</string>
+
+
+    <string name="user_yyzhljdl">Sign in with an existed account</string>
+    <string name="user_hqyzm">SEND</string>
+
+
+    <string name="user_dlzh">E-mail/Mobile</string>
+    <string name="user_dlzh_hint">Please enter login account</string>
+    <string name="user_dlzh_hint_toast">Please enter the login account.</string>
+    <string name="user_dlmm">Login Password</string>
+    <string name="user_dlmm_hint">Please enter the login password</string>
+    <string name="user_dlmm_hint_toast">The login password can\'t be empty.</string>
+    <string name="user_dlmm_qr_hint_toast">Confirm the password.</string>
+    <string name="user_dtyzm">Dynamic code</string>
+    <string name="user_dtyzm_hint">Please enter the message verification code</string>
+    <string name="user_dxyzm">Message Captcha</string>
+    <string name="user_dxyzm_hint">Message captcha</string>
+    <string name="user_dxyzm_hint_toast">Message verification code can\'t be empty.</string>
+    <string name="user_dxyzm_cw_hint">Incorrect message verification code</string>
+    <string name="user_srndyx">Please enter e-mail address</string>
+    <string name="user_srndyx_toast">Mailbox can\'t be empty.</string>
+    <string name="user_yxyzm">E-mail code</string>
+    <string name="user_yxyzm_gs_toast">Wrong format of mailbox.</string>
+    <string name="user_yxyzm_hint">E-mail captcha</string>
+    <string name="user_yxyzm_hint_toast">E-mail captcha can\'t be empty.</string>
+    <string name="user_yxyzm_cw_hint_toast">E-mail code is wrong.</string>
+    <string name="user_zjmm">Transaction Password</string>
+    <string name="user_zjmm_hint">Please enter transaction Password</string>
+    <string name="user_zjmm_hint_toast">Transaction password can\'t be empty.</string>
+    <string name="user_sjhm">Phone number</string>
+    <string name="user_sjhm_hint">Please enter your phone number</string>
+    <string name="user_sjhm_hint_toast">Please enter your phone number.</string>
+    <string name="user_sremail_hint_toast">Please enter email address.</string>
+    <string name="user_ggyzm">Google Captcha</string>
+    <string name="user_ggyzm_hint">Please enter Google verification code</string>
+    <string name="user_ggyzm_hint_toast">Google verification code can\'t be empty.</string>
+    <string name="user_dtyzm_toast">Message verification code can\'t be empty.</string>
+
+    <string name="user_yjzccg_hint1">Activation email sent! Please check it in your email account.</string>
+    <string name="user_yjzccg_hint2">Login to your email to activate the account.</string>
+    <string name="user_yjzccg_hint3">If you haven’t received the activation mail, please wait a moment or check your junk email box.</string>
+
+
+    <string name="user_szdlmm">Please enter password</string>
+    <string name="user_qrdlmm">Please confirm password</string>
+
+    <string name="user_qssmm">Please enter password</string>
+    <string name="user_qqrmm">Please confirm password</string>
+
+    <string name="user_maio">s</string>
+    <string name="user_qsrxdmm">Please enter new password</string>
+    <string name="user_qzcsrmm">Please confirm password</string>
+    <string name="user_mmzslws">The password should have at least 6 characters</string>
+    <string name="user_lcmmsrbyz_toast">The two passwords different.</string>
+    <string name="user_check_pwd_toast">Consist of 8-20 digitals,Which should be letters,digital,symbols or both of them.</string>
+
+    <string name="user_zjmmxg">Modify Transaction Password</string>
+    <string name="user_dlmmxg">CONFIRM</string>
+
+    <string name="user_dlzc">Sign In/Sign Up</string>
+    <string name="user_dqjf">Current Points</string>
+    <string name="user_aqzx">Security</string>
+    <string name="user_aqyz">Security Verify</string>
+    <string name="user_bzphsz">Currency preferences</string>
+    <string name="user_jgjb">Price Alerts</string>
+    <string name="user_xfck">Floating Window</string>
+    <string name="user_hlbz">Standard rates</string>
+    <string name="user_tjjl">Referral Rewards</string>
+    <string name="user_dskfz">Reward Developers</string>
+    <string name="user_dskfz_dsfs">Please choose the way to reward developers.</string>
+    <string name="user_wytc">I Have Something To Say</string>
+    <string name="user_gfgg">Announcement</string>
+    <string name="user_xxts">Notification push</string>
+    <string name="user_lxkf">Customer Service</string>
+    <string name="user_gywm">About Us</string>
+    <string name="user_bbgx">Current Version</string>
+    <string name="user_zxdl">Sign Out</string>
+    <string name="user_jgyj">Price Alert</string>
+    <string name="user_hlzz">Fees</string>
+    <string name="user_jdgz">Risk Statement</string>
+    <string name="user_wdxx">Account</string>
+    <string name="user_wdzc">My Property</string>
+    <string name="user_info">The wisdom of the world is largest currency trading platform</string>
+    <string name="user_price_alerts_notice">Price Alerts Notice</string>
+    <string name="user_price_alerts_notice_info">When the market price reaches the pre-set price alert threshold, you will receive a system notice.</string>
+    <string name="user_language">Language</string>
+    <string name="user_set_language">Language</string>
+    <string name="user_announcement_detail">Announcements Detail</string>
+
+    <string name="push_success">Setting push notifications successfully.</string>
+    <string name="push_failure">Setting push notifications unsuccessfully.</string>
+    <string name="push_hint">Push Notifications</string>
+
+
+
+
+    <string name="user_content_tips">Feedback your thoughts and opinions here.</string>
+
+    <string name="user_dlmmsz">Login Password Setting</string>
+    <string name="user_set_login_password">Set Login Password</string>
+    <string name="user_zjmmsz">Transaction Password Setting</string>
+    <string name="user_zjmmsz_title">Set Transaction Password</string>
+    <string name="user_ggrzsz">Google Captcha Setting</string>
+    <string name="user_set_google">Google Authentication</string>
+
+
+    <string name="user_gjsmrz">Real-name verification</string>
+
+    <string name="user_ssmmsz">Gesture Password Setting</string>
+    <string name="user_dlyzsz">Login Authentication Setting</string>
+
+
+    <string name="user_zfyzsz">Withdrawal Authentication Setting</string>
+    <string name="user_jyyzsz">Transaction Authentication Setting</string>
+
+    <string name="user_ssmmsz_hint">Enter your unlock pattern to better secure your account.</string>
+    <string name="user_kqssmm">Open gesture password</string>
+    <string name="user_czssmm">Reset gesture password</string>
+    <string name="user_cxszmm">Reset Password</string>
+    <string name="user_qszssmm">Please set gesture password</string>
+    <string name="user_ssmmcw">Gesture password is wrong.</string>
+    <string name="user_ssmmszcg_toast">Setting gesture password successfully.</string>
+    <string name="user_zsljsd">Please enter at least 4 points.</string>
+    <string name="user_qzchzmm">Please enter gesture password again.</string>
+    <string name="user_yschzbyz">The two patterns is differ.</string>
+
+
+
+
+
+    <string name="user_yddlyz">Offsite authentication</string>
+    <string name="user_ggecyz">Google 2 Factors Authentication</string>
+    <string name="user_ggecyz_wkq_toast">Please Open Google Verification.</string>
+    <string name="user_ggecyz_hint">Google verification is required when logining BitGlobal account if you use this function.</string>
+    <string name="user_yddlyz_gb">Close Google 2 factors verification</string>
+    <string name="user_yddlyz_sr">This operation is required Google verification code.</string>
+
+    <string name="user_dxtxyz">SMS Withdraw Verification</string>
+    <string name="user_dxtxyz_hint">SMS verification code is required when making payment if you use this function.</string>
+
+    <string name="user_yxtxyz">E-mail Withdraw Verification</string>
+    <string name="user_yxtxyz_hint">E-mail verification code is required when making payment if you use this function.</string>
+
+    <string name="user_jyecyz">Transaction 2 Verification</string>
+    <string name="user_jyecyz_hint"></string>
+
+    <string name="user_ggtxyz">Google Withdraw Verification</string>
+    <string name="user_ggtxyz_gb">Close Google Withdraw Verification</string>
+    <string name="user_ggtxyz_hint">Google verification is required when making payment if you use this function.</string>
+
+    <string name="user_zjjyyz">Transaction password verification</string>
+    <string name="user_zjjyyz_gb">Close Transaction password verification</string>
+    <string name="user_zjjyyz_hint">Transaction password is required when trading if you use this function.</string>
+    <string name="user_zjjyyz_sr">This operation is required transaction password.</string>
+
+    <string name="user_security">Security</string>
+    <string name="user_announcements">Announcements</string>
+    <string name="user_settings">Settings</string>
+    <string name="user_update">Update</string>
+    <string name="user_update_next_time">Later</string>
+    <string name="user_update_update_now">Update</string>
+    <string name="user_update_update_to">Version update to</string>
+    <string name="user_update_version">Version&#160;</string>
+    <string name="user_enforce_update_version">The necessary updates to the latest version are required by detection.</string>
+    <string name="user_enforce_update_version_confirm_button">Update</string>
+    <string name="user_update_size">Size:&#160;</string>
+    <string name="user_logout">LOGOUT</string>
+    <string name="user_log_out">Log out</string>
+    <string name="user_sign_up">Sign Up</string>
+    <string name="user_login">LOGIN</string>
+    <string name="user_vip">VIP</string>
+    <string name="user_account_level">Account Level</string>
+    <string name="user_account_level_info">Info</string>
+    <string name="user_account_level_details">Details</string>
+    <string name="user_account_level_benefits">Account Level Benefits</string>
+    <string name="user_account_level_info_level">Account Level</string>
+    <string name="user_account_level_info_points">Credits</string>
+    <string name="user_account_level_info_fee_rate">Fee Discount</string>
+    <string name="user_account_level_earn_points">How to earn credits?</string>
+    <string name="user_account_level_details_date">Date</string>
+    <string name="user_account_level_details_type">Type</string>
+    <string name="user_account_level_details_points">Credits Earned</string>
+    <string name="user_account_level_details_my_points">My Points:</string>
+    <string name="user_account_current_value">Estimated value</string>
+    <string name="user_no_login_info">Bitglobal is the best and most security digital currency trading platform.</string>
+    <string name="user_send">Send</string>
+    <string name="user_get_code">Send</string>
+    <string name="user_use_email">Use E-mail</string>
+    <string name="user_use_mobile">Use Mobile</string>
+    <string name="user_start_now">Start Now</string>
+    <string name="user_start_now_confirm">RESET PASSWORD</string>
+    <string name="user_next">Next</string>
+    <string name="user_button_sign_up">SIGN UP</string>
+    //修改登录密码
+    <string name="safety_jdlmm">Old Password</string>
+    <string name="safety_xdlmm">New Password</string>
+    <string name="safety_qrdlmm">New Password Confirm</string>
+    //Modify Transaction Password
+    <string name="safety_jzjmm">Old Transaction Password</string>
+    <string name="safety_xzjmm">New Transaction Password</string>
+    <string name="safety_qrzjmm">Confirmation of new transaction password</string>
+
+    <string name="safety_jmm_hint">Please enter the old password</string>
+    <string name="safety_jmm_hint_toast">Please enter the old password.</string>
+    <string name="safety_xmm_hint">Please enter the new password</string>
+    <string name="safety_xmm_hint_toast">Please enter the new password.</string>
+    <string name="safety_qrmm_hint">Confirmation of new login password</string>
+    <string name="safety_qrmm_hint_toast">Confirmation of new login password.</string>
+
+    //Google Verification
+    <string name="safety_my">Secret Key&#160;&#160;&#160;&#160;</string>
+    <string name="safety_xzczfs">Select operation</string>
+    <string name="safety_my_hint">Please enter secret key</string>
+    <string name="safety_kqggyz">Open Google Authentication</string>
+    <string name="safety_gbggyz">Close Google Authentication</string>
+    <string name="safety_xgggyz">Modify Google Authentication</string>
+    <string name="safety_on_open_google">You haven not open the Google certification, please open!</string>
+
+    <string name="safety_zgdl">CHINA +86</string>
+    <string name="safety_zg">China</string>
+    <string name="safety_gjxx">National Information</string>
+
+    //Real-name Verification
+    <string name="safety_tjrz">Submit</string>
+    <string name="safety_shbtg">Not be approved：</string>
+    <string name="safety_grjbxx">Personal Information</string>
+    <string name="safety_grjbxx_hint">After registering ID information,you can deposit and withdraw in small amount.</string>
+    <string name="safety_sfzxx">Submit ID certificate photos</string>
+    <string name="safety_sfzxx_hint">When ID certificate photos are passed,you can deposit and withdraw in large amount.</string>
+    <string name="safety_yhkxx">Bank Card Information Verification</string>
+    <string name="safety_yhkxx_hint">The China mainland users also need to verify their bank card.</string>
+    <string name="safety_dzzm">Proof of Address Verification</string>
+    <string name="safety_dzzm_hint">Non China mainland users also need to verify their address proof.</string>
+    <string name="safety_identification_hint">Your verification is being approved, please be patient.</string>
+    <string name="safety_identification_suc">The verification has been approved. </string>
+
+
+
+
+
+    <string name="safety_zjqd">Credentials Area</string>
+    <string name="safety_zjxm">Credentials Name</string>
+    <string name="safety_zjxm_hint">Please enter credentials name</string>
+    <string name="safety_zjxm_hint_toast">Please enter credentials name.</string>
+    <string name="safety_zjhm">Credentials Number</string>
+    <string name="safety_zjhm_hint">Please enter the correct credentials number</string>
+    <string name="safety_zjhm_hint_toast">Please enter the correct credentials number.</string>
+
+    <string name="safety_kh">Card Number</string>
+    <string name="safety_zfbzh">Alipay Account</string>
+    <string name="safety_mylszh">No history account</string>
+    <string name="safety_lsyhk">History Record</string>
+    <string name="safety_xzyh">Select Bank</string>
+    <string name="safety_xzyh_hint">Please select your bank</string>
+    <string name="safety_address_hint">Withdraw address can\'t be empty.</string>
+    <string name="safety_num_hint">Withdraw amount can\'t be empty.</string>
+    <string name="safety_num_error_hint">Withdraw amount is too much</string>
+    <string name="safety_num_error_1_hint">Withdraw amount must be at least #@.</string>
+    <string name="safety_num_error_2_hint">Exceed max amount</string>
+    <string name="safety_sms_hint">Message Captcha</string>
+    <string name="safety_sms_hint_toast">Message verification code can\'t be empty.</string>
+    <string name="safety_google_hint">Google Captcha</string>
+    <string name="safety_khyh">Bank Account</string>
+    <string name="safety_khyh_hint_toast">Please select your bank account.</string>
+    <string name="safety_yhkh">Bank Card No</string>
+    <string name="safety_yhkh_hint">Please bank card No</string>
+    <string name="safety_yhkh_hint_toast">Please bank card No.</string>
+    <string name="safety_ckr">Card Holder&#160;&#160;&#160;&#160;</string>
+    <string name="safety_ckr_hint">Please enter the name of card holder</string>
+    <string name="safety_ckr_hint_toast">Please enter the name of card holder.</string>
+    <string name="safety_ylsj">The reserved phone number</string>
+    <string name="safety_ylsj_hint">Please enter the reserved phone number of your bank card</string>
+    <string name="safety_ylsj_hint_toast">Please enter the reserved phone number of your bank card.</string>
+    <string name="safety_xzdq">Select Area</string>
+    <string name="safety_szzh">Bank Branch</string>
+    <string name="safety_szzh_hint">Please enter your bank branch</string>
+    <string name="safety_scsczjz">Upload the photo of you hold your ID certificate in hand</string>
+    <string name="safety_sczzzm">Upload Proof of Address</string>
+    <string name="safety_sczjzmz">Upload the photo of the front of your certificate </string>
+    <string name="safety_sczjfmz">Upload the photo of the back of your certificate</string>
+
+    <string name="safety_sczjz_hint">Please upload the clear photo of your ID certificate</string>
+    <string name="safety_scsczjz_hint">Please make sure you and your certificate are clear and visiable. Photomontage is not accepted.</string>
+    <string name="safety_sczzzm_hint">Please make sure your proof of address is clear and visiable. Photomontage is not accepted.</string>
+    <string name="safety_scszjzfm_hint">Please make sure the photo of your certificate is clear and visiable. Photomontage is not accepted.</string>
+    <string name="safety_scsczjz_xz_toast">Please upload the photo of you hold your ID certificate in hand.</string>
+    <string name="safety_sczjzmz_xz_toast">Please upload the photo of the front of your certificate.</string>
+    <string name="safety_sczjfmz_xz_toast">Please upload the photo of the back of your certificate.</string>
+    <string name="safety_sczzzzm_xz_toast">Please upload the proof of address.</string>
+    <string name="safety_zzzm_hint">1.Acceptable proof of address documents should include your name and address in detail,such as vaild water,electricity and gas bills dated within the latest three months,credit card bills,the certificates issued by government agencies or the judiciary and etc; 2.ID card,household register,passport,driving licence,social security card and courier receipt are not accepted as proof of address; 3.The information such as the date and address on the address proof are not accepted hand written; 4.The picture of address proof should be clearly visible(watermark is accepted).</string>
+    <string name="safety_myqkqx_toast">You have permission to open.</string>
+    <string name="safety_xfct">No permission to open floating window</string>
+
+    <!-- Finance-->
+    <string name="asset_zzczh">Total Assets(CNY) </string>
+    <string name="asset_wddz">My Receive Address:</string>
+    <string name="asset_zhye">Blance:</string>
+    <string name="asset_ky">Available：</string>
+    <string name="asset_dz">Address:</string>
+    <string name="asset_sl">Amount:</string>
+    <string name="asset_bz">Remark:</string>
+    <string name="asset_jr">Borrow:</string>
+    <string name="asset_kj">Can Borrow:</string>
+    <string name="asset_mrhl">Daily exchange rate:</string>
+    <string name="asset_mrhl_hint">not select free ticket</string>
+    <string name="asset_jr_hint">Please enter borrowing amount.</string>
+    <string name="asset_fbsl">Send Amount</string>
+    <string name="asset_dz_hint">Please select the receive address or scan</string>
+    <string name="asset_dz_hint_toast">Please select the receive address or scan.</string>
+    <string name="asset_sl_hint">Please enter send amount</string>
+    <string name="asset_sl_hint_toast">Please enter send amount.</string>
+    <string name="asset_bz_hint">Please enter remark</string>
+    <string name="asset_sjdz">Atual Receive:</string>
+    <string name="asset_dzdz">Sent to:</string>
+    <string name="asset_kgf">Miner fee</string>
+    <string name="asset_kgfd">Miner fee:</string>
+    <string name="asset_qrfb">Send</string>
+    <string name="asset_fbcg">Send successfully.</string>
+    <string name="asset_ckjl">View record</string>
+    <string name="asset_fbjl">Send record</string>
+    <string name="asset_fbjlxq">Send record detail</string>
+    <string name="asset_fbdz">Send address</string>
+    <string name="asset_yebz_toast">Insufficient Balance.</string>
+    <string name="asset_fbslbndykgf">The send amount cannot lower than miner fee</string>
+    <string name="asset_qrjxjk">Confirm to borrow?</string>
+
+    <string name="asset_sxfy">Fees:</string>
+    <string name="asset_tjsj">Submit Time:</string>
+    <string name="asset_clsj">Process Time:</string>
+    <string name="asset_clzt">Process status:</string>
+    <string name="asset_qxfb">Cancel send your funds</string>
+
+    <string name="asset_smewm">Scan QR</string>
+    <string name="asset_smcg_toast">Scan successfully.</string>
+    <string name="asset_nrwk">Content is null.</string>
+    <string name="asset_wlndzhaq">You need to verify password to secure your account</string>
+    <string name="safety_message">THE operation requires your entering&#160;</string>
+    <string name="safety_and">&amp;</string>
+
+    <string name="asset_cjtbjt">Paste from the clipboard</string>
+    <string name="asset_xzczfs">Select Operation Way</string>
+
+    <string name="asset_ljfbjl">History Send Record</string>
+    <string name="asset_zwbz">No remark currently</string>
+    <string name="asset_xgdzbz">Modify Address Remark</string>
+    <string name="asset_qnhmydz">No history send record.</string>
+
+    <string name="asset_recharge_hint">No history recharge！</string>
+    <string name="asset_carraycoin_hint">No history withdraw！</string>
+
+    <string name="asset_rzrb">Margin</string>
+    <string name="asset_yjhk">Onekey to repay</string>
+    <string name="asset_yjhk_hint">Please select the repay options</string>
+    <string name="asset_wyjk">I want to borrow</string>
+    <string name="asset_zzcjrzc">Total Asset/Borrow Asset:</string>
+    <string name="asset_qrjk">Confirm to borrow</string>
+
+
+    <string name="asset_djanbsty">Click here to agree</string>
+    <string name="asset_syxy">Agreement</string>
+    <string name="asset_rzrbxy">《Margin Service Agreement》</string>
+
+    <string name="asset_bsy">Do not use</string>
+    <string name="asset_mxj">Interest-free Ticket</string>
+    <string name="asset_dhmxj">Exchange Ticket</string>
+    <string name="asset_jfdh">Exchange with points</string>
+    <string name="asset_mydh">Exchange with secret key</string>
+    <string name="asset_my">Secret Key</string>
+    <string name="asset_mydh_hint">Interest-free Ticket can get from BitGlobal events or system present</string>
+    <string name="asset_mxj_hint">Please enter Interest-free ticket secret key</string>
+    <string name="asset_mxj_hint_toast">Please enter Interest-free ticket secret key.</string>
+    <string name="asset_xzdhfs">Select the way of exchange</string>
+    <string name="asset_zwkymxj">No available Interest-free ticket.</string>
+    <string name="asset_gqsj">Expiration Time:</string>
+    <string name="asset_xyjf">Current Points</string>
+    <string name="asset_xyjf_hint">Every 10 poingt exchange 1 Yuan Interest-free ticket,exchange start from 1000 points</string>
+    <string name="asset_dhjf">Exchange Points</string>
+    <string name="asset_dhjf_hint">Please enter exchange points amount</string>
+    <string name="asset_dhjf_hint_toast">Please enter exchange points amount.</string>
+    <string name="asset_khdxmjed">Get Interest-free ticket amount</string>
+
+    <string name="asset_jfbz_toast">Insufficient Points.</string>
+    <string name="asset_yqdq_toast">Exchange with at least 1000 points.</string>
+    <string name="asset_xzdh">Exchange Now</string>
+
+    <string name="asset_myjkjl">No borrowing record.</string>
+    <string name="asset_myyhkdjl">No outstanding repayment record.</string>
+    <string name="asset_myhkjl">No repayment record.</string>
+
+    <string name="asset_kyje">Available Amount</string>
+    <string name="asset_hkze">Total Repay Amount</string>
+    <string name="asset_hkje">Repay Amount</string>
+    <string name="asset_hkje_hint">Please enter repay amount</string>
+    <string name="asset_hkje_hint_toast">Please enter repay amount.</string>
+    <string name="asset_syje">Remaining Amount </string>
+    <string name="asset_yjyh">Borrowed/Repaid:</string>
+    <string name="asset_jrje">Borrowed Amount</string>
+    <string name="asset_yhje">Should Repay Amount</string>
+    <string name="asset_yhbj">Repaid Capital</string>
+    <string name="asset_yhze">Repaid Amount</string>
+    <string name="asset_ljlx">Accumulated Interest</string>
+    <string name="asset_khje">Repayable Amount</string>
+    <string name="asset_qrhk">Confirm to repay</string>
+    <string name="asset_yjts">Borrowed Days</string>
+    <string name="asset_whlx">Outstanding Interest</string>
+    <string name="asset_rll">Daily Rate</string>
+    <string name="asset_wsymxj">not use Interest-free ticket</string>
+    <string name="asset_mx">Interest free</string>
+    <string name="asset_zhje">Total repay:</string>
+    <string name="asset_hklxts">Notice:After repaying the capital,the interest will be deducted from account balance.</string>
+    <string name="asset_jkxq">Borrowing Details</string>
+    <string name="asset_jkje">Borrowing Amount</string>
+    <string name="asset_hkxq">Repay Details</string>
+    <string name="asset_hksj">Repay Time</string>
+
+    <string name="asset_rmbcz">CNY Deposit</string>
+    <string name="asset_rmbtx">CNY Withdraw</string>
+    <string name="asset_dcz">Pending Deposit</string>
+    <string name="asset_rmbcz_hint">You have a CNY deposit pending process.</string>
+    <string name="asset_zfbcz">Alipay Deposit</string>
+    <string name="asset_zfbcz_hint">Easy,fast and 0 fee.</string>
+    <string name="asset_yhhk">Bank remittance</string>
+    <string name="asset_yhhk_hint">Support multiple banks rimittance, safe and fast.</string>
+    <string name="asset_lszd">History Records</string>
+    <string name="asset_zdxq">Details</string>
+    <string name="asset_lszd_hint">No records</string>
+
+    <string name="asset_bill_zdlx">Type of Bills:</string>
+    <string name="asset_bill_zhye">Balance of Account:</string>
+    <string name="asset_bill_zdsj">Time:</string>
+
+
+    <string name="asset_bill_txje">Withdraw Amount</string>
+    <string name="asset_bill_txje_hint">Please enter withdraw amount</string>
+    <string name="asset_bill_skr">&#160;&#160;&#160;&#160;Payer</string>
+    <string name="asset_bill_hkr">&#160;&#160;&#160;&#160;Payer</string>
+    <string name="asset_bill_skr_hint">Please enter payee\'s name.</string>
+    <string name="asset_bill_hkr_hint">Please enter payer\'s name</string>
+
+
+    <string name="asset_bill_hksje">Enter this amount when remitting</string>
+    <string name="asset_bill_mshk">Remit Now</string>
+    <string name="asset_bill_rhzfbzz">How to transfer from Alipay?</string>
+
+    <string name="asset_bill_lsbh">Serial Numbers:</string>
+    <string name="asset_bill_hkzt">Remittance Status:</string>
+    <string name="asset_bill_txzt">Withdraw status:</string>
+    <string name="asset_bill_bzxx">Remark:</string>
+    <string name="asset_bill_hryh">Remittee Bank:</string>
+    <string name="asset_bill_skyh">Receiving Bank：</string>
+    <string name="asset_bill_hrzh">Bank account number：</string>
+    <string name="asset_bill_fkzh">Payment Account:</string>
+    <string name="asset_bill_skzh">Beneficiary Account:</string>
+    <string name="asset_bill_skr2">&#160;&#160;&#160;&#160;Payee:</string>
+    <string name="asset_bill_skf">&#160;&#160;&#160;&#160;Recipient:</string>
+    <string name="asset_bill_fkf">&#160;&#160;&#160;&#160;Payer:</string>
+
+    <string name="asset_recharge_czjl">Deposit Record</string>
+    <string name="asset_recharge_txjl">Withdraw Record</string>
+    <string name="asset_recharge_czxq">Deposit Details</string>
+    <string name="asset_recharge_txxq">Withdraw Details</string>
+    <string name="asset_recharge_czzh">Deposit Account</string>
+    <string name="asset_recharge_czzh_hint">Please enter Alipay account</string>
+    <string name="asset_recharge_czzh_hint_toast">Please enter Alipay account.</string>
+    <string name="asset_recharge_czje">Deposit Amount</string>
+    <string name="asset_recharge_czje_hint">Please enter deposit amount</string>
+    <string name="asset_recharge_czje_hint_toast">Please enter deposit amount.</string>
+    <string name="asset_qxcz">Cancel deposit</string>
+    <string name="asset_qrtx">Confirm Withdraw</string>
+    <string name="asset_qxtx">Cancel Withdraw</string>
+
+    <string name="asset_wszzjmm_toast">You haven\'t set transaction password.</string>
+    <string name="asset_wszzjmm_sz">Please set transaction password.</string>
+    <string name="asset_wsmrz">You haven\'t conducted real-name Verification</string>
+    <string name="asset_wsmrz_sz">Please conduct real-name Verification</string>
+    <string name="asset_wsmrz_hint">Your verification is being approved, please be patient.</string>
+
+    <string name="market_hqsz">Market Setting</string>
+    <string name="market_qcxz">（Sort by dragging the cell）</string>
+    <string name="market_btchq">BTC Market</string>
+    <string name="market_etchq">ETC Market</string>
+    <string name="market_ltchq">LTC Market</string>
+    <string name="market_ethhq">ETH Market</string>
+    <string name="market_24xszgj">24H High</string>
+    <string name="market_24xszdj">24H Low</string>
+    <string name="market_24xscjl">24H Volume</string>
+    <string name="market_dw_q">K</string>
+    <string name="market_dw_w">&#160;10K</string>
+    <string name="market_dw_bw">M</string>
+    <string name="market_dw_y">B</string>
+    <string name="market_t">Day</string>
+
+    <string name="market_jgsx">Please enter price ceiling.</string>
+    <string name="market_jgxx">Please enter price floor.</string>
+
+
+
+
+    <string name="save">Save</string>
+    <string name="version_hint">New Version, update or not?</string>
+    <string name="version_isnew">It is the latest version.</string>
+    <string name="no_activity">No event.</string>
+    <string name="price_max">Please enter price ceiling.</string>
+    <string name="price_min">Please enter price floor.</string>
+
+    <string name="feed_suc_toast">Submit successfully.</string>
+    <string name="feed_hint_toast">Please enter your words.</string>
+    <string name="country_toast"> Please fill in your country Name.</string>
+    <string name="realName_toast">Please enter your name.</string>
+    <string name="cardId_toast">Please enter your certificate number.</string>
+
+
+
+    <!--    K线界面-->
+    <string name="string_btc">BTC Price</string>
+    <string name="string_ltc">LTC Price</string>
+    <string name="string_etc">ETC Price</string>
+    <string name="string_eth">ETH Price</string>
+
+
+    <string name="price_btc">BTC Price</string>
+    <string name="price_ltc">LTC Price</string>
+    <string name="price_etc">ETC Price</string>
+    <string name="price_eth">ETH Price</string>
+
+    <string name="close_quota">Close indicator</string>
+    <string name="specifications">Technique Data</string>
+    <string name="one_min">1M</string>
+    <string name="three_min">3M</string>
+    <string name="five_min">5M</string>
+    <string name="fifteen_min">15M</string>
+    <string name="thirty_min">30M</string>
+    <string name="one_hour">1H</string>
+    <string name="two_hour">2H</string>
+    <string name="four_hour">4H</string>
+    <string name="six_hour">6H</string>
+    <string name="twelve_hour">12H</string>
+    <string name="one_day">1D</string>
+    <string name="three_day">3D</string>
+    <string name="one_week">1W</string>
+
+    <string name="open">Open price</string>
+    <string name="close">Clos Price</string>
+    <string name="region">Range</string>
+    <string name="vol">Volume</string>
+    <string name="high">High</string>
+    <string name="low">Low</string>
+
+
+
+    <string name="share_error_toast">Share goes wrong.</string>
+    <string name="share_suc_toast">Share successfully.</string>
+    <string name="share_remove_toast">Cancel Share.</string>
+
+
+
+    <string name="details">Details</string>
+    <string name="no_money">Your balance is insufficient</string>
+    <string name="no_coin">Your account not have coin</string>
+
+    <!-- Accessibility description sent when user starts drawing a lock pattern. [CHAR LIMIT=NONE] -->
+    <string name="lockscreen_access_pattern_start">Pattern started</string>
+    <!-- Accessibility description sent when the pattern times out and is cleared. [CHAR LIMIT=NONE] -->
+    <string name="lockscreen_access_pattern_cleared">Pattern cleared</string>
+    <!-- Accessibility description sent when user adds a cell to the pattern. [CHAR LIMIT=NONE]  -->
+    <string name="lockscreen_access_pattern_cell_added">Cell added</string>
+    <!-- Accessibility description sent when user completes drawing a pattern. [CHAR LIMIT=NONE] -->
+    <string name="lockscreen_access_pattern_detected">Pattern completed</string>
+
+
+    <!--扫码登录-->
+    <string name="home_smdl">Scan QR to login</string>
+    <string name="home_qrdl">Confirm your login</string>
+    <string name="home_kszf">Quickly pay</string>
+    <string name="home_smdl_hint1">Scan QR to confirm</string>
+    <string name="home_smdl_hint2">To secure your account, please confirm it is operated inperson</string>
+    <string name="home_smdl_hint3">You can turn on the function of scanning QR to send cryptocurrency after logining</string>
+    <string name="home_smdl_hint4">Recommendations for you base on the scanning result</string>
+
+    <!--安全中心-->
+    <string name="safety_dlyzfs">LOGIN VERIFICATION WAYS:</string>
+    <string name="safety_txyzfs">WITHDRAWAL VERIFICATION WAYS:</string>
+    <string name="safety_jyyzfs">TRANSACTION VERIFICATION WAYS:</string>
+    <string name="safety_mmyz">Password</string>
+    <string name="safety_ydyz">Offsite authentication</string>
+    <string name="safety_dxyz">Message/E-mail authentication</string>
+    <string name="safety_yxyz">Email Verification</string>
+    <string name="safety_ggyz">Google code</string>
+    <string name="safety_yjgb">Permanently closed</string>
+    <string name="safety_gblss">Close for 6 hours</string>
+    <string name="safety_szkq">Constantly open</string>
+    <string name="safety_ggrzsz">Google authentification hasn\'t been turned off</string>
+    <string name="safety_ggrzkq">You have started Google Certification</string>
+
+
+    <!--提币手续费提示-->
+    <string name="asset_pthz">Internal Transfer:</string>
+    <string name="asset_pthz_hint">Bitcoin transfer from BitGlobal account to Bitbank account isn\'t go through the Blockchain, which is free and instant transfer to the account</string>
+
+    <string name="carry_coin">Withdraw</string>
+    <string name="carry_sms_get">Please get message verification code</string>
+    <string name="carry_coin_successful">Successful operation</string>
+    <string name="trans_ex_km">To sell</string>
+
+
+
+    <!--账号管理-->
+    <string name="user_manage_zhgl">User Manage</string>
+    <string name="user_manage_hint">Logged in users</string>
+    <string name="user_manage_wqtyh">Now users</string>
+    <string name="user_id">Login ID:</string>
+    <string name="user_name">Real Name:</string>
+    <string name="user_wname">NO Authentication</string>
+    <string name="user_sqygq">Authorization is invalid</string>
+    <string name="user_sqygq_sfcxhq">Re login?</string>
+    <string name="user_sqygq_cxhq">Re login</string>
+    <string name="user_tc">Exit</string>
+    <string name="user_qh">Switch</string>
+    <string name="user_yc">Remove</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="market_detail_tab_chart_title">Chart</string>
+    <string name="market_detail_tab_analysis_title">Analysis</string>
+    <string name="market_detail_tab_others_title">Others</string>
+    <string name="market_detail_tab_others_nodata">No record.</string>
+    <string name="market_detail_tab_trade_title">Trade</string>
+    <string name="trans_exchange_price">Price</string>
+    <string name="trans_exchange_amount">Amount</string>
+    <string name="trans_exchange_total">Total:</string>
+    <string name="trans_exchange_buy_orders">Buy Orders</string>
+    <string name="trans_exchage_sell_orders">Sell Orders</string>
+    <string name="trans_input_confirm">Confirm</string>
+    <string name="trans_finished_count">Total(###)</string>
+    <string name="trans_exchange_order_detail_tab_info_title">Info</string>
+    <string name="trans_exchange_order_detail_tab_trade_title">Trade</string>
+    <string name="exchange_order_detail_title">Order Detail</string>
+    <string name="exchange_order_detail_info_date">Date</string>
+    <string name="exchange_order_detail_info_type">Type</string>
+    <string name="exchange_order_detail_info_type_buy">BUY</string>
+    <string name="exchange_order_detail_info_type_sell">SELL</string>
+    <string name="exchange_order_detail_info_price">Price</string>
+    <string name="exchange_order_detail_info_avg_price">Avg.Price</string>
+    <string name="exchange_order_detail_info_amount">Amount</string>
+    <string name="exchange_order_detail_info_finished">Finished</string>
+    <string name="exchange_order_detail_info_total">Total</string>
+    <string name="exchange_order_detail_trade_time">Time</string>
+    <string name="exchange_order_detail_info_order_price">Order.Price</string>
+    <string name="announcement_title">Announcement</string>
+    <string name="balance_empty_placeholder">0.00000000</string>
+    <string name="dialog_cancel_text">CANCEL</string>
+    <string name="dialog_withdraw">WITHDRAW</string>
+    <string name="dialog_withdraw_google_hint">Google Captcha</string>
+    <string name="dialog_set_text">SET NOW</string>
+    <string name="dialog_confirm">OK</string>
+    <string name="dialog_queren">OK</string>
+    <string name="dialog_close">CLOSE</string>
+    <string name="market_24_high">HIGH : </string>
+    <string name="market_24_low">LOW : </string>
+    <string name="market_vol">Vol:&#160;</string>
+    <string name="market_others_vol">Vol :&#160;</string>
+    <string name="market_legal_tender_symbol">$</string>
+    <string name="market_chart_6hour">6 Hours</string>
+    <string name="market_chart_1day">1 Day</string>
+    <string name="market_chart_1week">1 Week</string>
+    <string name="market_chart_1month">1 Month</string>
+    <string name="market_analysis_24hr_data">24 Hours Data</string>
+    <string name="market_analysis_high_price">High Price</string>
+    <string name="market_analysis_low_price">Low Price</string>
+    <string name="market_analysis_volume">Volume(###)</string>
+    <string name="market_analysis_buy">BUY</string>
+    <string name="market_analysis_sell">SELL</string>
+    <string name="market_analysis_change_analyze">Change Analyze</string>
+    <string name="market_analysis_change_trend_view">Trend View</string>
+    <string name="market_analysis_6_hour">6 Hours</string>
+    <string name="market_analysis_1_day">1 Day</string>
+    <string name="market_analysis_1_week">1 Week</string>
+    <string name="market_analysis_1_month">1 Month</string>
+    <string name="market_analysis_3_month">3 Month</string>
+    <string name="market_analysis_6_month">6 Month</string>
+    <string name="marker_detail_24hr_hight">24hr High</string>
+    <string name="marker_detail_1_day">1 Day</string>
+    <string name="marker_detail_24hr_low">24hr Low</string>
+    <string name="marker_detail_1_week">1 Week</string>
+    <string name="marker_detail_vol">Volume</string>
+    <string name="marker_detail_1_month">1 Month</string>
+    <string name="market_detail_trade_time">Time</string>
+    <string name="market_detail_trade_price">Price</string>
+    <string name="market_detail_trade_amount">Amount</string>
+    <string name="scan_result">Scan Result:</string>
+    <string name="scan_login_available">Available :</string>
+    <string name="title_activity_with_draw_from_scan">WithDrawFromScanActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="home_message_close">CLOSE</string>
+    <string name="dialog_update_confirm">UPDATE</string>
+    <string name="dialog_update_content"> has been released, please download and update</string>
+    <string name="cancel_order">cancel order</string>
+    <string name="dialog_cancel_order_content">Are you sure you want to cancel this order?</string>
+    <string name="dialog_alert_price">Alert Price</string>
+    <string name="dialog_alert_price_hint">Price in #</string>
+    <string name="dialog_current_price">Current Price :&#160;</string>
+    <string name="dialog_input_alert_price_toast">Price in # can\'t be empty.</string>
+    <string name="dialog_delete_confirm">Confirm to delete?</string>
+    <string name="thousand">K</string>
+    <string name="millions">M</string>
+    <string name="no_data">N/A</string>
+
+    <!--语言-->
+    <string name="zh">简体中文</string>
+    <string name="zh_rTW">繁体中文</string>
+    <string name="en">English</string>
+
+    <!--设置界面相关 设置折算货币-->
+    <string name="setting_currency">Currency</string>
+    <string name="setting_currency_USD">USD</string>
+    <string name="setting_currency_CNY">CNY</string>
+    <string name="setting_currency_EUR">EUR</string>
+    <string name="setting_currency_GBP">GBP</string>
+    <string name="setting_currency_AUD">AUD</string>
+
+    <!--建议反馈-->
+    <string name="setting_feedback_title">意见反馈</string>
+    <string name="setting_feedback_history">历史记录</string>
+    <string name="setting_feedback_sub_title">您有任何意见或建议都可以反馈给我们</string>
+    <string name="setting_feedback_function_suggest">功能建议</string>
+    <string name="setting_feedback_operator_fault">操作故障</string>
+    <string name="setting_feedback_leave_suggest">请留下您的宝贵意见</string>
+    <string name="setting_feedback_leave_contact">联系方式</string>
+    <string name="setting_feedback_input_contact">请输入手机号或邮箱</string>
+    <string name="setting_feedback_sumbit">提交</string>
+    <string name="setting_feedback_help_center">帮助中心</string>
+    <string name="setting_feedback_nodata">您尚未提交任何意见反馈</string>
+
+    <string name="scan">Scan QR Code</string>
+    <string name="set_successful_toast">Set successfully.</string>
+    <string name="log_out_toast">Account excited.</string>
+    <string name="free">Free</string>
+
+</resources>

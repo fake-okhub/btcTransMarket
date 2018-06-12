@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    style="@style/match_match"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/layout_main_header" />
+    <LinearLayout
+        style="@style/match_match_bg_color">
+        <View
+            android:layout_marginTop="@dimen/margin_padding_20"
+            style="@style/user_safety_line"/>
+        <RelativeLayout
+            android:id="@+id/rl_xzdq"
+            style="@style/rl_user_item">
+            <TextView
+                android:id="@+id/tv_zfb_zh"
+                android:text="@string/asset_recharge_czzh"
+                style="@style/tv_user_item" />
+            <EditText
+                android:layout_toRightOf="@+id/tv_zfb_zh"
+                android:layout_toLeftOf="@+id/img_zfb_r"
+                android:id="@+id/ed_zfb_zh"
+                android:hint="@string/asset_recharge_czzh_hint"
+                style="@style/ed_user_safety" />
+            <ImageView
+                android:id="@+id/img_zfb_r"
+                android:src="@mipmap/ico_more_address"
+                style="@style/img_user_item_r"/>
+        </RelativeLayout>
+        <View
+            style="@style/user_safety_line"/>
+        <RelativeLayout
+            style="@style/rl_user_item">
+            <TextView
+                android:id="@+id/tv_zfb_je"
+                android:text="@string/asset_recharge_czje"
+                style="@style/tv_user_item" />
+            <EditText
+                android:inputType="number"
+                android:layout_toRightOf="@+id/tv_zfb_je"
+                android:id="@+id/ed_zfb_je"
+                android:hint="@string/asset_recharge_czje_hint"
+                style="@style/ed_user_safety" />
+        </RelativeLayout>
+        <View
+            style="@style/user_safety_line"/>
+        <Button
+            android:id="@+id/bnt_commit"
+            android:text="@string/user_xyb"
+            android:background="@drawable/bnt_login"
+            style="@style/but_user_safety" />
+    </LinearLayout>
+</LinearLayout>

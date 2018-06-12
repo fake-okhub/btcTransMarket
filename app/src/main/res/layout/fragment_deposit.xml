@@ -1,0 +1,88 @@
+<LinearLayout
+    style="@style/match_match"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--<include layout="@layout/layout_main_header" />-->
+    <LinearLayout
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/head_title_message_text"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/account_currency_choose_detail"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            android:textSize="11sp"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:layout_width="212dp"
+            android:layout_height="212dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/img_ewm"/>
+
+        <TextView
+            android:id="@+id/tv_czdz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/btn_copy"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="45dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginTop="18dp"
+            android:text="@string/account_currency_copy_address"
+            android:textSize="12sp"
+            android:background="@drawable/btn_bottom_dark_blue_radius"/>
+
+            <TextView
+                android:id="@+id/asset_currency_info_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="16dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/account_currency_info"
+                android:textSize="11sp"
+                android:textColor="#969696"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        style="@style/match_match_bg_color">
+        <TextView
+            style="@style/tv_user_black_16"
+            android:id="@+id/tv_no_ts"
+            android:visibility="gone"
+            android:layout_centerInParent="true"
+            android:text="@string/asset_recharge_hint"/>
+        <com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayout
+            android:id="@+id/swipyrefreshlayout"
+            style="@style/match_match"
+            app:direction="both">
+            <ListView
+                android:listSelector="@color/background_color"
+                android:id="@+id/listview"
+                android:scrollbars="none"
+                android:divider="@color/vertical_line_color"
+                android:dividerHeight="@dimen/w_0.3"
+                style="@style/match_match" />
+        </com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayout>
+    </RelativeLayout>
+</LinearLayout>

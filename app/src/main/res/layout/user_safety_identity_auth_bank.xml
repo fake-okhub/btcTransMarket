@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    style="@style/match_match"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/layout_main_header" />
+    <LinearLayout
+        style="@style/match_match_bg_color">
+        <View
+            android:layout_marginTop="@dimen/margin_padding_20"
+            style="@style/user_safety_line"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/rl_khyh"
+            style="@style/rl_user_item">
+            <TextView
+                android:text="@string/safety_khyh"
+                style="@style/tv_user_item" />
+            <View
+               style="@style/weight_wrap"/>
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:id="@+id/img_bank"
+                style="@style/wrap_wrap"
+                android:layout_gravity="center_vertical"/>
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:id="@+id/ed_khyh"
+                style="@style/tv_user_gray_14" />
+            <ImageView
+                style="@style/img_user_item_r"/>
+        </LinearLayout>
+        <View
+            style="@style/user_safety_line"/>
+        <RelativeLayout
+            style="@style/rl_user_item">
+            <TextView
+                android:id="@+id/tv_yhkh"
+                android:text="@string/safety_yhkh"
+                style="@style/tv_user_item" />
+            <EditText
+                android:layout_toRightOf="@+id/tv_yhkh"
+                android:id="@+id/ed_yhkh"
+                android:hint="@string/safety_yhkh_hint"
+                style="@style/ed_user_safety" />
+        </RelativeLayout>
+        <View
+            style="@style/user_safety_line"/>
+        <RelativeLayout
+            style="@style/rl_user_item">
+            <TextView
+                android:id="@+id/tv_ckr"
+                android:text="@string/safety_ckr"
+                style="@style/tv_user_item" />
+            <EditText
+                android:editable="false"
+                android:layout_toRightOf="@+id/tv_ckr"
+                android:id="@+id/ed_ckr"
+                android:hint="@string/safety_ckr_hint"
+                style="@style/ed_user_safety" />
+        </RelativeLayout>
+        <View
+            style="@style/user_safety_line"/>
+        <RelativeLayout
+            style="@style/rl_user_item">
+            <TextView
+                android:id="@+id/tv_ylsj"
+                android:text="@string/safety_ylsj"
+                style="@style/tv_user_item" />
+            <EditText
+                android:layout_toRightOf="@+id/tv_ylsj"
+                android:id="@+id/ed_ylsj"
+                android:hint="@string/safety_ylsj_hint"
+                style="@style/ed_user_safety" />
+        </RelativeLayout>
+        <View
+            style="@style/user_safety_line"/>
+        <Button
+            android:id="@+id/bnt_commit"
+            android:text="@string/user_xyb"
+            android:background="@drawable/bnt_login"
+            style="@style/but_user_safety" />
+    </LinearLayout>
+</LinearLayout>

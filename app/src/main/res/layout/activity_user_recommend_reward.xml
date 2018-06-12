@@ -1,0 +1,11 @@
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+style="@style/match_match_bg_color">
+<include
+    android:id="@+id/layout_main_header"
+    layout="@layout/layout_main_header" />
+<WebView
+    android:id="@+id/webView"
+    android:layout_below="@+id/layout_main_header"
+    style="@style/match_match"/>
+</RelativeLayout>

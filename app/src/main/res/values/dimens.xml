@@ -1,0 +1,50 @@
+<resources>
+    <dimen name="but_height">40dp</dimen>
+
+    <dimen name="margin_padding_5">5dp</dimen>
+    <dimen name="margin_padding_8">8dp</dimen>
+    <dimen name="margin_padding_12">12dp</dimen>
+    <dimen name="margin_padding_10">10dp</dimen>
+    <dimen name="margin_padding_15">15dp</dimen>
+    <dimen name="margin_padding_20">20dp</dimen>
+    <dimen name="margin_padding_25">25dp</dimen>
+    <dimen name="margin_padding_30">30dp</dimen>
+    <dimen name="margin_padding_35">35dp</dimen>
+    <dimen name="margin_padding_40">40dp</dimen>
+    <!--控件离屏幕的边界距离-->
+    <dimen name="margin_padding_border">14.4dp</dimen>
+    <!--因为外部容器设置10，内部容器+4.4-->
+    <dimen name="margin_padding_border_small">4.4dp</dimen>
+
+    <dimen name="w_0.1">0.1dp</dimen>
+    <dimen name="w_0.3">0.3dp</dimen>
+    <dimen name="w_0.5">0.5dp</dimen>
+    <dimen name="w_1">1dp</dimen>
+    <dimen name="w_2">2dp</dimen>
+
+    <dimen name="radius_1">1dp</dimen>
+    <dimen name="radius_2">2dp</dimen>
+    <dimen name="radius_3">3dp</dimen>
+    <dimen name="radius_5">5dp</dimen>
+    <dimen name="radius_10">10dp</dimen>
+
+    <!-- 通用 -->
+    <dimen name="text_size_30">30.0sp</dimen>
+    <dimen name="text_size_26">26.0sp</dimen>
+    <dimen name="text_size_20">20.0sp</dimen>
+    <dimen name="text_size_18">18.0sp</dimen>
+    <dimen name="text_size_17">17.0sp</dimen>
+    <dimen name="text_size_16">16.0sp</dimen>
+    <dimen name="text_size_14">14.0sp</dimen>
+    <dimen name="text_size_12">12.0sp</dimen>
+    <dimen name="text_size_10">10.0sp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="asset_carrycoin_divider_margin">13dp</dimen>
+    <dimen name="user_divider_margin">16dp</dimen>
+    <dimen name="account_level_info_first_width">130dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="analysis_padding_all">14dp</dimen>
+</resources>

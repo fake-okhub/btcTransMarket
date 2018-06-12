@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_announcement"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="com.android.bitglobal.activity.user.AnnouncementListActivity">
+
+    <FrameLayout style="@style/layout_header">
+
+        <ImageView
+            android:id="@+id/activity_announcement_list_head_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/icon_sub_view_back" />
+
+        <TextView
+            android:id="@+id/activity_announcement_list_head_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="62dp"
+            android:gravity="center"
+            android:text="@string/announcement_title"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+    </FrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@drawable/bg_shadow_bottom" />
+
+    <com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayout
+        android:id="@+id/swipyrefreshlayout"
+        style="@style/match_match"
+        app:direction="both">
+        <ListView
+            android:id="@+id/activity_announcement_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:listSelector="@android:color/transparent"
+            android:background="@color/white"
+            android:divider="@color/background_color"
+            android:dividerHeight="0dp"
+            android:scrollbars="none" />
+    </com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayout>
+
+</LinearLayout>

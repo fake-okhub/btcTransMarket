@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/match_match">
+	<ScrollView
+		android:id="@+id/sv_market_grid"
+		style="@style/match_wrap"
+		android:fillViewport="true"
+		android:scrollbars="none" >
+		<GridView
+			android:id="@+id/gridview"
+			style="@style/match_wrap"
+			android:listSelector="@null"
+			android:numColumns="5"
+			android:scrollbars="none"
+			android:stretchMode="columnWidth"
+			android:horizontalSpacing="1dp"
+			android:verticalSpacing="1dp"
+			android:background="@color/background_color" />
+	</ScrollView>
+</LinearLayout>

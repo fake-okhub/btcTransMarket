@@ -1,0 +1,170 @@
+<LinearLayout
+    style="@style/match_match"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/layout_main_header" />
+    <LinearLayout
+        style="@style/match_match_bg_color">
+        <View
+            android:layout_marginTop="@dimen/margin_padding_20"
+            style="@style/user_safety_line"/>
+        <RelativeLayout
+            android:id="@+id/rl_kyye"
+            style="@style/rl_user_item">
+            <TextView
+                android:id="@+id/tv_ky"
+                android:text="@string/asset_ky"
+                style="@style/tv_user_item" />
+            <TextView
+                android:text="0.00"
+                android:id="@+id/ed_ky"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/tv_ky"
+                style="@style/tv_asset_red" />
+            <TextView
+                android:text="BTC"
+                android:id="@+id/ed_dw"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/ed_ky"
+                style="@style/tv_asset_gray" />
+        </RelativeLayout>
+        <View
+            style="@style/user_safety_line"/>
+        <View
+            android:layout_marginTop="@dimen/margin_padding_10"
+            style="@style/user_safety_line"/>
+        <RelativeLayout
+            style="@style/rl_user_item">
+            <TextView
+                android:id="@+id/tv_dz"
+                android:text="@string/asset_dz"
+                style="@style/tv_user_item" />
+            <TextView
+                android:id="@+id/ed_dz"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/margin_padding_10"
+                android:layout_marginRight="@dimen/margin_padding_10"
+                android:layout_toRightOf="@+id/tv_dz"
+                android:layout_toLeftOf="@+id/img_xzdz"
+                android:hint="@string/asset_dz_hint"
+                style="@style/tv_asset_black" />
+            <ImageView
+                android:id="@+id/img_xzdz"
+                android:layout_alignParentRight="true"
+                android:src="@mipmap/ico_more_address"
+                style="@style/tv_asset_gray" />
+        </RelativeLayout>
+        <View
+            style="@style/user_safety_line"/>
+        <View
+            android:layout_marginTop="@dimen/margin_padding_10"
+            style="@style/user_safety_line"/>
+        <RelativeLayout
+            style="@style/rl_user_item">
+            <TextView
+                android:id="@+id/tv_sl"
+                android:text="@string/asset_sl"
+                style="@style/tv_user_item" />
+            <EditText
+                android:id="@+id/ed_sl"
+                android:inputType="numberDecimal"
+                android:layout_toRightOf="@+id/tv_sl"
+                android:hint="@string/asset_sl_hint"
+                style="@style/ed_user_safety" />
+        </RelativeLayout>
+        <View
+            style="@style/user_safety_line"/>
+        <View
+            android:layout_marginTop="@dimen/margin_padding_10"
+            style="@style/user_safety_line"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/rl_kgf"
+            style="@style/rl_user_item">
+            <TextView
+                android:text="@string/asset_kgfd"
+                style="@style/tv_user_item" />
+            <TextView
+                android:paddingLeft="@dimen/margin_padding_10"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/ed_kgf"
+                style="@style/tv_user_gray_14" />
+            <View
+                style="@style/weight_wrap"/>
+            <ImageView
+                style="@style/img_user_item_r"/>
+        </LinearLayout>
+        <View
+            style="@style/user_safety_line"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            style="@style/rl_user_item">
+            <ImageView
+                android:layout_gravity="center_vertical"
+                android:src="@mipmap/ico_tips"
+                style="@style/wrap_wrap" />
+            <TextView
+                android:id="@+id/tv_hint"
+                android:layout_margin="@dimen/margin_padding_5"
+                style="@style/tv_user_gray_12" />
+        </LinearLayout>
+        <View
+            style="@style/user_safety_line"/>
+        <LinearLayout
+            android:visibility="gone"
+            style="@style/match_wrap">
+            <View
+                android:layout_marginTop="@dimen/margin_padding_10"
+                style="@style/user_safety_line"/>
+            <RelativeLayout
+                style="@style/rl_user_item">
+                <TextView
+                    android:id="@+id/tv_bz"
+                    android:text="@string/asset_bz"
+                    style="@style/tv_user_item" />
+                <EditText
+                    android:id="@+id/ed_bz"
+                    android:layout_toRightOf="@+id/tv_bz"
+                    android:hint="@string/asset_bz_hint"
+                    style="@style/ed_user_safety" />
+            </RelativeLayout>
+            <View
+                style="@style/user_safety_line"/>
+        </LinearLayout>
+        <View
+            android:layout_marginTop="@dimen/margin_padding_10"
+            style="@style/user_safety_line"/>
+        <RelativeLayout
+            style="@style/rl_user_item">
+            <TextView
+                android:id="@+id/tv_pthz"
+                android:text="@string/asset_pthz"
+                style="@style/tv_user_item" />
+            <com.android.bitglobal.view.SwitchView
+                style="@style/sv_user"
+                android:id="@+id/view_switch"/>
+        </RelativeLayout>
+        <View
+            style="@style/user_safety_line"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            style="@style/rl_user_item">
+            <ImageView
+                android:layout_gravity="center_vertical"
+                android:src="@mipmap/ico_tips"
+                style="@style/wrap_wrap" />
+            <TextView
+                android:id="@+id/tv_hint2"
+                android:layout_margin="@dimen/margin_padding_5"
+                style="@style/tv_user_gray_12" />
+        </LinearLayout>
+        <View
+            style="@style/user_safety_line"/>
+        <Button
+            android:id="@+id/bnt_commit"
+            android:text="@string/asset_qrfb"
+            android:background="@drawable/bnt_login"
+            style="@style/but_user_safety" />
+    </LinearLayout>
+</LinearLayout>

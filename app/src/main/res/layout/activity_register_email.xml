@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/match_match">
+
+    <include layout="@layout/layout_main_header" />
+
+    <LinearLayout style="@style/login_sign_up_layout">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/ed_name"
+                style="@style/user_edit_login"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:drawableLeft="@mipmap/ico_user"
+                android:hint="@string/user_srndyx"
+                android:inputType="textEmailAddress"
+                android:typeface="monospace" />
+
+            <ImageView
+                android:id="@+id/clearEdNameImage"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:visibility="gone"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:background="@mipmap/user_clear"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_dxyzm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/line_market_gray" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/ed_code"
+                    style="@style/user_edit_login"
+                    android:layout_width="220dp"
+                    android:layout_height="55dp"
+                    android:layout_toLeftOf="@+id/bnt_code"
+                    android:drawableLeft="@mipmap/ico_lock"
+                    android:hint="@string/user_yxyzm"
+                    android:typeface="monospace" />
+
+                <View
+                    android:layout_width="0.5dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/line_market_gray" />
+
+                <Button
+                    android:id="@+id/bnt_code"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#00000000"
+                    android:gravity="center"
+                    android:text="@string/user_hqyzm"
+                    android:textColor="@color/text_color_blue"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/line_market_gray" />
+
+        <EditText
+            android:id="@+id/ed_pwd"
+            style="@style/user_edit_login"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_toLeftOf="@+id/img_eyes_close"
+            android:drawableLeft="@mipmap/ico_lock"
+            android:hint="@string/user_qssmm"
+            android:inputType="textPassword"
+            android:typeface="monospace" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/line_market_gray" />
+
+        <EditText
+            android:id="@+id/ed_pwd2"
+            style="@style/user_edit_login"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_toLeftOf="@+id/img_eyes_close2"
+            android:drawableLeft="@mipmap/ico_lock"
+            android:hint="@string/user_qqrmm"
+            android:inputType="textPassword"
+            android:typeface="monospace" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/line_market_gray" />
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/btn_sign_up_bg"
+            android:text="@string/user_start_now_confirm"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|bottom"
+            android:paddingBottom="38dp">
+
+            <TextView
+                android:id="@+id/tv_forget"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="bottom|center_horizontal"
+                android:text="@string/user_register_by_phone"
+                android:textColor="@color/bottom_blue"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        style="@style/match_match"
+        android:visibility="gone">
+        <ImageView
+            android:id="@+id/btn_head_back"
+            android:layout_margin="@dimen/margin_padding_10"
+            android:src="@mipmap/btn_return_red"
+            style="@style/wrap_wrap" />
+        <LinearLayout
+            android:layout_marginTop="70dp"
+            android:paddingLeft="@dimen/margin_padding_30"
+            android:paddingRight="@dimen/margin_padding_30"
+            style="@style/match_wrap">
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/user_zczgbtb"
+                style="@style/tv_user_black_18" />
+            <LinearLayout
+                android:layout_marginTop="@dimen/margin_padding_30"
+                android:background="@drawable/user_select_t_bg"
+                style="@style/match_wrap">
+                <!--<EditText-->
+                    <!--android:id="@+id/ed_name"-->
+                    <!--android:inputType="textEmailAddress"-->
+                    <!--android:hint="@string/user_srndyx"-->
+                <!--android:typeface="monospace"-->
+                    <!--android:drawableLeft="@mipmap/ico_user"-->
+                    <!--style="@style/ed_user_login" />-->
+                <!--<LinearLayout-->
+                    <!--android:id="@+id/ll_dxyzm"-->
+                    <!--style="@style/match_wrap">-->
+                    <!--<View-->
+                        <!--style="@style/user_safety_line"/>-->
+                    <!--<RelativeLayout-->
+                        <!--style="@style/match_wrap">-->
+                        <!--<EditText-->
+                            <!--android:id="@+id/ed_code"-->
+                            <!--android:hint="@string/user_yxyzm_hint"-->
+                            <!--android:layout_toLeftOf="@+id/bnt_code"-->
+                <!--android:typeface="monospace"-->
+                            <!--android:drawableLeft="@mipmap/ico_lock"-->
+                            <!--style="@style/ed_user_login"  />-->
+                        <!--<Button-->
+                            <!--android:id="@+id/bnt_code"-->
+                            <!--android:text="@string/user_hqyzm"-->
+                            <!--android:background="@drawable/bnt_login_gray"-->
+                            <!--style="@style/bnt_user_verify_code"/>-->
+                    <!--</RelativeLayout>-->
+                <!--</LinearLayout>-->
+                <LinearLayout
+                    android:id="@+id/ll_pwd"
+                    style="@style/match_wrap">
+                    <View
+                        style="@style/user_safety_line"/>
+                    <RelativeLayout
+                        style="@style/match_wrap">
+                        <!--<EditText-->
+                            <!--android:id="@+id/ed_pwd"-->
+                            <!--android:inputType="textPassword"-->
+                            <!--android:hint="@string/user_szdlmm"-->
+                        <!--android:typeface="monospace"-->
+                            <!--android:layout_toLeftOf="@+id/img_eyes_close"-->
+                            <!--android:drawableLeft="@mipmap/ico_lock"-->
+                            <!--style="@style/ed_user_login"  />-->
+                        <ImageView
+                            android:id="@+id/img_eyes_close"
+                            style="@style/img_user_login_r"
+                            android:src="@mipmap/ico_eyes_close" />
+                    </RelativeLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/ll_pwd2"
+                    style="@style/match_wrap">
+                    <View
+                        style="@style/user_safety_line"/>
+                    <RelativeLayout
+                        style="@style/match_wrap">
+                        <!--<EditText-->
+                            <!--android:id="@+id/ed_pwd2"-->
+                            <!--android:inputType="textPassword"-->
+                        <!--android:typeface="monospace"-->
+                            <!--android:hint="@string/user_qrdlmm"-->
+                            <!--android:layout_toLeftOf="@+id/img_eyes_close2"-->
+                            <!--android:drawableLeft="@mipmap/ico_lock"-->
+                            <!--style="@style/ed_user_login"  />-->
+                        <ImageView
+                            android:id="@+id/img_eyes_close2"
+                            style="@style/img_user_login_r"
+                            android:src="@mipmap/ico_eyes_close" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <!--<Button-->
+                <!--android:id="@+id/btn_register"-->
+                <!--android:text="@string/user_wczc"-->
+                <!--android:background="@drawable/bnt_login"-->
+                <!--style="@style/but_user_login" />-->
+        </LinearLayout>
+        <!--<LinearLayout-->
+            <!--android:padding="@dimen/margin_padding_20"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--style="@style/match_wrap">-->
+            <!--<TextView-->
+                <!--android:layout_gravity="center_horizontal"-->
+                <!--android:id="@+id/tv_forget"-->
+                <!--android:text="@string/user_qhzsjhzc"-->
+                <!--style="@style/tv_user_black_12"/>-->
+        <!--</LinearLayout>-->
+    </RelativeLayout>
+
+</LinearLayout>

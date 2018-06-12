@@ -1,0 +1,51 @@
+<LinearLayout
+style="@style/match_match"
+xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    style="@style/match_wrap">
+    <LinearLayout
+        android:id="@+id/ll_asset_record"
+        android:padding="@dimen/margin_padding_5"
+        android:background="@drawable/bnt_click_background"
+        style="@style/match_wrap">
+        <LinearLayout
+            style="@style/match_wrap_h">
+            <TextView
+                android:id="@+id/tv_sl"
+                style="@style/tv_user_red_18" />
+            <TextView
+                android:id="@+id/tv_dw"
+                android:layout_marginLeft="@dimen/margin_padding_10"
+                style="@style/tv_user_black_14" />
+            <TextView
+                android:id="@+id/tv_zt"
+                android:textColor="@color/text_color_green"
+                android:layout_marginLeft="@dimen/margin_padding_10"
+                style="@style/tv_user_gray_14" />
+            <View
+                android:layout_height="0.1dp"
+                style="@style/weight_wrap"/>
+            <TextView
+                android:id="@+id/tv_sj"
+                android:layout_marginLeft="@dimen/margin_padding_10"
+                android:layout_gravity="center_vertical"
+                style="@style/tv_user_gray_14" />
+        </LinearLayout>
+        <LinearLayout
+            style="@style/match_wrap_h">
+            <ImageView
+                android:layout_gravity="center_vertical"
+                android:src="@mipmap/ico_address_form"
+                style="@style/wrap_wrap"/>
+            <TextView
+                android:id="@+id/tv_dz"
+                android:layout_marginLeft="@dimen/margin_padding_10"
+                android:layout_gravity="center_vertical"
+                style="@style/tv_user_gray_14" />
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:layout_marginBottom="@dimen/w_0.1"
+        style="@style/user_safety_line"/>
+</LinearLayout>
+</LinearLayout>

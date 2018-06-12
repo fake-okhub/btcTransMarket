@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/match_match_bg_color">
+    <LinearLayout
+        android:padding="@dimen/margin_padding_10"
+        style="@style/match_wrap_h_bg_white">
+        <LinearLayout
+            android:layout_gravity="center_vertical"
+            android:id="@+id/ll_currency"
+            style="@style/weight_wrap_h">
+            <ImageView
+                android:id="@+id/img_xz"
+                android:src="@mipmap/ico_checkmark"
+                style="@style/wrap_wrap_cv"/>
+            <TextView
+                android:id="@+id/tv_currency_name"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center_vertical"
+                style="@style/tv_user_black_16"/>
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/img_sort"
+            android:src="@mipmap/ico_sort"
+            style="@style/wrap_wrap_cv" />
+    </LinearLayout>
+
+</LinearLayout>

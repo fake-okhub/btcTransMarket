@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/match_match">
+
+    <include layout="@layout/layout_main_header" />
+
+    <include layout="@layout/content_with_draw_from_scan" />
+
+</LinearLayout>

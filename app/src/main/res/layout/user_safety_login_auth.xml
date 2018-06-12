@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    style="@style/match_match"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/layout_main_header" />
+    <LinearLayout
+        style="@style/match_match_bg_color">
+        <TextView
+            android:id="@+id/tv_safet_hint"
+            style="@style/tv_user_gray_14"
+            android:layout_marginBottom="@dimen/margin_padding_10"
+            android:layout_marginLeft="@dimen/margin_padding_border"
+            android:layout_marginTop="20dp"
+            />
+
+        <LinearLayout
+            android:id="@+id/ll_login_or_withdraw"
+            style="@style/match_wrap">
+            <LinearLayout
+                android:id="@+id/ll_safety_mm1"
+                style="@style/match_wrap">
+                <View
+                    style="@style/user_safety_line"/>
+                <RelativeLayout
+                    android:id="@+id/rl_safety_mm1"
+                    style="@style/rl_safety_item"
+                    android:background="@drawable/bnt_click_background">
+                    <TextView
+                        android:id="@+id/tv_safety_mm1"
+                        style="@style/tv_user_item_safety_center" />
+                    <ImageView
+                        android:id="@+id/img_safety_mm1"
+                        android:layout_gravity="center_vertical"
+                        style="@style/img_safety_item_r"/>
+                </RelativeLayout>
+            </LinearLayout>
+            <View
+                style="@style/user_safety_line"
+                android:layout_marginLeft="@dimen/margin_padding_border" />
+
+            <RelativeLayout
+                android:id="@+id/rl_safety_mm2"
+                style="@style/rl_safety_item"
+                android:background="@drawable/bnt_click_background">
+                <TextView
+                    android:id="@+id/tv_safety_mm2"
+                    style="@style/tv_user_item_safety_center" />
+                <ImageView
+                    android:id="@+id/img_safety_mm2"
+                    android:layout_gravity="center_vertical"
+                    style="@style/img_safety_item_r"/>
+            </RelativeLayout>
+            <LinearLayout
+                android:id="@+id/ll_safety_mm3"
+                style="@style/match_wrap">
+
+                <View
+                    style="@style/user_safety_line"
+                    android:layout_marginLeft="@dimen/margin_padding_border" />
+
+                <RelativeLayout
+                    android:id="@+id/rl_safety_mm3"
+                    style="@style/rl_safety_item">
+
+                    <TextView
+                        android:id="@+id/tv_safety_mm3"
+                        style="@style/tv_user_item_safety_center" />
+
+                    <ImageView
+                        android:id="@+id/img_safety_mm3"
+                        style="@style/img_safety_item_r"
+                        android:layout_gravity="center_vertical" />
+                </RelativeLayout>
+            </LinearLayout>
+            <View
+                style="@style/user_safety_line"
+                android:layout_marginLeft="@dimen/margin_padding_border" />
+
+            <LinearLayout
+                android:id="@+id/ll_safety_mm4"
+                style="@style/match_wrap">
+                <RelativeLayout
+                    android:id="@+id/rl_safety_mm4"
+                    style="@style/rl_safety_item"
+                    android:background="@drawable/bnt_click_background">
+                    <TextView
+                        android:id="@+id/tv_safety_mm4"
+                        style="@style/tv_user_item_safety_center" />
+                    <ImageView
+                        android:id="@+id/img_safety_mm4"
+                        android:layout_gravity="center_vertical"
+                        style="@style/img_safety_item_r"/>
+                </RelativeLayout>
+                <View
+                    style="@style/user_safety_line"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/ll_trans"
+            style="@style/match_wrap">
+            <View
+                style="@style/user_safety_line"/>
+            <RelativeLayout
+                android:id="@+id/rl_safety_yjgb"
+                style="@style/rl_safety_item"
+                android:background="@drawable/bnt_click_background">
+                <TextView
+                    android:id="@+id/tv_safety_yjgb"
+                    android:text="@string/safety_yjgb"
+                    style="@style/tv_user_item_safety_center" />
+                <ImageView
+                    android:id="@+id/img_safety_yjgb"
+                    android:layout_gravity="center_vertical"
+                    style="@style/img_safety_item_r"/>
+            </RelativeLayout>
+            <View
+                style="@style/user_safety_line"/>
+            <RelativeLayout
+                android:id="@+id/rl_safety_gblss"
+                style="@style/rl_safety_item"
+                android:background="@drawable/bnt_click_background">
+                <TextView
+                    android:id="@+id/tv_safety_gblss"
+                    android:text="@string/safety_gblss"
+                    style="@style/tv_user_item_safety_center" />
+                <ImageView
+                    android:id="@+id/img_safety_gblss"
+                    android:layout_gravity="center_vertical"
+                    style="@style/img_safety_item_r"/>
+            </RelativeLayout>
+            <View
+                style="@style/user_safety_line"/>
+            <RelativeLayout
+                android:id="@+id/rl_safety_szkq"
+                style="@style/rl_safety_item"
+                android:background="@drawable/bnt_click_background">
+                <TextView
+                    android:id="@+id/tv_safety_szkq"
+                    android:text="@string/safety_szkq"
+                    style="@style/tv_user_item_safety_center" />
+                <ImageView
+                    android:id="@+id/img_safety_szkq"
+                    android:layout_gravity="center_vertical"
+                    style="@style/img_safety_item_r"/>
+            </RelativeLayout>
+            <View
+                style="@style/user_safety_line"/>
+            <!--<View-->
+            <!--android:layout_marginTop="@dimen/margin_padding_10"-->
+            <!--style="@style/user_safety_line"/>-->
+            <RelativeLayout
+                style="@style/rl_user_item"
+                android:visibility="gone"
+                android:background="@drawable/bnt_click_background">
+                <TextView
+                    android:text="@string/user_jyecyz"
+                    style="@style/tv_user_item_safety_center" />
+                <com.android.bitglobal.view.SwitchView
+                    style="@style/sv_user"
+                    android:id="@+id/view_switch_jyecyz"/>
+            </RelativeLayout>
+            <View
+                style="@style/user_safety_line"
+                android:visibility="gone"/>
+        </LinearLayout>
+        <Button
+            android:id="@+id/bnt_commit"
+            style="@style/btn_normal_submit"
+            android:text="@string/user_qr" />
+    </LinearLayout>
+</LinearLayout>

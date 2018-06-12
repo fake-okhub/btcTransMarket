@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.android.bitglobal.ui.MaterialRippleLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:descendantFocusability="blocksDescendants"
+    app:mrl_rippleAlpha="0.2"
+    app:mrl_rippleColor="#585858"
+    app:mrl_rippleHover="true"
+    app:mrl_rippleOverlay="true"
+    >
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="130dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bnt_click_background"
+            android:descendantFocusability="blocksDescendants"
+            android:orientation="vertical">
+
+            <!--第一行 头部布局-->
+            <RelativeLayout
+                android:id="@+id/ll_market_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <!--<LinearLayout-->
+                <!--android:id="@+id/ll_market_rate"-->
+                <!--android:layout_width="100dp"-->
+                <!--android:layout_height="26dp"-->
+                <!--android:gravity="center_vertical|end"-->
+                <!--android:visibility="gone">-->
+                <!--&lt;!&ndash;style="@style/ll_market_rate">&ndash;&gt;-->
+                <!--<TextView-->
+                <!--android:id="@+id/tv_market_jj"-->
+                <!--style="@style/tv_user_white_14"-->
+                <!--android:layout_gravity="center_vertical"-->
+                <!--android:text="+" />-->
+
+                <!--<TextView-->
+                <!--android:id="@+id/tv_market_ratee"-->
+                <!--style="@style/tv_user_black_14"-->
+                <!--android:layout_gravity="center_vertical"-->
+                <!--android:gravity="center"-->
+                <!--android:text="0.00%"-->
+                <!--android:textColor="@color/white" />-->
+                <!--</LinearLayout>-->
+                <!--虚拟货币图标-->
+                <ImageView
+                    android:id="@+id/img_type"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="16dp"
+                    android:scaleType="fitCenter" />
+
+                <!--虚拟货币名称 和 简写-->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_toRightOf="@id/img_type"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_currency_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color_black"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_currency_english_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color_gray"
+                        android:textSize="11sp" />
+                </LinearLayout>
+
+                <!--  + - 涨跌幅  -->
+                <TextView
+                    android:id="@+id/tv_market_rate"
+                    style="@style/text_color_padding"
+                    android:layout_width="wrap_content"
+                    android:layout_height="23dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginEnd="14dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/bnt_trans_no_change_solid"
+                    android:gravity="center"
+                    android:paddingEnd="8dp"
+                    android:paddingStart="8dp"
+                    android:text="--%"
+                    android:textColor="@color/white"
+                    android:textSize="13sp" />
+            </RelativeLayout>
+
+            <FrameLayout
+                android:id="@+id/ll_market_detail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <lecho.lib.hellocharts.view.LineChartView
+                    android:id="@+id/linechart2"
+                    android:layout_width="220dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="14dp"
+                    android:layout_marginStart="14dp"
+                    android:focusable="true"
+                    android:minHeight="50dp"
+                    android:minWidth="200dp"
+                    android:visibility="invisible" />
+
+                <!--最右侧布局-->
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="end"
+                    android:layout_marginEnd="14dp">
+
+                    <TextView
+                        android:id="@+id/tv_currentPrice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:drawablePadding="4dp"
+                        android:gravity="end"
+                        android:maxEms="10"
+                        android:text="--"
+                        android:textColor="@color/text_color_black"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/tv_currentPrice_symbol"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toLeftOf="@id/tv_currentPrice"
+                        android:paddingTop="4dp"
+                        android:textColor="@color/text_color_black"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/tv_24xszgj"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_below="@id/tv_currentPrice"
+                        android:layout_marginTop="8dp"
+                        android:gravity="end"
+                        android:text="$ --"
+                        android:textColor="@color/text_color_gray"
+                        android:textSize="11sp" />
+
+                    <TextView
+                        android:id="@+id/tv_24xszdj"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_below="@id/tv_24xszgj"
+                        android:layout_marginTop="5dp"
+                        android:gravity="end"
+                        android:text="@string/market_vol"
+                        android:textColor="@color/text_color_gray"
+                        android:textSize="11sp" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_gravity="bottom"
+                    android:background="@drawable/bg_shadow_bottom" />
+            </FrameLayout>
+            <!--<LinearLayout-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:visibility="gone">-->
+
+            <!--<ImageView-->
+            <!--android:id="@+id/img_market_fh"-->
+            <!--style="@style/wrap_wrap"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:paddingRight="10dp"-->
+            <!--android:src="@mipmap/icon_exchange_price_up" />-->
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:visibility="gone"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="12dp"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--android:text="@string/market_24_high"-->
+            <!--android:textColor="@color/text_color_gray"-->
+            <!--android:textSize="11sp" />-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/tv_24xszgjj"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--android:gravity="end"-->
+            <!--android:textColor="@color/text_color_gray"-->
+            <!--android:textSize="11sp" />-->
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="6dp"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--android:text="@string/market_24_low"-->
+            <!--android:textColor="@color/text_color_gray"-->
+            <!--android:textSize="11sp" />-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/tv_24xszdjj"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--android:gravity="end"-->
+            <!--android:text="123123"-->
+            <!--android:textColor="@color/text_color_gray"-->
+            <!--android:textSize="11sp" />-->
+            <!--</LinearLayout>-->
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</com.android.bitglobal.ui.MaterialRippleLayout>

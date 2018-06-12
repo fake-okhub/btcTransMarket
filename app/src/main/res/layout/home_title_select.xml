@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/match_wrap">
+	<ImageView
+		android:id="@+id/dropdown_arrow"
+		android:layout_alignParentRight="true"
+		android:layout_marginRight="@dimen/margin_padding_20"
+		android:src="@mipmap/dropdown_arrow"
+		style="@style/wrap_wrap" />
+	<LinearLayout
+		android:layout_marginRight="@dimen/margin_padding_10"
+		android:layout_below="@+id/dropdown_arrow"
+		android:layout_alignParentRight="true"
+		android:paddingLeft="@dimen/margin_padding_10"
+		android:paddingRight="@dimen/margin_padding_10"
+		style="@style/wrap_wrap">
+		<TextView
+			android:id="@+id/tv_hqsz"
+			android:padding="@dimen/margin_padding_10"
+			android:text="@string/market_hqsz"
+			android:visibility="gone"
+			android:drawablePadding="@dimen/margin_padding_10"
+			android:drawableLeft="@mipmap/dropdown_config"
+			style="@style/tv_user_white_14" />
+		<View
+			android:visibility="gone"
+			style="@style/user_safety_line"/>
+		<TextView
+			android:id="@+id/tv_jgyj"
+			android:text="@string/user_jgyj"
+			android:padding="@dimen/margin_padding_10"
+			android:drawablePadding="@dimen/margin_padding_10"
+			android:drawableLeft="@mipmap/dropdown_alert"
+			style="@style/tv_user_white_14" />
+		<View
+			android:visibility="gone"
+			style="@style/user_safety_line"/>
+		<TextView
+			android:id="@+id/tv_rzrb"
+			android:text="@string/asset_rzrb"
+			android:visibility="gone"
+			android:padding="@dimen/margin_padding_10"
+			android:drawablePadding="@dimen/margin_padding_10"
+			android:drawableLeft="@mipmap/dropdown_loan"
+			style="@style/tv_user_white_14" />
+		<View
+			style="@style/user_safety_line"/>
+		<TextView
+			android:id="@+id/tv_sys"
+			android:text="@string/asset_smewm"
+			android:padding="@dimen/margin_padding_10"
+			android:drawablePadding="@dimen/margin_padding_10"
+			android:drawableLeft="@mipmap/dropdown_scan"
+			style="@style/tv_user_white_14" />
+		<View
+			style="@style/user_safety_line"/>
+		<TextView
+			android:id="@+id/tv_yhgl"
+			android:text="@string/user_manage_zhgl"
+			android:padding="@dimen/margin_padding_10"
+			android:drawablePadding="@dimen/margin_padding_10"
+			android:drawableLeft="@mipmap/dropdown_users"
+			style="@style/tv_user_white_14" />
+	</LinearLayout>
+</RelativeLayout>

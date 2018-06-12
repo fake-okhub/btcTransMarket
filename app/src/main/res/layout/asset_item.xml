@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	style="@style/match_match_bg_color"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<LinearLayout
+		style="@style/match_wrap"
+		android:background="@drawable/user_select_t_bg"
+		android:layout_margin="@dimen/margin_padding_10">
+		<LinearLayout
+			android:padding="@dimen/margin_padding_5"
+			style="@style/match_wrap_h">
+			<ImageView
+				android:id="@+id/img_assets_type"
+				android:layout_marginLeft="@dimen/margin_padding_5"
+				android:layout_gravity="center_vertical"
+				android:src="@mipmap/ico_eth_asset"
+				style="@style/wrap_wrap" />
+			<TextView
+				android:id="@+id/tv_assets_type"
+				android:text="ETH 以太币"
+				android:layout_gravity="center_vertical"
+				android:layout_margin="@dimen/margin_padding_5"
+				style="@style/tv_user_black_14" />
+		</LinearLayout>
+		<View
+			style="@style/trans_asset_line"/>
+		<RelativeLayout
+			android:id="@+id/rl_assets_jr"
+			android:background="@drawable/bnt_click_background"
+			android:padding="@dimen/margin_padding_5"
+			style="@style/match_wrap">
+			<TextView
+				android:layout_marginLeft="@dimen/margin_padding_5"
+				android:id="@+id/tv_assets_ky"
+				android:text="可用ETH："
+				style="@style/tv_user_gray_12"/>
+			<TextView
+				android:id="@+id/tv_assets_ky_sl"
+				android:layout_below="@+id/tv_assets_ky"
+				android:layout_marginTop="@dimen/margin_padding_5"
+				android:layout_marginLeft="@dimen/margin_padding_5"
+				android:text="0.00"
+				style="@style/tv_user_black_18"/>
+			<ImageView
+				style="@style/wrap_wrap"
+				android:layout_centerVertical="true"
+				android:layout_alignParentRight="true"
+				android:src="@mipmap/ico_arrowright" />
+		</RelativeLayout>
+		<View
+			style="@style/trans_asset_line"/>
+		<LinearLayout
+			android:padding="@dimen/margin_padding_10"
+			style="@style/match_wrap_h_bg_white">
+			<TextView
+				android:id="@+id/tv_assets_dj"
+				android:text="冻结ETH：0.00"
+				android:layout_weight="1"
+				style="@style/tv_user_gray_12"/>
+			<TextView
+				android:id="@+id/tv_assets_jr"
+				android:layout_marginLeft="@dimen/margin_padding_5"
+				android:text="借入ETH：0.00"
+				android:layout_weight="1"
+				style="@style/tv_user_gray_12"/>
+		</LinearLayout>
+		<LinearLayout
+			android:background="@drawable/user_asset_b_bg"
+			style="@style/match_wrap_h">
+			<LinearLayout
+				android:id="@+id/ll_asset_cz"
+				android:background="@drawable/user_asset_l_b_bg"
+				style="@style/weight_wrap">
+				<LinearLayout
+					android:layout_gravity="center_horizontal"
+					style="@style/wrap_wrap_h">
+					<ImageView
+						android:id="@+id/img_assets_cz"
+						android:src="@mipmap/ico_payin_white"
+						style="@style/wrap_wrap_cv" />
+					<TextView
+						android:id="@+id/tv_assets_cz"
+						android:text="@string/trans_sb"
+						android:layout_margin="@dimen/margin_padding_10"
+						android:layout_gravity="center"
+						style="@style/tv_user_white_14" />
+				</LinearLayout>
+			</LinearLayout>
+			<View
+				android:layout_marginTop="@dimen/margin_padding_5"
+				android:layout_marginBottom="@dimen/margin_padding_5"
+				android:layout_width="@dimen/w_0.1"
+				android:layout_height="match_parent"
+				android:background="@color/background_color_white"/>
+			<LinearLayout
+				android:id="@+id/ll_asset_tx"
+				android:background="@drawable/user_asset_r_b_bg"
+				style="@style/weight_match">
+				<LinearLayout
+					android:layout_gravity="center_horizontal"
+					style="@style/wrap_wrap_h">
+					<ImageView
+						android:id="@+id/img_assets_tx"
+						android:src="@mipmap/ico_payout_white"
+						style="@style/wrap_wrap_cv" />
+					<TextView
+						android:id="@+id/tv_assets_tx"
+						android:text="@string/trans_fb"
+						android:layout_margin="@dimen/margin_padding_10"
+						android:layout_gravity="center"
+						style="@style/tv_user_white_14" />
+				</LinearLayout>
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

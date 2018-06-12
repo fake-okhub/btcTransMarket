@@ -1,0 +1,122 @@
+<RelativeLayout
+style="@style/match_match"
+xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    style="@style/match_wrap"
+    android:layout_margin="8dp"
+    android:background="@drawable/user_select_t_bg">
+    <LinearLayout
+        android:layout_margin="10dp"
+        style="@style/match_wrap_h">
+        <!--<ImageView
+            android:id="@+id/img_type"
+            android:src="@drawable/ico_loan_cny"
+            android:layout_gravity="center_vertical"
+            style="@style/wrap_wrap"/>-->
+        <TextView
+            android:text="@string/asset_jr"
+            android:layout_gravity="center_vertical"
+            style="@style/tv_user_black_14"/>
+        <TextView
+            android:id="@+id/tv_price"
+            android:text="￥240.00"
+            android:layout_gravity="center_vertical"
+            style="@style/tv_user_red_14"/>
+        <TextView
+            android:layout_marginLeft="5dp"
+            style="@style/tv_user_gray_14"
+            android:id="@+id/tv_rate"
+            android:text="日利率0.1%"
+            android:layout_gravity="center_vertical" />
+        <View
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="0.1dp"/>
+        <TextView
+            android:text="还款中"
+            android:id="@+id/tv_state"
+            style="@style/tv_user_gray_14"
+            android:textColor="@color/text_color_blue"
+            android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+    <View
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        style="@style/user_safety_line2"/>
+    <LinearLayout
+        android:id="@+id/ll_record"
+        android:background="@drawable/bnt_click_background"
+        style="@style/match_wrap_h"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp">
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            style="@style/weight_wrap">
+            <TextView
+                android:text="@string/asset_yjts"
+                style="@style/tv_user_gray_14"/>
+            <TextView
+                android:id="@+id/tv_day"
+                android:text="12"
+                style="@style/tv_asset_lend_quick_red_item_bom" />
+         </LinearLayout>
+        <LinearLayout
+            style="@style/weight_wrap">
+            <TextView
+                android:id="@+id/tv_accrual_ts"
+                android:text="@string/asset_whlx"
+                style="@style/tv_user_gray_14"/>
+            <TextView
+                android:id="@+id/tv_accrual"
+                android:text="8000.00"
+                style="@style/tv_asset_lend_quick_black_item_bom"/>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/weight_wrap"
+            android:layout_marginRight="10dp">
+            <TextView
+                android:id="@+id/tv_repayment_total_ts"
+                android:text="@string/asset_yhje"
+                style="@style/tv_user_gray_14"/>
+            <TextView
+                android:id="@+id/tv_repayment_total"
+                android:text="8000.00"
+                style="@style/tv_asset_lend_quick_black_item_bom"/>
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        style="@style/user_safety_line2"/>
+    <LinearLayout
+        style="@style/match_wrap_h"
+        android:layout_margin="10dp">
+        <ImageView
+            android:src="@mipmap/ico_mianxi"
+            android:layout_gravity="center_vertical"
+            style="@style/wrap_wrap" />
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:id="@+id/tv_discount"
+            android:text="@string/asset_wsymxj"
+            style="@style/tv_user_gray_14"/>
+        <View
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="0.1dp"/>
+        <TextView
+            android:id="@+id/tv_time"
+            android:text="2016-05-31 12:34:50"
+            android:layout_gravity="center_vertical"
+            style="@style/tv_user_gray_14" />
+    </LinearLayout>
+</LinearLayout>
+<ImageView
+    android:visibility="gone"
+    android:id="@+id/img_state"
+    android:layout_margin="10dp"
+    android:layout_alignParentRight="true"
+    android:src="@mipmap/icon_brokenassets"
+    style="@style/wrap_wrap"/>
+</RelativeLayout>

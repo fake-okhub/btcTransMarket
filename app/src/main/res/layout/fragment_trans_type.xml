@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/match_match">
+	<include
+		android:id="@+id/layout_trans_select"
+		layout="@layout/layout_trans_select" />
+	<com.android.bitglobal.view.NoScrollViewpager
+		android:layout_below="@+id/layout_trans_select"
+		android:id="@+id/viewPager"
+		style="@style/match_match"
+		android:layout_gravity="center" />
+</RelativeLayout>

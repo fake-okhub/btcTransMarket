@@ -1,0 +1,35 @@
+<LinearLayout
+    style="@style/match_match"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/layout_main_header" />
+    <LinearLayout
+        style="@style/match_match_bg_color">
+        <LinearLayout
+            android:id="@+id/ll_asset_leverage"
+            android:padding="@dimen/margin_padding_10"
+            style="@style/match_wrap_h">
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:text="@string/asset_zzcjrzc"
+                style="@style/tv_user_black_14" />
+            <TextView
+                android:id="@+id/tv_leverage"
+                android:text="0%"
+                android:layout_gravity="center_vertical"
+                style="@style/tv_user_red_14"/>
+            <ImageView
+                style="@style/wrap_wrap"
+                android:src="@mipmap/ico_question"
+                android:layout_marginLeft="5dp"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/img_help"/>
+        </LinearLayout>
+        <ListView
+            android:listSelector="@color/background_color"
+            android:id="@+id/listview"
+            android:scrollbars="none"
+            android:divider="@color/background_color"
+            android:dividerHeight="0dp"
+            style="@style/match_match" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <!-- 填充的颜色：这里设置背景透明 -->
+            <solid android:color="@color/ll_market_rate_gray_color" />
+            <corners android:radius="2dp" />
+        </shape>
+    </item>
+</selector>
+
+
+

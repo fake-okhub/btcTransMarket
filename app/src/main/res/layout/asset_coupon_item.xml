@@ -1,0 +1,78 @@
+<LinearLayout
+    style="@style/match_match_bg_color"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:id="@+id/ll_asset_coupon"
+    style="@style/match_wrap_h"
+    android:background="@drawable/user_lend_t_bg"
+    android:layout_margin="10dp">
+    <LinearLayout
+        android:layout_margin="10dp"
+        style="@style/wrap_wrap">
+        <TextView
+            android:id="@+id/tv_type"
+            style="@style/tv_user_white_14"
+            android:text="系统赠送"/>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            style="@style/wrap_wrap_h">
+            <TextView
+                android:id="@+id/tv_day"
+                android:text="10"
+                style="@style/tv_user_white_26"/>
+            <TextView
+                android:id="@+id/tv_day_hint"
+                android:layout_marginLeft="5dp"
+                android:text="@string/market_t"
+                style="@style/tv_user_white_16"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <View
+        style="@style/weight_wrap"
+        android:layout_height="0.1dp"/>
+    <View
+        android:layout_width="2dp"
+        style="@style/wrap_match"
+        android:background="@mipmap/line_dotted" />
+    <View
+        style="@style/weight_wrap"
+        android:layout_weight="2"
+        android:layout_height="0.1dp"/>
+    <LinearLayout
+        android:layout_margin="10dp"
+        style="@style/wrap_wrap">
+        <LinearLayout
+            style="@style/wrap_wrap_h">
+            <TextView
+                android:text="@string/asset_gqsj"
+                style="@style/tv_user_white_14" />
+            <TextView
+                android:id="@+id/tv_time"
+                android:text="2016-06-09"
+                style="@style/tv_user_white_14"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tv_hb_type"
+                android:text="￥"
+                android:layout_marginBottom="@dimen/w_2"
+                android:layout_gravity="bottom"
+                style="@style/tv_user_white_16"/>
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:layout_gravity="right"
+                android:id="@+id/tv_price"
+                android:text="2000.00"
+                style="@style/tv_user_white_26" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>

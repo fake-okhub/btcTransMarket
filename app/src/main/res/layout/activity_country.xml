@@ -1,0 +1,25 @@
+<LinearLayout style="@style/match_match"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/layout_main_header" />
+    <RelativeLayout
+        style="@style/match_match_bg_color">
+        <ListView
+            android:listSelector="@color/background_color"
+            android:id="@+id/listview"
+            android:scrollbars="none"
+            android:divider="@color/background_color"
+            android:dividerHeight="0.2dp"
+            style="@style/match_match" />
+        <cn.zhikaizhang.indexview.IndexView
+            android:id="@+id/indexView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            app:heightOccupy="1.0"
+            app:selectIndexBgColor="@color/text_color_gray"
+            app:indexTextSizeScale="0.7"
+            app:tipBg="@drawable/progress_custom_bg"
+            app:tipTextColor="@color/background_color_white" />
+    </RelativeLayout>
+</LinearLayout>

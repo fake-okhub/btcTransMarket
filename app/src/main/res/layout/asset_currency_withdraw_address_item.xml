@@ -1,0 +1,52 @@
+<LinearLayout
+style="@style/match_match"
+xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    style="@style/match_wrap">
+    <View
+        style="@style/match_wrap_bg_color"
+        android:layout_height="5dp"/>
+    <LinearLayout
+        android:id="@+id/ll_asset_address"
+        android:background="@drawable/bnt_click_background"
+        style="@style/match_wrap_h">
+        <ImageView
+            android:padding="@dimen/margin_padding_10"
+            android:layout_gravity="center_vertical"
+            android:src="@mipmap/ico_address_form"
+            style="@style/wrap_wrap"/>
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:id="@+id/tv_assets_address"
+            style="@style/tv_user_black_12" />
+    </LinearLayout>
+    <View
+        style="@style/user_safety_line2"/>
+    <LinearLayout
+        android:id="@+id/ll_asset_memo"
+        android:background="@drawable/bnt_click_background"
+        android:padding="@dimen/margin_padding_5"
+        style="@style/match_wrap_h">
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:src="@mipmap/ico_tips"
+            style="@style/wrap_wrap" />
+        <TextView
+            android:layout_marginLeft="@dimen/margin_padding_5"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/tv_assets_memo"
+            style="@style/tv_user_gray_12" />
+        <View
+            style="@style/match_weight"/>
+        <ImageView
+            android:layout_height="14dp"
+            android:id="@+id/img_right"
+            android:layout_gravity="center_vertical"
+            android:src="@mipmap/ico_arrowright"
+            style="@style/wrap_wrap" />
+    </LinearLayout>
+    <View
+        style="@style/match_wrap_bg_color"
+        android:layout_height="5dp"/>
+</LinearLayout>
+</LinearLayout>

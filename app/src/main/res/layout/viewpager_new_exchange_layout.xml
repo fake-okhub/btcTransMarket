@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:orientation="vertical">
+    <!--顶-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_new_exchange_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="none"
+                android:singleLine="true"
+                android:textColor="@color/text_color_black"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="8dp">
+
+                <TextView
+                    android:id="@+id/tv_new_exchange_avail_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="none"
+                    android:textColor="@color/text_color_gray"
+                    android:singleLine="true"
+                    android:textSize="12sp" />
+
+                <View
+                    android:id="@+id/view_part_line"
+                    android:layout_width="0.3dp"
+                    android:layout_height="13dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@color/vertical_line_color" />
+
+                <TextView
+                    android:id="@+id/tv_new_exchange_lock_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:drawableLeft="@mipmap/img_trade_overview_lock"
+                    android:drawablePadding="6dp"
+                    android:textColor="@color/text_color_gray"
+                    android:ellipsize="none"
+                    android:singleLine="true"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!--style为去掉阴影效果-->
+        <Button
+            android:id="@+id/btn_legal_tender"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/btn_legal_coin_symbol_bg_normal"
+            style="?android:attr/borderlessButtonStyle"
+            android:textColor="@color/background_color2"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/vertical_line_color"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/background_color"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:scrollbars="none"
+        android:fadingEdge="none"
+        android:overScrollMode="never"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <!--为recycler添加背景，有边框，防止添加footview后，footview和该recycler父亲之间有空隙-->
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rcv_new_exchange_icon_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:overScrollMode="never"
+                android:background="@drawable/recycler_new_exchange_border"/>
+            <TextView
+                android:id="@+id/tv_new_exchange_rate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:ellipsize="none"
+                android:singleLine="true"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,97 @@
+<LinearLayout
+    style="@style/match_match"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/tv_index"
+        android:layout_marginLeft="@dimen/margin_padding_5"
+        android:padding="@dimen/margin_padding_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/tv_user_black_16"/>
+
+    <LinearLayout
+        android:id="@+id/ll_asset_bill"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="14dp"
+        android:paddingRight="13dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp">
+
+            <TextView
+                android:id="@+id/img_bill_type_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="7dp"
+                android:paddingRight="7dp"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:background="@drawable/bg_text_green_radius"
+                android:gravity="center"
+                android:text="Deposit"
+                android:textSize="14sp"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/tv_bill_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="0.0017553"
+                android:textSize="15sp"
+                android:textColor="@color/black"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/withdraw_address_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_marginTop="15dp"
+            android:text="1NizmGDfVGB7vhnRS7wFE5yG7KLeCNodr6"
+            android:textSize="11sp"
+            android:textColor="@color/text_color_gray"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp">
+
+            <TextView
+                android:id="@+id/tv_bill_tiem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="2017-02-16 08:30:15"
+                android:textSize="14sp"
+                android:textColor="@color/text_color_gray"/>
+
+            <TextView
+                android:id="@+id/tv_bill_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="Success"
+                android:textSize="14sp"
+                android:textColor="@color/asset_bill_grren"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="12dp"
+        android:background="@color/line_market_gray"/>
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/match_match">
+
+    <include layout="@layout/layout_main_header" />
+
+    <RelativeLayout
+        android:background="#F9F9F9"
+        style="@style/match_match">
+        <LinearLayout
+            android:layout_marginTop="48dp"
+            android:paddingLeft="11dp"
+            android:paddingRight="11dp"
+            style="@style/match_wrap">
+            <TextView
+                android:id="@+id/tv_head_title"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/user_zccg"
+                style="@style/tv_user_black_17" />
+            <LinearLayout
+                android:paddingTop="15dp"
+                android:paddingBottom="22dp"
+                android:paddingLeft="24dp"
+                android:paddingRight="24dp"
+                android:layout_marginTop="@dimen/margin_padding_30"
+                android:background="@drawable/user_select_t_bg"
+                style="@style/match_wrap">
+                <TextView
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/user_yjzccg_hint1"
+                    style="@style/tv_user_black_14" />
+                <TextView
+                    android:id="@+id/tv_email"
+                    android:layout_marginTop="13dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="793169940@qq.com"
+                    style="@style/tv_user_blue_14"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_marginTop="13dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/user_yjzccg_hint2"
+                    style="@style/tv_user_black_14" />
+                <TextView
+                    android:layout_marginTop="13dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/user_yjzccg_hint3"
+                    style="@style/tv_user_gray_14" />
+                <Button
+                    android:id="@+id/bnt_commit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="22dp"
+                    android:background="@drawable/btn_sign_up_bg"
+                    android:text="@string/user_cxfsyj"
+                    android:textSize="16sp"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

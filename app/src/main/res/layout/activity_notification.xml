@@ -1,0 +1,31 @@
+<RelativeLayout
+    android:background="@drawable/bnt_user_qx3"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:minWidth="70dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_nic_price"
+            android:textSize="15sp"
+            android:text="￥0.00"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_nic_type"
+            android:text="BitGlobal-BTC"
+            android:textSize="9sp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/lend_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

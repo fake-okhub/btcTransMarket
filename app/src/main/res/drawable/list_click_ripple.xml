@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--点击时波纹的颜色-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--点击时手指松开的背景-->
+<item android:drawable="@color/colorPrimary" android:state_pressed="false"/>
+    <!--点击时手指未松开的背景-->
+<item android:drawable="@color/colorAccent" android:state_pressed="true"/>
+    <!--本身的背景-->
+<item android:drawable="@color/colorPrimary"/>
+</selector>

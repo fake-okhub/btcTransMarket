@@ -1,0 +1,116 @@
+<LinearLayout
+    style="@style/match_match"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/layout_main_header" />
+    <LinearLayout
+        style="@style/match_match_bg_color">
+        <LinearLayout
+            style="@style/match_wrap_bg_white">
+            <TextView
+                android:text="@string/asset_xyjf"
+                android:layout_margin="@dimen/margin_padding_10"
+                style="@style/tv_user_black_16"/>
+            <LinearLayout
+                android:paddingLeft="@dimen/margin_padding_10"
+                android:layout_marginBottom="@dimen/margin_padding_10"
+                style="@style/match_wrap_h">
+                <TextView
+                    android:text="10000"
+                    android:id="@+id/tv_assets_xyjf"
+                    style="@style/tv_user_red_26" />
+                <TextView
+                    android:layout_marginLeft="@dimen/margin_padding_10"
+                    android:id="@+id/tv_assets_txje_lx"
+                    style="@style/tv_user_gray_18" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/rl_asset_hint"
+            style="@style/match_wrap">
+            <View
+                style="@style/user_safety_line2"/>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_height="wrap_content"
+                style="@style/rl_user_item">
+                <ImageView
+                    android:layout_gravity="center_vertical"
+                    android:src="@mipmap/ico_tips"
+                    style="@style/wrap_wrap" />
+                <TextView
+                    android:layout_margin="@dimen/margin_padding_5"
+                    android:text="@string/asset_xyjf_hint"
+                    style="@style/tv_user_gray_12" />
+            </LinearLayout>
+        </LinearLayout>
+        <View
+            style="@style/user_safety_line"/>
+        <View
+            android:layout_marginTop="@dimen/margin_padding_10"
+            style="@style/user_safety_line"/>
+        <RelativeLayout
+            style="@style/rl_user_item">
+            <TextView
+                android:id="@+id/tv_dhjf"
+                android:text="@string/asset_dhjf"
+                style="@style/tv_user_item" />
+            <EditText
+                android:id="@+id/ed_dhjf"
+                android:typeface="monospace"
+                android:inputType="number"
+                android:layout_toRightOf="@+id/tv_dhjf"
+                android:hint="@string/asset_dhjf_hint"
+                style="@style/ed_user_safety" />
+        </RelativeLayout>
+        <View
+            style="@style/user_safety_line2"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            style="@style/rl_user_item">
+            <ImageView
+                android:layout_gravity="center_vertical"
+                android:src="@mipmap/ico_tips"
+                style="@style/wrap_wrap" />
+            <TextView
+                android:layout_margin="@dimen/margin_padding_5"
+                android:text="@string/asset_khdxmjed"
+                style="@style/tv_user_gray_12" />
+            <TextView
+                android:id="@+id/tv_hint"
+                android:layout_margin="@dimen/margin_padding_5"
+                style="@style/tv_user_red_12" />
+        </LinearLayout>
+        <View
+            style="@style/user_safety_line"/>
+        <LinearLayout
+            android:id="@+id/rl_asset_zjmm"
+            style="@style/match_wrap">
+        <View
+            android:layout_marginTop="@dimen/margin_padding_10"
+            style="@style/user_safety_line"/>
+        <RelativeLayout
+            style="@style/rl_user_item">
+            <TextView
+                android:id="@+id/tv_bz"
+                android:text="@string/user_zjmm"
+                style="@style/tv_user_item" />
+            <EditText
+                android:id="@+id/ed_zjmm"
+                android:inputType="textPassword"
+                android:typeface="monospace"
+                android:layout_toRightOf="@+id/tv_bz"
+                android:hint="@string/user_zjmm_hint"
+                style="@style/ed_user_safety" />
+        </RelativeLayout>
+        <View
+            style="@style/user_safety_line"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bnt_commit"
+            android:text="@string/asset_xzdh"
+            android:background="@drawable/bnt_login"
+            style="@style/but_user_safety" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    style="@style/match_match"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/layout_main_header" />
+    <LinearLayout
+        style="@style/match_match_bg_color">
+        <View
+            android:visibility="invisible"
+            android:layout_marginTop="@dimen/margin_padding_20"
+            style="@style/user_safety_line"/>
+        <RelativeLayout
+            android:id="@+id/rl_jmm"
+            style="@style/rl_user_item">
+            <TextView
+                android:id="@+id/tv_jmm"
+                android:drawableRight="@mipmap/login_pwd"
+                style="@style/tv_user_item" />
+            <EditText
+                android:inputType="textPassword"
+                android:layout_toRightOf="@+id/tv_jmm"
+                android:id="@+id/ed_jmm"
+                android:hint="@string/safety_jmm_hint"
+                style="@style/ed_user_safety" />
+        </RelativeLayout>
+        <View
+            style="@style/user_safety_line"
+            android:layout_marginLeft="@dimen/margin_padding_border"
+            />
+        <RelativeLayout
+            android:id="@+id/rl_xmm"
+            style="@style/rl_user_item">
+            <TextView
+                android:id="@+id/tv_xmm"
+                android:drawableRight="@mipmap/login_pwd"
+                style="@style/tv_user_item" />
+            <EditText
+                android:inputType="textPassword"
+                android:layout_toRightOf="@+id/tv_xmm"
+                android:id="@+id/ed_xmm"
+                android:hint="@string/safety_xmm_hint"
+                style="@style/ed_user_safety" />
+        </RelativeLayout>
+        <View
+            style="@style/user_safety_line"
+            android:layout_marginLeft="@dimen/margin_padding_border"/>
+        <RelativeLayout
+            android:id="@+id/rl_qrmm"
+            style="@style/rl_user_item">
+            <TextView
+                android:id="@+id/tv_qrmm"
+                android:drawableRight="@mipmap/login_pwd"
+                style="@style/tv_user_item" />
+            <EditText
+                android:inputType="textPassword"
+                android:layout_toRightOf="@+id/tv_qrmm"
+                android:id="@+id/ed_qrmm"
+                android:hint="@string/safety_qrmm_hint"
+                style="@style/ed_user_safety" />
+        </RelativeLayout>
+        <View
+            style="@style/user_safety_line"
+            android:layout_marginLeft="@dimen/margin_padding_border"/>
+        <RelativeLayout
+            android:id="@+id/rl_dxyzm"
+            style="@style/rl_user_item">
+            <TextView
+                android:id="@+id/tv_dxyzm"
+                android:drawableRight="@mipmap/login_code"
+                style="@style/tv_user_item" />
+            <EditText
+                android:layout_toRightOf="@+id/tv_dxyzm"
+                android:layout_toLeftOf="@+id/bnt_get_code"
+                android:id="@+id/ed_dxyzm"
+                android:hint="@string/safety_sms_hint"
+                android:inputType="number"
+                android:maxLines="1"
+                android:maxLength="10"
+                style="@style/ed_user_safety" />
+
+            <View
+                android:layout_toRightOf="@+id/ed_dxyzm"
+                style="@style/user_safety_line_v"/>
+
+            <Button
+                android:id="@+id/bnt_get_code"
+                android:text="@string/user_hqyzm"
+                style="@style/bnt_verify_code"/>
+        </RelativeLayout>
+        <View
+            style="@style/user_safety_line"
+            android:layout_marginLeft="@dimen/margin_padding_border"/>
+        <RelativeLayout
+            android:id="@+id/rl_ggyzm"
+            style="@style/rl_user_item"
+            android:visibility="gone">
+            <TextView
+                android:id="@+id/tv_ggyzm"
+                android:drawableRight="@mipmap/safety_google"
+                style="@style/tv_user_item" />
+            <EditText
+                android:layout_toRightOf="@+id/tv_ggyzm"
+                android:layout_toLeftOf="@+id/bnt_zt"
+                android:id="@+id/ed_ggyzm"
+                android:hint="@string/safety_google_hint"
+                android:maxLength="6"
+                android:maxLines="1"
+                android:inputType="number"
+                style="@style/ed_user_safety" />
+
+            <View
+                android:layout_toRightOf="@+id/ed_ggyzm"
+                style="@style/user_safety_line_v"/>
+
+            <Button
+                android:id="@+id/bnt_zt"
+                android:text="@string/user_zt"
+                style="@style/bnt_verify_code"/>
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btn_update"
+            android:text="@string/user_dlmmxg"
+            style="@style/btn_normal_submit"
+             />
+
+    </LinearLayout>
+</LinearLayout>

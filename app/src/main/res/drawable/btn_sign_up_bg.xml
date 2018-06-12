@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/btn_sign_up_bg" />
+    <corners android:radius="@dimen/radius_1" />
+    <stroke
+        android:color="@color/btn_sign_up_bg"
+        android:width="1px" />
+</shape>
